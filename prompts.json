@@ -1,0 +1,900 @@
+{
+  "version": "1.0",
+  "total_prompts": 500,
+  "categories": {
+    "business": {
+      "name": "Business & Strategy",
+      "icon": "💼",
+      "prompts": [
+        {
+          "title": "Business Model Canvas Generator",
+          "prompt": "Act as a business strategist. Create a complete Business Model Canvas for [BUSINESS IDEA]. Include: 1) Key Partners, 2) Key Activities, 3) Key Resources, 4) Value Propositions, 5) Customer Relationships, 6) Channels, 7) Customer Segments, 8) Cost Structure, 9) Revenue Streams. Be specific and actionable for each section."
+        },
+        {
+          "title": "SWOT Analysis Deep Dive",
+          "prompt": "Conduct a comprehensive SWOT analysis for [COMPANY/PRODUCT]. For each category (Strengths, Weaknesses, Opportunities, Threats), provide 5 detailed points with explanations. Then suggest 3 strategic actions based on the analysis."
+        },
+        {
+          "title": "Competitor Analysis Framework",
+          "prompt": "Act as a competitive intelligence analyst. Analyze [MY COMPANY] vs [TOP 3 COMPETITORS]. Compare across: pricing, features, target market, marketing strategy, strengths, weaknesses, and market positioning. Output as a detailed comparison table with strategic recommendations."
+        },
+        {
+          "title": "Pricing Strategy Optimizer",
+          "prompt": "Help me develop a pricing strategy for [PRODUCT/SERVICE]. Consider: production costs, competitor pricing, perceived value, target market willingness to pay, and market positioning. Provide 3 pricing tier options (basic, pro, enterprise) with justification for each."
+        },
+        {
+          "title": "Investor Pitch Deck Outline",
+          "prompt": "Create a compelling 12-slide investor pitch deck outline for [STARTUP]. Include: Problem, Solution, Market Size, Product, Traction, Business Model, Go-to-Market Strategy, Competition, Team, Financial Projections, The Ask, and Appendix. For each slide, provide key talking points and suggested visuals."
+        },
+        {
+          "title": "OKR Framework Builder",
+          "prompt": "Help me create quarterly OKRs (Objectives and Key Results) for [DEPARTMENT/ROLE]. Provide 3 objectives, each with 3-4 measurable key results. Make them ambitious yet achievable, aligned with company growth goals."
+        },
+        {
+          "title": "Market Entry Strategy",
+          "prompt": "Act as a market entry consultant. I want to enter the [MARKET/INDUSTRY] in [GEOGRAPHIC REGION]. Analyze: market size, barriers to entry, regulatory considerations, competitive landscape, and recommend the best entry mode (direct, partnership, acquisition, JV). Provide a 90-day action plan."
+        },
+        {
+          "title": "Customer Persona Generator",
+          "prompt": "Create 3 detailed customer personas for [PRODUCT/SERVICE]. For each persona include: name, age, occupation, income, goals, pain points, buying triggers, preferred channels, objections, and a quote that captures their mindset. Make them realistic and actionable for marketing."
+        },
+        {
+          "title": "Revenue Stream Brainstormer",
+          "prompt": "Generate 15 creative revenue stream ideas for [BUSINESS TYPE]. For each, estimate: implementation difficulty (1-10), time to revenue, potential monthly income, and upfront cost. Rank them by ROI potential."
+        },
+        {
+          "title": "Business Risk Assessment",
+          "prompt": "Conduct a comprehensive risk assessment for [BUSINESS]. Identify risks across categories: financial, operational, legal, market, technology, and human resources. For each risk, rate probability (1-5) and impact (1-5), then provide mitigation strategies for high-priority risks."
+        },
+        {
+          "title": "Partnership Proposal Writer",
+          "prompt": "Write a compelling partnership proposal between [MY COMPANY] and [TARGET PARTNER]. Outline: mutual benefits, proposed collaboration structure, shared goals, responsibilities of each party, timeline, and success metrics. Make it professional and persuasive."
+        },
+        {
+          "title": "Cost Reduction Strategy",
+          "prompt": "Act as a CFO. Analyze potential cost reduction opportunities for a [BUSINESS TYPE] with [REVENUE LEVEL] revenue. Identify areas across: operations, technology, marketing, staffing, and supply chain. For each suggestion, estimate annual savings and implementation difficulty."
+        },
+        {
+          "title": "Scalability Assessment",
+          "prompt": "Evaluate the scalability of [BUSINESS MODEL]. Analyze: current bottlenecks, technology infrastructure needs, human resource requirements, operational processes, and financial implications. Provide a scaling roadmap with milestones for 2x, 5x, and 10x growth."
+        },
+        {
+          "title": "Exit Strategy Planner",
+          "prompt": "Help me plan an exit strategy for [BUSINESS]. Compare options: acquisition, IPO, management buyout, merger, or liquidation. For each, analyze: timeline, valuation expectations, preparation needed, and probability of success. Recommend the best option with justification."
+        },
+        {
+          "title": "KPI Dashboard Designer",
+          "prompt": "Design a KPI dashboard for [BUSINESS TYPE/DEPARTMENT]. Identify the top 10 KPIs to track, categorized by: financial, customer, operational, and growth metrics. For each KPI, define: what it measures, target value, frequency of measurement, and data source."
+        },
+        {
+          "title": "Lean Startup Experiment Designer",
+          "prompt": "Design a lean startup experiment to validate [HYPOTHESIS]. Define: the hypothesis, minimum viable test, success criteria, metrics to track, timeline, budget, and what we'd do based on pass/fail results."
+        },
+        {
+          "title": "Business Plan Executive Summary",
+          "prompt": "Write a compelling 2-page executive summary for a business plan about [BUSINESS IDEA]. Cover: problem, solution, market opportunity, business model, competitive advantage, team, financial highlights, and funding requirements. Make it investor-ready."
+        },
+        {
+          "title": "Merger & Acquisition Target Screener",
+          "prompt": "Define criteria for identifying acquisition targets for [MY COMPANY] looking to [EXPAND INTO MARKET/ADD CAPABILITY]. Create a scoring framework evaluating: strategic fit, financial health, cultural compatibility, technology assets, and valuation reasonableness."
+        },
+        {
+          "title": "Change Management Plan",
+          "prompt": "Create a change management plan for [ORGANIZATIONAL CHANGE]. Include: stakeholder analysis, communication strategy, training plan, resistance management approach, success metrics, and a 90-day rollout timeline."
+        },
+        {
+          "title": "Vendor Evaluation Matrix",
+          "prompt": "Create a vendor evaluation framework for [CATEGORY OF SERVICE/PRODUCT]. Define 10 evaluation criteria with weights, a scoring system (1-5), and questions to ask each vendor. Provide a template comparison table for evaluating 3 vendors side by side."
+        },
+        {
+          "title": "Business Continuity Plan",
+          "prompt": "Develop a business continuity plan for [BUSINESS TYPE]. Address: critical business functions, potential disruptions (natural, cyber, pandemic, supply chain), recovery strategies, communication protocols, and minimum viable operations for each scenario."
+        },
+        {
+          "title": "Franchise Model Designer",
+          "prompt": "Design a franchise model for [BUSINESS]. Define: franchise fee structure, royalty rates, territory rights, training program, operational manuals needed, franchisee requirements, and support systems. Include financial projections for both franchisor and franchisee."
+        },
+        {
+          "title": "Startup Valuation Calculator",
+          "prompt": "Help me value my startup: [DESCRIPTION]. Stage: [PRE-SEED/SEED/SERIES A]. Revenue: [AMOUNT]. Growth rate: [X%]. Use multiple methods: Berkus, Scorecard, VC Method, Comparable Analysis, and DCF. Explain each result and recommend a fair valuation range."
+        },
+        {
+          "title": "Negotiation Strategy Planner",
+          "prompt": "Prepare a negotiation strategy for [NEGOTIATION SCENARIO]. Analyze: my BATNA, their likely BATNA, key interests (not positions), ZOPA estimation, concession plan, walk-away point, and tactics for creating value. Role-play potential objections."
+        },
+        {
+          "title": "Annual Operating Plan Builder",
+          "prompt": "Create an annual operating plan for [BUSINESS]. Include: strategic objectives, departmental goals, revenue targets, budget allocation, hiring plan, key projects, quarterly milestones, and risk factors. Format as a clear executive document."
+        },
+        {
+          "title": "Board Meeting Prep",
+          "prompt": "Prepare materials for a board meeting for [COMPANY]. Create: CEO update summary, financial performance dashboard, key wins, challenges and mitigation plans, strategic decisions needing board input, and proposed resolutions. Keep it concise and data-driven."
+        }
+      ]
+    },
+    "marketing": {
+      "name": "Marketing & Advertising",
+      "icon": "📣",
+      "prompts": [
+        {
+          "title": "360 Marketing Campaign Builder",
+          "prompt": "Create a complete 360-degree marketing campaign for [PRODUCT/SERVICE] targeting [AUDIENCE]. Include: campaign theme, key message, channels (social, email, paid ads, PR, events), content calendar, budget allocation, KPIs, and a 90-day timeline."
+        },
+        {
+          "title": "Facebook Ad Copy Generator",
+          "prompt": "Write 10 variations of Facebook ad copy for [PRODUCT]. Target audience: [DESCRIPTION]. Include: 3 hook styles (question, bold statement, story), 2 body copy variations, clear CTAs, and suggested emoji usage. Optimize for high CTR."
+        },
+        {
+          "title": "Google Ads Strategy",
+          "prompt": "Create a Google Ads strategy for [BUSINESS]. Include: keyword research (20 keywords with match types), ad group structure, 3 ad copy variations per group, landing page recommendations, budget allocation, and bidding strategy. Target [GEOGRAPHIC AREA]."
+        },
+        {
+          "title": "Content Calendar Creator",
+          "prompt": "Create a 30-day content calendar for [BRAND] on [PLATFORM]. Include: daily post topics, content types (video, carousel, story, blog), captions, hashtag sets, best posting times, and content themes. Align with [MARKETING GOAL]."
+        },
+        {
+          "title": "Brand Voice Development",
+          "prompt": "Develop a comprehensive brand voice guide for [BRAND]. Define: brand personality traits (5 adjectives), tone variations (professional vs casual vs playful), vocabulary do's and don'ts, writing style examples, and sample phrases for common scenarios."
+        },
+        {
+          "title": "Influencer Outreach Strategy",
+          "prompt": "Create an influencer marketing strategy for [PRODUCT]. Define: target influencer profile, follower range tiers, outreach message templates, compensation structure, content guidelines, deliverables, success metrics, and a list of 10 influencer archetypes to target."
+        },
+        {
+          "title": "Email Marketing Sequence",
+          "prompt": "Write a 7-email nurture sequence for [PRODUCT/SERVICE]. Audience: [DESCRIPTION]. Include: subject lines, preview text, body copy, CTAs, and timing for each email. Map each email to the customer journey stage (awareness, interest, desire, action)."
+        },
+        {
+          "title": "Marketing Funnel Designer",
+          "prompt": "Design a complete marketing funnel for [PRODUCT/SERVICE]. Map out: TOFU (awareness), MOFU (consideration), BOFU (decision), and retention stages. For each stage, define: channels, content types, CTAs, tools needed, and KPIs to track."
+        },
+        {
+          "title": "Viral Content Blueprint",
+          "prompt": "Generate 10 viral content ideas for [BRAND/NICHE] on [PLATFORM]. For each idea, explain: the hook, why it would go viral, format (video, image, text), estimated production time, and a draft of the content. Focus on shareability and emotional triggers."
+        },
+        {
+          "title": "Retargeting Campaign Builder",
+          "prompt": "Create a retargeting campaign strategy for [WEBSITE/PRODUCT]. Define: audience segments (visitors, cart abandoners, past customers), ad creative for each segment, frequency caps, budget allocation, platform recommendations, and expected ROI."
+        },
+        {
+          "title": "Webinar Funnel Builder",
+          "prompt": "Design a complete webinar funnel for [TOPIC/PRODUCT]. Include: webinar title, registration page copy, email reminder sequence, slide deck outline, offer/pitch script, post-webinar email sequence, and replay strategy. Target [AUDIENCE]."
+        },
+        {
+          "title": "PR Strategy & Media Kit",
+          "prompt": "Create a PR strategy for [COMPANY/LAUNCH]. Include: target publications (10), press release template, media pitch email templates, journalist outreach list criteria, media kit contents, talking points, and a 30-day PR timeline."
+        },
+        {
+          "title": "Social Media Audit Template",
+          "prompt": "Conduct a comprehensive social media audit for [BRAND]. Analyze: current presence across platforms, content performance patterns, engagement rates, competitor benchmarking, audience demographics, and provide 10 prioritized recommendations with expected impact."
+        },
+        {
+          "title": "Guerilla Marketing Ideas",
+          "prompt": "Generate 15 guerrilla marketing ideas for [BUSINESS] with a budget under $[AMOUNT]. For each idea: describe the concept, estimated cost, potential reach, viral potential, and implementation steps. Focus on creativity and unconventional approaches."
+        },
+        {
+          "title": "ABM (Account-Based Marketing) Strategy",
+          "prompt": "Create an ABM strategy for targeting [TARGET ACCOUNTS]. Define: account selection criteria, personalization tactics, content strategy per account tier, channel mix, sales-marketing alignment process, and success metrics."
+        },
+        {
+          "title": "Affiliate Program Designer",
+          "prompt": "Design an affiliate program for [PRODUCT/SERVICE]. Define: commission structure, cookie duration, payout thresholds, affiliate tiers, promotional materials to provide, recruitment strategy, fraud prevention measures, and tracking tools."
+        },
+        {
+          "title": "Seasonal Campaign Planner",
+          "prompt": "Create a seasonal marketing campaign for [HOLIDAY/SEASON] for [BRAND]. Include: campaign concept, messaging, promotional offers, content calendar (4 weeks), channel strategy, budget breakdown, and KPI targets."
+        },
+        {
+          "title": "Customer Journey Mapper",
+          "prompt": "Map the complete customer journey for [PRODUCT/SERVICE]. For each stage (Discovery, Research, Purchase, Onboarding, Usage, Advocacy), identify: customer actions, touchpoints, emotions, pain points, opportunities, and content needs."
+        },
+        {
+          "title": "Brand Positioning Statement",
+          "prompt": "Create a brand positioning framework for [BRAND]. Include: positioning statement, brand promise, unique value proposition, brand pillars (3-5), tagline options (10), brand story, and competitive differentiation analysis."
+        },
+        {
+          "title": "Growth Loop Designer",
+          "prompt": "Identify and design 3 growth loops for [PRODUCT]. For each loop: describe the trigger, user action, viral coefficient, compounding effect, and how to optimize it. Focus on sustainable, self-reinforcing growth mechanisms."
+        },
+        {
+          "title": "Conversion Rate Optimization Audit",
+          "prompt": "Create a CRO audit checklist for [WEBSITE/LANDING PAGE]. Analyze: above-the-fold elements, value proposition clarity, CTA visibility, form optimization, trust signals, page speed, mobile experience, and provide 10 prioritized improvements with expected impact."
+        },
+        {
+          "title": "Referral Program Designer",
+          "prompt": "Design a referral program for [PRODUCT/SERVICE]. Define: incentive structure (double-sided rewards), reward types, program mechanics, referral tracking method, promotional strategy, success metrics, and a launch plan."
+        },
+        {
+          "title": "Podcast Marketing Strategy",
+          "prompt": "Create a podcast marketing strategy for [BRAND]. Include: show concept, target audience, episode topics (first 10), guest outreach strategy, promotion plan, monetization path, and growth tactics."
+        },
+        {
+          "title": "Event Marketing Playbook",
+          "prompt": "Create an event marketing playbook for [TYPE OF EVENT]. Include: pre-event promotion (timeline, channels, messaging), at-event engagement tactics, post-event follow-up sequence, lead capture strategy, and ROI measurement framework."
+        },
+        {
+          "title": "TikTok Strategy Builder",
+          "prompt": "Create a TikTok marketing strategy for [BRAND]. Include: content pillars, trending audio strategy, posting frequency, video format ideas (10), hashtag strategy, creator collaboration approach, and growth milestones."
+        },
+        {
+          "title": "Local SEO Strategy",
+          "prompt": "Create a local SEO strategy for [BUSINESS TYPE] in [CITY]. Include: Google Business Profile optimization, local keyword targets, review acquisition strategy, local citation building, location page optimization, and community engagement tactics."
+        }
+      ]
+    },
+    "content": {
+      "name": "Content Creation",
+      "icon": "✍️",
+      "prompts": [
+        {
+          "title": "Blog Post Outline Generator",
+          "prompt": "Create a comprehensive blog post outline for [TOPIC]. Target keyword: [KEYWORD]. Include: compelling title options (5), meta description, H2/H3 structure, key points for each section, internal linking opportunities, and a strong CTA. Target word count: [NUMBER]."
+        },
+        {
+          "title": "YouTube Script Writer",
+          "prompt": "Write a YouTube video script for [TOPIC]. Length: [MINUTES] minutes. Include: hook (first 15 seconds), intro, main content with B-roll suggestions, pattern interrupts every 2 minutes, and a strong outro with CTA. Target audience: [DESCRIPTION]."
+        },
+        {
+          "title": "Podcast Show Notes Generator",
+          "prompt": "Create comprehensive podcast show notes for an episode about [TOPIC] with guest [NAME]. Include: episode summary, 5 key takeaways, timestamps for main topics, guest bio, resources/links mentioned, quotes, and a CTA. Make it SEO-friendly."
+        },
+        {
+          "title": "LinkedIn Article Writer",
+          "prompt": "Write a LinkedIn article about [TOPIC] for [TARGET AUDIENCE]. Tone: professional yet conversational. Include: scroll-stopping hook, personal story element, 3-5 key insights with actionable advice, and an engagement-driving closing question. 800-1200 words."
+        },
+        {
+          "title": "Newsletter Issue Writer",
+          "prompt": "Write a newsletter issue for [NEWSLETTER NAME] about [TOPIC]. Include: personal intro, main story/content, 3 practical tips, a 'worth reading' section (industry news), reader spotlight, and a CTA. Tone: [TONE]. Length: 600-800 words."
+        },
+        {
+          "title": "Repurpose Content Multiplier",
+          "prompt": "Take this content: [PASTE CONTENT] and repurpose it into: 1) 5 Twitter/X threads, 2) 3 LinkedIn posts, 3) 1 blog post summary, 4) 5 Instagram captions, 5) 1 YouTube short script, 6) 1 email newsletter section. Adapt tone for each platform."
+        },
+        {
+          "title": "Content Repurposing Pipeline",
+          "prompt": "Design a content repurposing system for [PRIMARY CONTENT TYPE]. Map how one piece of content transforms into: blog post, social media posts (5), email, video script, infographic outline, and podcast topic. Create a workflow diagram in text."
+        },
+        {
+          "title": "SEO Article Writer",
+          "prompt": "Write an SEO-optimized article about [TOPIC]. Primary keyword: [KEYWORD]. Secondary keywords: [KEYWORDS]. Include: optimized H1, structured H2/H3 headings, meta description, FAQ section, internal linking suggestions, and natural keyword placement. 1500-2000 words."
+        },
+        {
+          "title": "Video Script Hook Generator",
+          "prompt": "Generate 15 scroll-stopping video hooks for [TOPIC] on [PLATFORM]. Use different hook types: question, bold claim, story, statistic, contradiction, behind-the-scenes, and listicle. For each, explain why it works psychologically."
+        },
+        {
+          "title": "Infographic Content Planner",
+          "prompt": "Plan an infographic about [TOPIC]. Include: main title, subtitle, data points (8-10) with sources, visual structure (sections and flow), color palette suggestion, icon recommendations, and a distribution strategy."
+        },
+        {
+          "title": "Instagram Carousel Designer",
+          "prompt": "Plan a 10-slide Instagram carousel about [TOPIC]. For each slide, provide: slide number, headline, body text, visual suggestion, and design notes. Include a strong cover slide hook and CTA slide."
+        },
+        {
+          "title": "Case Study Writer",
+          "prompt": "Write a compelling case study for [CLIENT/PROJECT]. Structure: Challenge, Solution, Implementation, Results (with metrics), Testimonial, and CTA. Include specific numbers and data points. Make it 800-1200 words, client-ready."
+        },
+        {
+          "title": "White Paper Outline",
+          "prompt": "Create a detailed white paper outline for [TOPIC/INDUSTRY]. Include: executive summary, problem statement, market analysis, proposed solution, methodology, data/findings, recommendations, and conclusion. Suggest charts and visuals for each section."
+        },
+        {
+          "title": "Twitter/X Thread Builder",
+          "prompt": "Write a viral Twitter/X thread about [TOPIC]. Include: hook tweet (scroll-stopping), 7-10 content tweets (one idea per tweet), actionable takeaways, and a CTA tweet. Make each tweet stand alone but flow as a narrative. Include suggested images."
+        },
+        {
+          "title": "Content Gap Analysis",
+          "prompt": "Perform a content gap analysis for [WEBSITE] vs [TOP 3 COMPETITORS]. Identify: topics competitors rank for that we don't, content quality differences, keyword opportunities, and format gaps (video, podcast, tools). Provide 20 prioritized content ideas."
+        },
+        {
+          "title": "E-book Chapter Writer",
+          "prompt": "Write a complete chapter for an e-book about [TOPIC]. Chapter title: [TITLE]. Include: chapter intro, 3-4 main sections with actionable advice, real-world examples, diagrams/visual descriptions, chapter summary, and discussion questions."
+        },
+        {
+          "title": "Press Release Writer",
+          "prompt": "Write a professional press release for [ANNOUNCEMENT]. Include: headline, dateline, compelling lead paragraph, body with quotes, boilerplate, and media contact info. Target: [PUBLICATION TYPE]. Keep it under 500 words, AP style."
+        },
+        {
+          "title": "User-Generated Content Campaign",
+          "prompt": "Design a UGC campaign for [BRAND]. Include: campaign concept, hashtag strategy, participation mechanics, incentive structure, content guidelines, moderation plan, repurposing strategy, and success metrics."
+        },
+        {
+          "title": "Tutorial/Guide Writer",
+          "prompt": "Write a step-by-step tutorial for [TASK/SKILL]. Target audience: [LEVEL]. Include: prerequisites, materials/tools needed, numbered steps with screenshots descriptions, troubleshooting tips, pro tips, and next steps. Make it beginner-friendly."
+        },
+        {
+          "title": "Story Brand Script",
+          "prompt": "Using the StoryBrand framework, write brand messaging for [BUSINESS]. Include: character (customer), problem (external/internal/philosophical), guide (brand), plan (3 steps), success/failure stakes, and a one-liner. Provide copy for website hero section."
+        }
+      ]
+    },
+    "copywriting": {
+      "name": "Copywriting & Sales",
+      "icon": "📝",
+      "prompts": [
+        {
+          "title": "Landing Page Copywriter",
+          "prompt": "Write complete landing page copy for [PRODUCT/SERVICE]. Include: above-the-fold headline, subheadline, CTA, social proof section, benefits section (6 benefits), feature breakdown, FAQ (5 questions), guarantee section, and final CTA. Target audience: [DESCRIPTION]."
+        },
+        {
+          "title": "Sales Page Long-Form",
+          "prompt": "Write a long-form sales page for [PRODUCT]. Use the PAS framework (Problem-Agitate-Solution). Include: pattern interrupt opening, story, problem identification, solution reveal, benefits, social proof, objection handling, offer stack, risk reversal, and urgency CTA. 2000+ words."
+        },
+        {
+          "title": "Cold Email Sequence",
+          "prompt": "Write a 5-email cold outreach sequence for [PRODUCT/SERVICE] targeting [ICP]. Include: subject lines (3 options each), personalized opener templates, value proposition, case study/social proof, soft CTA, follow-up timing, and breakup email. Keep each email under 150 words."
+        },
+        {
+          "title": "VSL (Video Sales Letter) Script",
+          "prompt": "Write a VSL script for [PRODUCT]. Length: 15-20 minutes. Include: hook, intro, problem identification, story, solution reveal, demonstration, benefits deep dive, social proof, objection handling, offer presentation, bonuses, guarantee, urgency, and CTA."
+        },
+        {
+          "title": "Product Description Writer",
+          "prompt": "Write 5 product description variations for [PRODUCT]. Target audience: [DESCRIPTION]. For each: use sensory language, highlight benefits (not just features), address objections, include keywords for SEO, and end with a compelling CTA. 150-200 words each."
+        },
+        {
+          "title": "Ad Copy Formula Generator",
+          "prompt": "Write ad copy for [PRODUCT] using 5 different copywriting formulas: AIDA, PAS, BAB (Before-After-Bridge), FAB (Features-Advantages-Benefits), and the 4 Cs. For each formula, provide a complete ad suitable for [PLATFORM]. Explain why each works."
+        },
+        {
+          "title": "Squeeze Page Copy",
+          "prompt": "Write high-converting squeeze page copy for [LEAD MAGNET]. Include: attention-grabbing headline, subheadline, benefit bullet points (5), opt-in form copy, CTA button text, privacy assurance, and social proof. Keep it minimal and focused on one action."
+        },
+        {
+          "title": "Webinar Registration Copy",
+          "prompt": "Write webinar registration page copy for [WEBINAR TOPIC]. Include: headline, subheadline, what you'll learn (5 bullets), speaker bio, date/time, social proof, urgency element, and CTA button text. Target audience: [DESCRIPTION]."
+        },
+        {
+          "title": "Upsell Page Copywriter",
+          "prompt": "Write an upsell/OTO (one-time offer) page for [PRODUCT]. Include: pattern interrupt headline, 'wait before you go' message, the special offer, value stack (why it's worth 10x), scarcity/urgency, guarantee, and yes/no CTAs. Make it irresistible."
+        },
+        {
+          "title": "Email Subject Line Generator",
+          "prompt": "Generate 30 email subject lines for [EMAIL PURPOSE/TOPIC]. Use different psychological triggers: curiosity, urgency, scarcity, benefit, personalization, storytelling, controversy, social proof, question, and pattern interrupt. Group them by trigger type."
+        },
+        {
+          "title": "Brand Story Writer",
+          "prompt": "Write a compelling brand origin story for [BRAND]. Include: the founding moment, the problem that sparked it, the mission, the struggles overcome, the values, and the vision for the future. Make it emotional, authentic, and memorable. 500-700 words."
+        },
+        {
+          "title": "CTA Optimization Generator",
+          "prompt": "Generate 20 CTA (Call to Action) variations for [PRODUCT/PAGE]. Use different approaches: action-oriented, value-driven, urgency-based, curiosity-inducing, risk-reversal, social proof, and personalized. Explain the psychology behind each."
+        },
+        {
+          "title": "Sales Email Sequence",
+          "prompt": "Write a 5-email sales sequence for [PRODUCT]. Target: [AUDIENCE] who opted in for [LEAD MAGNET]. Sequence: Email 1 (Welcome + deliver lead magnet), Email 2 (Education + soft pitch), Email 3 (Case studies/social proof), Email 4 (Objection handling + FAQ), Email 5 (Urgency + final push)."
+        },
+        {
+          "title": "About Us Page Copywriter",
+          "prompt": "Write an 'About Us' page for [COMPANY]. Include: mission statement, origin story, core values, team highlights, achievements/milestones, and a vision for the future. Make it authentic and trust-building. 600-800 words."
+        },
+        {
+          "title": "Microcopy Writer",
+          "prompt": "Write UX microcopy for [TYPE OF APP/WEBSITE]. Provide copy for: buttons, error messages, empty states, success messages, tooltips, onboarding steps, loading states, form labels, confirmation dialogs, and 404 page. Make it helpful and on-brand."
+        },
+        {
+          "title": "Direct Response Ad Writer",
+          "prompt": "Write a direct response ad for [PRODUCT] in the style of [FAMOUS COPYWRITER]. Include: attention-grabbing headline, story-driven body copy, emotional triggers, specific benefits with proof, strong guarantee, clear CTA, and P.S. with additional offer."
+        },
+        {
+          "title": "Objection Crusher",
+          "prompt": "List the top 10 objections for [PRODUCT/SERVICE] and write a response for each. For each objection: restate it empathetically, provide a reframing, include evidence/proof, and pivot to a benefit. Format as a sales enablement document."
+        },
+        {
+          "title": "Bundle Offer Copywriter",
+          "prompt": "Create compelling copy for a product bundle: [PRODUCT 1 + PRODUCT 2 + PRODUCT 3]. Include: bundle name, value anchor (total individual value), bundle price, savings highlight, why they're better together, urgency element, and CTA."
+        },
+        {
+          "title": "Testimonial Enhancement",
+          "prompt": "Take this raw testimonial: [PASTE TESTIMONIAL] and enhance it into 3 formats: 1) Short punchy quote for social media, 2) Detailed case study format, 3) Video testimonial script outline. Highlight key benefits and outcomes."
+        },
+        {
+          "title": "Mega-Pitch Builder",
+          "prompt": "Create a complete pitch for [PRODUCT/SERVICE] to [TARGET CLIENT]. Include: elevator pitch (30 seconds), one-liner, problem statement, solution overview, key benefits (3), differentiation, pricing options, social proof, risk reversal, and next steps."
+        }
+      ]
+    },
+    "coding": {
+      "name": "Coding & Development",
+      "icon": "💻",
+      "prompts": [
+        {
+          "title": "Full Code Reviewer",
+          "prompt": "Act as a senior software engineer. Review this code: [PASTE CODE]. Analyze for: code quality, performance issues, security vulnerabilities, best practices adherence, potential bugs, edge cases, and maintainability. Provide specific improvement suggestions with code examples."
+        },
+        {
+          "title": "Architecture Designer",
+          "prompt": "Design a system architecture for [APPLICATION DESCRIPTION]. Include: high-level architecture diagram (text-based), technology stack recommendations, database schema design, API endpoint structure, scaling strategy, security considerations, and deployment approach."
+        },
+        {
+          "title": "Bug Debugger Pro",
+          "prompt": "Debug this error: [ERROR MESSAGE]. Code: [PASTE CODE]. Analyze: possible root causes, step-by-step debugging approach, common pitfalls for this scenario, and provide the fix with explanation. Include prevention tips for the future."
+        },
+        {
+          "title": "API Documentation Generator",
+          "prompt": "Generate comprehensive API documentation for these endpoints: [PASTE ENDPOINTS]. Include for each: description, HTTP method, URL path, request parameters (with types and defaults), response format, error codes, example request, and example response. Format in Markdown."
+        },
+        {
+          "title": "Unit Test Generator",
+          "prompt": "Write comprehensive unit tests for this function: [PASTE CODE]. Use [TESTING FRAMEWORK]. Include: happy path tests, edge case tests, error handling tests, boundary tests, and mock setup. Aim for 100% code coverage. Explain each test case."
+        },
+        {
+          "title": "Database Schema Designer",
+          "prompt": "Design a complete database schema for [APPLICATION TYPE]. Include: all tables with columns and types, primary/foreign key relationships, indexes for optimization, normalization considerations, sample queries, and an ER diagram (text-based). Target database: [SQL/POSTGRES/MYSQL/MONGODB]."
+        },
+        {
+          "title": "Code Refactoring Advisor",
+          "prompt": "Analyze this code for refactoring opportunities: [PASTE CODE]. Identify: code duplication, long methods, deep nesting, naming issues, SOLID principle violations, design pattern opportunities, and provide refactored code with before/after explanations."
+        },
+        {
+          "title": "Security Audit Checklist",
+          "prompt": "Perform a security audit for [APPLICATION TYPE/TECH STACK]. Check for: SQL injection, XSS, CSRF, authentication flaws, authorization issues, sensitive data exposure, security headers, dependency vulnerabilities, and API security. Provide severity ratings and fixes."
+        },
+        {
+          "title": "Performance Optimizer",
+          "prompt": "Analyze and optimize this code/application for performance: [PASTE CODE/DESCRIBE]. Identify: bottlenecks, unnecessary computations, database query optimization, caching opportunities, lazy loading possibilities, and provide optimized code with benchmarks."
+        },
+        {
+          "title": "CI/CD Pipeline Builder",
+          "prompt": "Design a complete CI/CD pipeline for [PROJECT TYPE] using [TOOLS: GitHub Actions/GitLab CI/Jenkins]. Include: build stage, test stage, lint stage, security scan, deploy stages (staging/production), rollback strategy, notifications, and environment variables management."
+        },
+        {
+          "title": "Tech Stack Recommender",
+          "prompt": "Recommend the optimal technology stack for [PROJECT DESCRIPTION]. Consider: team size, budget, scalability needs, time to market, maintainability, community support, and learning curve. Provide primary recommendations and alternatives with trade-offs for each choice."
+        },
+        {
+          "title": "Docker Setup Generator",
+          "prompt": "Create a complete Docker setup for [APPLICATION]. Include: Dockerfile (multi-stage build), docker-compose.yml (with all services: app, database, cache, etc.), .dockerignore, environment configuration, volume management, and deployment notes. Explain each section."
+        },
+        {
+          "title": "Regular Expression Builder",
+          "prompt": "Create regular expressions for these use cases: [DESCRIBE PATTERNS]. For each regex: provide the pattern, explain each component, provide test cases (matching and non-matching), and offer a simpler alternative if possible. Language: [PROGRAMMING LANGUAGE]."
+        },
+        {
+          "title": "Technical Documentation Writer",
+          "prompt": "Write comprehensive technical documentation for [PROJECT/FEATURE]. Include: overview, getting started guide, installation steps, configuration options, API reference, usage examples, troubleshooting guide, FAQ, and contribution guidelines. Format in Markdown."
+        },
+        {
+          "title": "Code Migration Planner",
+          "prompt": "Create a migration plan from [CURRENT TECHNOLOGY] to [TARGET TECHNOLOGY] for [PROJECT]. Include: risk assessment, migration strategy (big bang vs incremental), data migration approach, testing plan, rollback plan, timeline, and resource requirements."
+        },
+        {
+          "title": "Algorithms Explainer",
+          "prompt": "Explain the [ALGORITHM NAME] algorithm. Include: intuition/simple explanation, step-by-step breakdown, pseudocode, actual code in [LANGUAGE], time and space complexity analysis, real-world use cases, and common variations/optimizations."
+        },
+        {
+          "title": "Git Workflow Designer",
+          "prompt": "Design a Git workflow for a team of [SIZE] developers working on [PROJECT TYPE]. Include: branching strategy (GitFlow/GitHub Flow/Trunk-Based), commit message conventions, PR/MR process, code review checklist, release management, and conflict resolution guidelines."
+        },
+        {
+          "title": "API Rate Limiter Designer",
+          "prompt": "Design a rate limiting system for [API DESCRIPTION]. Include: rate limiting algorithm (token bucket/sliding window/leaky bucket), storage strategy (Redis/memory), configuration options, response headers, error responses, and bypass rules for different user tiers."
+        },
+        {
+          "title": "Error Handling Framework",
+          "prompt": "Design a comprehensive error handling strategy for [LANGUAGE/FRAMEWORK]. Include: error hierarchy/types, custom exception classes, error codes, logging strategy, user-facing error messages, error recovery patterns, and monitoring/alerting setup."
+        },
+        {
+          "title": "Microservices Decomposition",
+          "prompt": "Break down this monolithic application into microservices: [DESCRIBE APPLICATION]. Identify: service boundaries, shared data concerns, API contracts between services, data consistency strategy (saga/2PC), service discovery, and deployment approach for each service."
+        }
+      ]
+    },
+    "productivity": {
+      "name": "Productivity & Personal Development",
+      "icon": "⚡",
+      "prompts": [
+        {
+          "title": "Daily Routine Optimizer",
+          "prompt": "Design an optimal daily routine for a [ROLE] who wants to [GOAL]. Consider: chronotype, energy levels, deep work blocks, meetings, exercise, meals, family time, and wind-down. Provide a detailed hour-by-hour schedule with rationale."
+        },
+        {
+          "title": "Goal Setting Framework",
+          "prompt": "Help me set and break down goals for [TIME PERIOD]. Use the OKR + SMART framework. For each goal: define the objective, 3 key results, monthly milestones, weekly actions, daily habits needed, potential obstacles, and accountability system."
+        },
+        {
+          "title": "Time Audit Analyzer",
+          "prompt": "Analyze this time log and provide optimization recommendations: [PASTE TIME LOG]. Identify: time wasters, peak productivity hours, meeting load, deep work availability, and suggest a restructured schedule. Calculate potential time savings."
+        },
+        {
+          "title": "Decision Matrix Builder",
+          "prompt": "Help me make a decision about [DECISION]. Create a weighted decision matrix with: criteria (with weights out of 100%), options scored against each criterion, total scores, risk assessment, and a final recommendation with reasoning."
+        },
+        {
+          "title": "Learning Roadmap Creator",
+          "prompt": "Create a structured learning roadmap for [SKILL/SUBJECT]. Current level: [LEVEL]. Target level: [LEVEL]. Time available: [HOURS/WEEK]. Include: learning phases, resources (free and paid), projects to build, milestones, and assessment criteria."
+        },
+        {
+          "title": "Habit Stack Designer",
+          "prompt": "Design a habit stacking system for these desired habits: [LIST HABITS]. Anchor each new habit to an existing routine. Create morning, afternoon, and evening stacks. Include: implementation intentions, environment design, tracking method, and reward system."
+        },
+        {
+          "title": "Meeting Notes Template",
+          "prompt": "Create a meeting notes template for [MEETING TYPE]. Include: meeting metadata, attendees, agenda, discussion points, decisions made, action items (with owner and deadline), parking lot items, and next meeting info. Make it fillable."
+        },
+        {
+          "title": "Burnout Prevention Plan",
+          "prompt": "Create a burnout prevention plan for someone in [ROLE] experiencing [SYMPTOMS]. Include: warning sign checklist, daily recovery practices, boundary-setting strategies, workload management techniques, and a weekly self-assessment tool."
+        },
+        {
+          "title": "Financial Budget Builder",
+          "prompt": "Create a personalized budget for someone earning [INCOME] with expenses: [LIST EXPENSES]. Use the 50/30/20 framework as a base. Include: savings goals, debt payoff plan (avalanche/snowball), investment allocation, and a monthly tracking template."
+        },
+        {
+          "title": "Skill Gap Analyzer",
+          "prompt": "Analyze the skill gaps for becoming a [TARGET ROLE]. Current role: [CURRENT ROLE]. Identify: required skills (technical and soft), current proficiency vs required proficiency, priority ranking, development plan for top 5 gaps, and timeline."
+        },
+        {
+          "title": "Weekly Review System",
+          "prompt": "Design a weekly review system for personal and professional growth. Include: review questions (10), metrics to track, wins/challenges reflection, next week planning template, monthly theme alignment, and a personal retreat framework."
+        },
+        {
+          "title": "Decision Fatigue Reducer",
+          "prompt": "Audit my daily decisions and create a system to reduce decision fatigue. Current routine: [DESCRIBE]. Identify: automatable decisions, decisions to batch, decisions to eliminate, default choices, and a simplified morning/evening routine."
+        },
+        {
+          "title": "Deep Work Scheduler",
+          "prompt": "Design a deep work schedule for a [ROLE] with [CONSTRAINTS]. Include: optimal deep work blocks (time and duration), environment setup, distraction elimination plan, shallow work batching, communication boundaries, and energy management."
+        },
+        {
+          "title": "Life Audit Framework",
+          "prompt": "Guide me through a comprehensive life audit across 8 dimensions: career, finances, health, relationships, personal growth, recreation, spirituality, and environment. For each: rate satisfaction (1-10), identify what's working, what's not, and one action item."
+        },
+        {
+          "title": "Project Planning Template",
+          "prompt": "Create a detailed project plan for [PROJECT]. Include: project brief, objectives, scope, deliverables, timeline (with milestones), resource allocation, risk register, communication plan, success metrics, and a RACI matrix."
+        },
+        {
+          "title": "Email Productivity System",
+          "prompt": "Design an email management system for someone receiving [VOLUME] emails/day. Include: inbox structure/folders, processing rules, response templates (5 common scenarios), batch checking schedule, and automation ideas."
+        },
+        {
+          "title": "Reading List Curator",
+          "prompt": "Curate a reading list for learning about [TOPIC]. Include: 5 foundational books, 5 advanced books, 5 must-read articles, 5 influential papers, and 5 podcasts/videos. For each, explain why it's recommended and key takeaways."
+        },
+        {
+          "title": "Imposter Syndrome Fighter",
+          "prompt": "Create a practical toolkit for overcoming imposter syndrome in [FIELD/ROLE]. Include: reframing techniques, evidence journal template, accomplishment tracking system, peer support strategies, and daily affirmations grounded in reality."
+        },
+        {
+          "title": "Networking Strategy Builder",
+          "prompt": "Create a networking strategy for [CAREER GOAL]. Include: target connections (types, not names), outreach templates, event strategy, follow-up system, value-add framework, relationship tracking method, and a 90-day action plan."
+        },
+        {
+          "title": "Second Brain Setup",
+          "prompt": "Design a 'Second Brain' personal knowledge management system using [TOOL: Notion/Obsidian/Evernote]. Include: folder structure, tagging system, capture workflow, review cadence, note templates, and integration with existing tools."
+        }
+      ]
+    },
+    "ecommerce": {
+      "name": "E-commerce & Sales",
+      "icon": "🛒",
+      "prompts": [
+        {
+          "title": "Product Launch Strategy",
+          "prompt": "Create a complete product launch strategy for [PRODUCT] in [MARKET]. Include: pre-launch (teasers, waitlist, early bird), launch day (announcement, limited-time offer, live event), post-launch (social proof, follow-up, upsell). Timeline: 30 days."
+        },
+        {
+          "title": "Amazon Listing Optimizer",
+          "prompt": "Optimize an Amazon product listing for [PRODUCT]. Include: SEO-optimized title, 5 bullet points (benefit-focused), product description, backend search terms, A+ content suggestions, and review strategy. Target keywords: [KEYWORDS]."
+        },
+        {
+          "title": "Shopify Store Audit",
+          "prompt": "Create a comprehensive audit checklist for a Shopify store selling [PRODUCTS]. Check: homepage design, product pages, navigation, checkout process, mobile optimization, site speed, trust signals, SEO, and email capture. Provide 20 prioritized improvements."
+        },
+        {
+          "title": "Abandoned Cart Recovery",
+          "prompt": "Design an abandoned cart recovery sequence for [STORE TYPE]. Include: 3-email sequence (timing: 1hr, 24hr, 72hr), subject lines, email copy, incentive strategy (discount vs free shipping), SMS option, and success metrics. Recover rate target: [TARGET]."
+        },
+        {
+          "title": "Product Bundling Strategy",
+          "prompt": "Create a product bundling strategy for [PRODUCT LINE]. Analyze: which products to bundle, pricing psychology, bundle naming, presentation on website, A/B testing plan, and expected impact on AOV (Average Order Value)."
+        },
+        {
+          "title": "Customer Loyalty Program",
+          "prompt": "Design a customer loyalty program for [E-COMMERCE STORE]. Include: program structure (points/tiers/VIP), reward catalog, earning mechanics, redemption process, promotional strategy, technology platform, and success metrics."
+        },
+        {
+          "title": "Black Friday Strategy",
+          "prompt": "Create a Black Friday/Cyber Monday strategy for [STORE]. Include: discount strategy, doorbuster deals, email campaign timeline (2 weeks), social media plan, landing page design, inventory prep, staffing plan, and post-BFCM retention."
+        },
+        {
+          "title": "Dropshipping Product Researcher",
+          "prompt": "Identify 20 potential dropshipping products in [NICHE]. For each: product name, estimated cost, suggested retail price, profit margin, target audience, marketing angle, competition level, and trend trajectory. Focus on problem-solving products."
+        },
+        {
+          "title": "Subscription Box Designer",
+          "prompt": "Design a subscription box concept for [NICHE/THEME]. Include: box concept and name, target audience, contents (month 1 sample), pricing strategy, sourcing plan, packaging design, unboxing experience, and churn reduction strategies."
+        },
+        {
+          "title": "E-commerce SEO Strategy",
+          "prompt": "Create an e-commerce SEO strategy for [STORE]. Include: keyword research approach, category page optimization, product page template, blog content strategy (10 topics), technical SEO checklist, link building plan, and tracking dashboard."
+        },
+        {
+          "title": "Returns & Refunds Policy Writer",
+          "prompt": "Write a customer-friendly returns and refunds policy for [STORE TYPE]. Include: return window, conditions, process steps, refund methods, exchange options, restocking fees, and FAQs. Balance customer satisfaction with business protection."
+        },
+        {
+          "title": "Influencer Gift Guide Strategy",
+          "prompt": "Create an influencer gifting strategy for [PRODUCT]. Include: target influencer criteria, outreach template, gift package design, unboxing experience, follow-up sequence, content guidelines, usage rights, and tracking method."
+        },
+        {
+          "title": "Wholesale Pricing Sheet",
+          "prompt": "Create a wholesale pricing structure for [PRODUCT LINE]. Include: retail prices, wholesale prices (with margins), minimum order quantities, volume discounts, payment terms, shipping policies, and a one-page wholesale line sheet template."
+        },
+        {
+          "title": "Customer Review Strategy",
+          "prompt": "Create a strategy to generate more customer reviews for [PRODUCT/STORE]. Include: review request timing, email templates, incentive structure, platform strategy (site, Google, Amazon), negative review response templates, and review showcase plan."
+        },
+        {
+          "title": "Cross-Sell & Upsell Engine",
+          "prompt": "Design a cross-sell and upsell system for [STORE/PRODUCTS]. Include: product pairing logic, cart page recommendations, product page add-ons, post-purchase offers, email recommendations, and expected revenue impact per touchpoint."
+        }
+      ]
+    },
+    "social_media": {
+      "name": "Social Media",
+      "icon": "📱",
+      "prompts": [
+        {
+          "title": "Instagram Growth Strategy",
+          "prompt": "Create a 90-day Instagram growth strategy for [BRAND/ACCOUNT]. Current followers: [NUMBER]. Goal: [NUMBER]. Include: content pillars (5), posting frequency, Reels strategy, hashtag strategy, engagement routine, collaboration plan, and milestone tracking."
+        },
+        {
+          "title": "Instagram Caption Generator",
+          "prompt": "Write 10 Instagram caption variations for this post: [DESCRIBE IMAGE/VIDEO]. Include different styles: storytelling, educational, inspirational, controversial, listicle, question, behind-the-scenes, and minimal. Include relevant hashtags (20-30) and CTAs."
+        },
+        {
+          "title": "LinkedIn Growth Strategy",
+          "prompt": "Create a LinkedIn growth strategy for [PROFESSIONAL/BRAND]. Goal: [GROWTH TARGET] in 90 days. Include: profile optimization checklist, content pillars, posting frequency, engagement strategy, connection strategy, DM templates, and analytics tracking."
+        },
+        {
+          "title": "Twitter/X Growth Playbook",
+          "prompt": "Create a Twitter/X growth playbook for [NICHE/PERSONA]. Include: profile optimization, content types (threads, hot takes, insights, stories), posting frequency, engagement strategy, reply guy method, collaboration tactics, and viral framework."
+        },
+        {
+          "title": "Social Media Crisis Management",
+          "prompt": "Create a social media crisis management plan for [BRAND]. Include: crisis definition levels (1-5), response team roles, response time targets, approval process, message templates for common scenarios, monitoring tools, and post-crisis recovery steps."
+        },
+        {
+          "title": "Content Repurposing Matrix",
+          "prompt": "Create a content repurposing matrix for [PRIMARY PLATFORM]. Show how one piece of long-form content becomes: 5 tweets, 3 Instagram posts, 2 LinkedIn posts, 1 YouTube short, 1 TikTok, 1 email, and 1 blog excerpt. Include adaptation guidelines for each."
+        },
+        {
+          "title": "Hashtag Research Tool",
+          "prompt": "Research and create hashtag sets for [NICHE/INDUSTRY] on Instagram. Create 5 sets of 30 hashtags each: broad reach (1M+), medium reach (100K-1M), niche (10K-100K), branded, and community. Explain strategy for mixing them."
+        },
+        {
+          "title": "Social Media Bio Optimizer",
+          "prompt": "Write 10 variations of a social media bio for [BRAND/PERSON] on [PLATFORM]. Include different approaches: benefit-driven, personality-driven, credibility-driven, story-driven, and minimalist. Each optimized for the platform's character limit."
+        },
+        {
+          "title": "Community Management Guide",
+          "prompt": "Create a community management guide for [BRAND] on [PLATFORMS]. Include: response time targets, tone of voice guide, response templates (20 scenarios), escalation process, proactive engagement routine, and community building tactics."
+        },
+        {
+          "title": "Social Media Audit Template",
+          "prompt": "Create a comprehensive social media audit template. Evaluate: profile completeness, branding consistency, content performance, engagement metrics, follower growth, competitor comparison, posting consistency, and ROI. Include scoring system and action items."
+        },
+        {
+          "title": "Pinterest Strategy Builder",
+          "prompt": "Create a Pinterest marketing strategy for [BUSINESS/BLOG]. Include: account optimization, board structure (10 boards), pin design templates, pinning frequency, keyword strategy, Rich Pins setup, Idea Pins plan, and traffic measurement."
+        },
+        {
+          "title": "YouTube Channel Strategy",
+          "prompt": "Create a YouTube channel strategy for [NICHE]. Include: channel positioning, content pillars, video format types, upload schedule, thumbnail design guide, title/description SEO framework, community tab strategy, and monetization roadmap."
+        },
+        {
+          "title": "Social Media Holiday Calendar",
+          "prompt": "Create a 3-month social media content calendar for [BRAND] including relevant holidays, awareness days, and industry events. For each, suggest: content type, angle, hashtag, and posting platform. Align with [BRAND VALUES/PRODUCTS]."
+        },
+        {
+          "title": "Influencer Collaboration Framework",
+          "prompt": "Create an influencer collaboration framework for [BRAND]. Include: influencer tiers (nano/micro/macro), collaboration types (sponsored, giveaway, takeover, affiliate), brief template, deliverable checklist, contract essentials, and measurement framework."
+        },
+        {
+          "title": "Social Listening Strategy",
+          "prompt": "Design a social listening strategy for [BRAND]. Include: keywords/mentions to track, tools recommendation, monitoring schedule, sentiment analysis approach, competitor tracking, response protocol, insight reporting template, and action triggers."
+        }
+      ]
+    },
+    "seo": {
+      "name": "SEO & Traffic",
+      "icon": "🔍",
+      "prompts": [
+        {
+          "title": "Keyword Research Strategy",
+          "prompt": "Create a keyword research strategy for [WEBSITE/INDUSTRY]. Include: seed keywords (20), long-tail opportunities (30), question-based keywords (15), commercial keywords (10), keyword clustering approach, search intent mapping, and prioritization framework."
+        },
+        {
+          "title": "On-Page SEO Checklist",
+          "prompt": "Create a comprehensive on-page SEO checklist for [PAGE TYPE]. Include: title tag optimization, meta description, URL structure, heading hierarchy (H1-H6), keyword placement, internal linking, image optimization, schema markup, page speed, and mobile optimization."
+        },
+        {
+          "title": "Backlink Strategy Builder",
+          "prompt": "Create a backlink building strategy for [WEBSITE] in [INDUSTRY]. Include: linkable asset ideas (5), outreach strategy, guest posting targets (criteria), broken link building approach, HARO strategy, directory submissions, and competitor backlink analysis method."
+        },
+        {
+          "title": "Technical SEO Audit",
+          "prompt": "Create a technical SEO audit checklist for [WEBSITE TYPE]. Include: site speed analysis, mobile-friendliness, crawlability, indexability, XML sitemap, robots.txt, canonical tags, hreflang, structured data, Core Web Vitals, and JavaScript SEO considerations."
+        },
+        {
+          "title": "Content Cluster Designer",
+          "prompt": "Design a topic cluster strategy for [CORE TOPIC]. Include: 1 pillar page concept, 15-20 cluster content topics, internal linking structure, keyword mapping for each page, content brief template, and publishing schedule."
+        },
+        {
+          "title": "Local SEO Checklist",
+          "prompt": "Create a local SEO checklist for [BUSINESS TYPE]. Include: Google Business Profile optimization, local citations (top 20), review strategy, location pages, local link building, local content ideas, Google Posts strategy, and Q&A management."
+        },
+        {
+          "title": "SEO Competitor Analysis",
+          "prompt": "Perform an SEO competitor analysis for [WEBSITE] vs [TOP 3 COMPETITORS]. Analyze: organic traffic estimates, keyword gaps, backlink profile comparison, content quality, technical SEO comparison, and identify 20 quick-win opportunities."
+        },
+        {
+          "title": "Featured Snippet Optimizer",
+          "prompt": "Analyze [URL/TOPIC] for featured snippet opportunities. Identify: current snippet holders, snippet types (paragraph, list, table), content optimization strategies to win snippets, formatting recommendations, and monitoring approach."
+        },
+        {
+          "title": "E-commerce SEO Guide",
+          "prompt": "Create an e-commerce SEO guide for [SHOP TYPE]. Include: product page optimization template, category page SEO, faceted navigation handling, product schema markup, review schema, internal linking strategy, and seasonal SEO planning."
+        },
+        {
+          "title": "SEO Content Brief Generator",
+          "prompt": "Create a detailed SEO content brief for [TARGET KEYWORD]. Include: search intent, target word count, title options, heading structure, entities/LSI keywords to include, internal linking targets, external linking suggestions, and SERP analysis insights."
+        },
+        {
+          "title": "Link Building Outreach Templates",
+          "prompt": "Write 5 link building outreach email templates for [WEBSITE/CONTENT]. Use different approaches: value-first, resource suggestion, broken link, guest post pitch, and collaboration. Include subject lines, body copy, follow-up sequence, and personalization tokens."
+        },
+        {
+          "title": "Core Web Vitals Optimizer",
+          "prompt": "Create a Core Web Vitals optimization guide for [WEBSITE TYPE]. Address: LCP (Largest Contentful Paint), FID/INP (Interaction to Next Paint), CLS (Cumulative Layout Shift). For each metric: explain it, identify common issues, and provide specific fixes."
+        },
+        {
+          "title": "International SEO Strategy",
+          "prompt": "Create an international SEO strategy for [BUSINESS] expanding to [COUNTRIES]. Include: domain structure (ccTLD vs subdomain vs subdirectory), hreflang implementation, content localization approach, local link building, and cultural considerations."
+        },
+        {
+          "title": "SEO Reporting Template",
+          "prompt": "Create a monthly SEO reporting template for [CLIENT/STAKEHOLDER]. Include: executive summary, organic traffic trends, keyword ranking changes, backlink profile updates, technical issues, content performance, conversion data, and next month's priorities."
+        },
+        {
+          "title": "SEO Audit Presentation",
+          "prompt": "Create an SEO audit presentation outline for [WEBSITE]. Include: methodology, findings by category (technical, on-page, content, links), prioritized recommendations (quick wins vs long-term), expected impact, implementation timeline, and resource needs."
+        }
+      ]
+    },
+    "email_marketing": {
+      "name": "Email Marketing",
+      "icon": "📧",
+      "prompts": [
+        {
+          "title": "Welcome Email Sequence",
+          "prompt": "Write a 5-email welcome sequence for [BRAND/PRODUCT]. New subscriber just joined via [SOURCE]. Include: Email 1 (Welcome + deliver lead magnet), Email 2 (Brand story), Email 3 (Best content/resources), Email 4 (Social proof), Email 5 (Soft pitch). Subject lines for each."
+        },
+        {
+          "title": "Black Friday Email Strategy",
+          "prompt": "Create a Black Friday email strategy for [STORE/BRAND]. Timeline: 2 weeks before through Cyber Monday. Include: teaser emails, early access, main sale, last chance, and extended sale. Subject lines, send times, segmentation, and discount strategy for each."
+        },
+        {
+          "title": "Re-engagement Campaign",
+          "prompt": "Write a 4-email re-engagement sequence for inactive subscribers (no opens in 90 days) for [BRAND]. Include: 'We miss you' email, survey/feedback email, special offer email, and breakup email. Subject lines, timing, and segmentation strategy."
+        },
+        {
+          "title": "Product Launch Email Sequence",
+          "prompt": "Write a 7-email product launch sequence for [PRODUCT]. Include: teaser (problem awareness), education (solution reveal), feature deep dive, social proof/testimonials, FAQ/objection handling, cart open with early bird, and last chance urgency. Subject lines for each."
+        },
+        {
+          "title": "Email Template Designer",
+          "prompt": "Design 5 reusable email templates for [BRAND]: 1) Newsletter template, 2) Product announcement, 3) Promotional/sale, 4) Transactional (order confirmation), 5) Re-engagement. For each: provide layout description, copy template, image placement, and CTA positioning."
+        },
+        {
+          "title": "Email Segmentation Strategy",
+          "prompt": "Create an email segmentation strategy for [BUSINESS]. Include: segmentation criteria (demographics, behavior, purchase history, engagement), segment profiles (8-10), content strategy per segment, automation triggers, and expected performance improvements."
+        },
+        {
+          "title": "Subject Line A/B Test Plan",
+          "prompt": "Create an A/B testing plan for email subject lines for [BRAND]. Include: 10 test variations using different strategies (personalization, urgency, curiosity, numbers, questions, emojis), testing methodology, sample size calculation, success metrics, and learnings framework."
+        },
+        {
+          "title": "Holiday Email Calendar",
+          "prompt": "Create a 6-month holiday email marketing calendar for [BRAND]. Include: all relevant holidays/events, email concepts for each, promotional strategy, send dates, segmentation, and content themes. Ensure alignment with [BRAND PRODUCTS/VALUES]."
+        },
+        {
+          "title": "Cart Abandonment Flow",
+          "prompt": "Write a 3-part cart abandonment email flow for [E-COMMERCE STORE]. Email 1 (1 hour): reminder. Email 2 (24 hours): social proof + assistance. Email 3 (72 hours): incentive/discount. Include subject lines, copy, CTAs, SMS integration, and success metrics."
+        },
+        {
+          "title": "Post-Purchase Email Flow",
+          "prompt": "Design a post-purchase email flow for [PRODUCT]. Include: order confirmation, shipping notification, product usage tips, review request, cross-sell recommendation, loyalty program invite, and re-order reminder. Timing, subject lines, and copy for each."
+        },
+        {
+          "title": "Lead Nurture Educational Series",
+          "prompt": "Write a 7-email educational nurture series for [COURSE/PRODUCT/SERVICE]. Topic: [SUBJECT]. Each email should teach one concept, build on the previous, and softly position [PRODUCT] as the solution. Include subject lines, content outline, and CTA for each."
+        },
+        {
+          "title": "Email Deliverability Audit",
+          "prompt": "Create an email deliverability audit checklist for [SENDER DOMAIN]. Check: SPF, DKIM, DMARC records, sender reputation, spam triggers in content, list hygiene practices, engagement metrics, bounce handling, and warming strategy for new domains."
+        },
+        {
+          "title": "VIP Customer Email Strategy",
+          "prompt": "Create a VIP email strategy for top customers of [BRAND]. Include: VIP criteria definition, exclusive content, early access strategy, personalized recommendations, birthday/anniversary emails, and VIP-only events/offers. Focus on retention and LTV."
+        },
+        {
+          "title": "Win-Back Campaign Builder",
+          "prompt": "Design a win-back campaign for churned customers of [PRODUCT/SERVICE]. Include: churn reason survey, personalized win-back offer, 'what's new' update, social proof of improvement, special pricing, and success measurement. Timing and channels."
+        },
+        {
+          "title": "Email Automation Flowchart",
+          "prompt": "Design a complete email automation architecture for [BUSINESS TYPE]. Map out: entry points (signup, purchase, behavior), branching logic, delay/timing, conditional content, exit criteria, and goal tracking. Create as a text-based flowchart."
+        }
+      ]
+    },
+    "sales": {
+      "name": "Sales & Closing",
+      "icon": "🤝",
+      "prompts": [
+        {
+          "title": "Cold Call Script Builder",
+          "prompt": "Write a cold call script for [PRODUCT/SERVICE] targeting [ICP]. Include: opener (pattern interrupt), permission to speak, problem discovery questions, value proposition, qualifying questions, objection handling, and close/next step. Keep it conversational."
+        },
+        {
+          "title": "Discovery Call Framework",
+          "prompt": "Create a discovery call framework for [PRODUCT/SERVICE]. Include: agenda structure, rapport building questions, situation questions, problem questions, implication questions, need-payoff questions, qualification criteria (BANT/MEDDIC), and next steps."
+        },
+        {
+          "title": "Sales Demo Script",
+          "prompt": "Write a product demo script for [PRODUCT/SERVICE]. Include: agenda setting, discovery recap, tailored demo flow (focus on buyer's pain points), feature-to-benefit translation, interactive checkpoints, pricing presentation, and trial close."
+        },
+        {
+          "title": "Objection Handling Playbook",
+          "prompt": "Create an objection handling playbook for [PRODUCT/SERVICE]. For each top 10 objections (price, timing, competitor, authority, need): provide empathetic acknowledgment, clarifying question, reframing response, and proof/social proof. Make it a quick-reference card."
+        },
+        {
+          "title": "Sales Proposal Template",
+          "prompt": "Write a sales proposal template for [SERVICE/PRODUCT]. Include: executive summary, problem statement, proposed solution, scope of work, timeline, pricing options (3 tiers), terms and conditions, case studies, team bios, and next steps."
+        },
+        {
+          "title": "Follow-Up Sequence Builder",
+          "prompt": "Create a 7-touch follow-up sequence for a prospect who went silent after [STAGE]. Channels: mix of email, phone, LinkedIn, and social. For each touch: timing, channel, message template, value-add content, and when to disqualify."
+        },
+        {
+          "title": "Sales Process Map",
+          "prompt": "Map out a complete sales process for [PRODUCT/SERVICE] targeting [MARKET]. Stages: Lead Generation, Qualification, Discovery, Demo/Evaluation, Proposal, Negotiation, Close, Onboarding. For each stage: activities, exit criteria, tools, and conversion metrics."
+        },
+        {
+          "title": "Closing Techniques Catalog",
+          "prompt": "Provide 15 closing techniques for [SCENARIO]. For each: name the technique, explain the psychology, provide a script example, when to use it, when NOT to use it, and success rate expectations. Include: assumptive, summary, urgency, alternative, takeaway, etc."
+        },
+        {
+          "title": "Upselling Strategy",
+          "prompt": "Create an upselling strategy for [PRODUCT/SERVICE]. Include: upsell opportunities (products/services), timing in customer lifecycle, pricing psychology, script templates, bundle creation, and success metrics. Focus on value-add, not pushiness."
+        },
+        {
+          "title": "Sales Enablement Document",
+          "prompt": "Create a sales enablement document for [PRODUCT]. Include: elevator pitch, value proposition by persona, competitive battle cards, common objections and responses, case studies, ROI calculator, pricing guide, and demo checklist."
+        },
+        {
+          "title": "Territory Planning Template",
+          "prompt": "Create a sales territory plan for [REGION/MARKET]. Include: TAM/SAM/SOM analysis, account segmentation (A/B/C), account prioritization criteria, coverage model, activity targets, weekly cadence, quarterly goals, and pipeline management process."
+        },
+        {
+          "title": "Sales Email Templates Pack",
+          "prompt": "Write 15 sales email templates for [PRODUCT/SERVICE] covering: cold outreach, follow-up, meeting request, demo invite, proposal submission, contract review, check-in, re-engagement, upsell, cross-sell, referral request, case study sharing, and breakup."
+        },
+        {
+          "title": "Pipeline Review Framework",
+          "prompt": "Create a sales pipeline review framework for [TEAM/SIZE]. Include: deal stage definitions, probability percentages, required fields per stage, review cadence, coaching questions, forecast accuracy method, and stale deal identification rules."
+        },
+        {
+          "title": "Cross-Selling Strategy",
+          "prompt": "Create a cross-selling strategy for [PRODUCT LINE]. Include: product affinity analysis, customer segmentation by purchase history, cross-sell triggers, timing strategy, script/email templates, incentive structure, and success metrics."
+        },
+        {
+          "title": "Sales Onboarding Plan",
+          "prompt": "Create a 30-60-90 day sales onboarding plan for new reps at [COMPANY]. Include: product training schedule, shadowing plan, call/video review process, first deals timeline, quota ramp, mentorship structure, and success milestones."
+        }
+      ]
+    }
+  }
+}
