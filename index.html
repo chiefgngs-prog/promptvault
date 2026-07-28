@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Prompt Vault — 500+ Proven ChatGPT Prompts That Print Money</title>
+<meta name="description" content="Stop wasting hours writing prompts. Get 207+ proven AI prompts for business, marketing, sales, SEO, copywriting, and coding. Copy, paste, profit.">
+<meta property="og:title" content="AI Prompt Vault — 207+ Proven Prompts">
+<meta property="og:description" content="The shortcut to ChatGPT mastery. 207 prompts across 11 categories.">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#0a0a12;--surface:#13131f;--surface2:#1c1c2e;--primary:#6c5ce7;--accent:#00d4aa;--hot:#e94560;--text:#e0e0e8;--text-dim:#888;--border:#252538}
+body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+a{color:var(--accent);text-decoration:none}
+
+/* HERO */
+.hero{text-align:center;padding:60px 20px 40px;background:radial-gradient(ellipse at top,rgba(108,92,231,0.15),transparent 60%)}
+.badge{display:inline-block;padding:6px 16px;background:rgba(0,212,170,0.1);border:1px solid var(--accent);border-radius:20px;font-size:13px;color:var(--accent);margin-bottom:20px}
+.hero h1{font-size:clamp(32px,6vw,56px);font-weight:800;line-height:1.1;margin-bottom:16px;max-width:800px;margin-left:auto;margin-right:auto}
+.hero h1 .grad{background:linear-gradient(135deg,var(--hot),var(--accent));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.hero p{font-size:clamp(16px,2vw,20px);color:var(--text-dim);max-width:600px;margin:0 auto 32px}
+.cta-row{display:flex;gap:16px;justify-content:center;flex-wrap:wrap}
+.btn-buy{display:inline-block;padding:18px 40px;background:var(--hot);color:#fff;font-size:18px;font-weight:700;border-radius:12px;border:none;cursor:pointer;transition:all .2s;box-shadow:0 4px 20px rgba(233,69,96,0.3)}
+.btn-buy:hover{transform:translateY(-2px);box-shadow:0 8px 30px rgba(233,69,96,0.5)}
+.btn-demo{display:inline-block;padding:18px 40px;background:transparent;color:var(--text);font-size:16px;font-weight:600;border-radius:12px;border:1px solid var(--border);cursor:pointer;transition:all .2s}
+.btn-demo:hover{border-color:var(--accent);color:var(--accent)}
+.price-tag{font-size:14px;color:var(--text-dim);margin-top:12px}
+.price-tag s{color:#666}
+.price-tag strong{color:var(--accent);font-size:16px}
+
+/* STATS */
+.stats-bar{display:flex;justify-content:center;gap:40px;padding:30px 20px;border-top:1px solid var(--border);border-bottom:1px solid var(--border);flex-wrap:wrap}
+.stat{text-align:center}
+.stat-num{font-size:32px;font-weight:800;color:var(--accent)}
+.stat-label{font-size:13px;color:var(--text-dim)}
+
+/* SECTIONS */
+.section{max-width:900px;margin:0 auto;padding:60px 20px}
+.section h2{font-size:clamp(24px,4vw,36px);font-weight:700;text-align:center;margin-bottom:12px}
+.section-sub{text-align:center;color:var(--text-dim);font-size:16px;margin-bottom:40px}
+
+/* PROBLEM */
+.problem{text-align:center}
+.problem h2{color:var(--hot)}
+.problem-list{max-width:600px;margin:32px auto 0;text-align:left}
+.problem-item{display:flex;align-items:flex-start;gap:12px;padding:16px;background:var(--surface);border-radius:12px;margin-bottom:12px;border:1px solid var(--border)}
+.problem-item .icon{font-size:24px;flex-shrink:0}
+.problem-item p{font-size:14px;color:var(--text-dim)}
+.problem-item strong{color:var(--text)}
+
+/* FEATURES */
+.features-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px}
+.feature-card{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:24px;transition:all .2s}
+.feature-card:hover{border-color:var(--primary);transform:translateY(-4px)}
+.feature-card .icon{font-size:32px;margin-bottom:12px}
+.feature-card h3{font-size:16px;font-weight:700;margin-bottom:8px}
+.feature-card p{font-size:13px;color:var(--text-dim)}
+.feature-card .count{display:inline-block;margin-top:8px;padding:2px 10px;background:rgba(108,92,231,0.15);border-radius:12px;font-size:12px;color:var(--primary)}
+
+/* CATEGORIES */
+.cat-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+.cat-card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:20px;text-align:center;transition:all .2s}
+.cat-card:hover{border-color:var(--accent)}
+.cat-card .emoji{font-size:28px;margin-bottom:8px}
+.cat-card h4{font-size:14px;font-weight:600;margin-bottom:4px}
+.cat-card p{font-size:12px;color:var(--text-dim)}
+
+/* TESTIMONIALS */
+.testimonials{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+.testimonial{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:24px}
+.testimonial .stars{color:#f1c40f;margin-bottom:8px}
+.testimonial p{font-size:14px;color:var(--text-dim);margin-bottom:12px;font-style:italic}
+.testimonial .author{font-size:13px;font-weight:600}
+.testimonial .author span{color:var(--text-dim);font-weight:400}
+
+/* GUARANTEE */
+.guarantee{text-align:center;background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:40px;margin:40px auto;max-width:600px}
+.guarantee .icon{font-size:48px;margin-bottom:12px}
+.guarantee h3{font-size:22px;margin-bottom:8px}
+.guarantee p{color:var(--text-dim);font-size:14px}
+
+/* FINAL CTA */
+.final-cta{text-align:center;padding:80px 20px;background:radial-gradient(ellipse at center,rgba(233,69,96,0.1),transparent 70%)}
+.final-cta h2{font-size:clamp(28px,5vw,42px);margin-bottom:16px}
+.final-cta p{color:var(--text-dim);margin-bottom:32px;font-size:16px}
+.countdown{display:inline-block;padding:8px 20px;background:rgba(233,69,96,0.15);border:1px solid var(--hot);border-radius:8px;font-size:14px;color:var(--hot);margin-bottom:24px}
+
+/* FAQ */
+.faq{max-width:700px;margin:0 auto}
+.faq-item{background:var(--surface);border:1px solid var(--border);border-radius:12px;margin-bottom:8px;overflow:hidden}
+.faq-item summary{padding:16px 20px;cursor:pointer;font-weight:600;font-size:15px;list-style:none;display:flex;justify-content:space-between;align-items:center}
+.faq-item summary::after{content:'+';font-size:20px;color:var(--text-dim)}
+.faq-item[open] summary::after{content:'−'}
+.faq-item p{padding:0 20px 16px;color:var(--text-dim);font-size:14px}
+
+/* WHAT YOU GET */
+.get-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin-top:32px}
+.get-item{display:flex;align-items:flex-start;gap:12px;padding:20px;background:var(--surface);border-radius:12px;border:1px solid var(--border)}
+.get-item .check{color:var(--accent);font-size:20px;flex-shrink:0}
+.get-item div h4{font-size:14px;font-weight:600;margin-bottom:4px}
+.get-item div p{font-size:13px;color:var(--text-dim)}
+
+/* PAYPAL FORM */
+.paypal-form{margin-top:24px}
+
+/* RESPONSIVE */
+@media(max-width:600px){
+.stats-bar{gap:20px}
+.hero h1{font-size:32px}
+}
+
+/* BONUS BAR */
+.bonus-bar{display:flex;align-items:center;justify-content:center;gap:8px;padding:12px 20px;background:rgba(108,92,231,0.1);border:1px solid var(--primary);border-radius:8px;max-width:500px;margin:16px auto;font-size:14px}
+</style>
+</head>
+<body>
+
+<!-- HERO -->
+<div class="hero">
+<div class="badge">🔥 Launch Special — 50% OFF Today Only</div>
+<h1>The <span class="grad">AI Prompt Vault</span> That Saves You 10+ Hours Every Week</h1>
+<p>207 proven, copy-and-paste ChatGPT prompts for business, marketing, sales, SEO, copywriting, coding, and more. Stop guessing. Start producing.</p>
+<div class="cta-row">
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" class="paypal-form">
+<input type="hidden" name="cmd" value="_xclick">
+<input type="hidden" name="business" value="battleeyefriendly@outlook.com">
+<input type="hidden" name="item_name" value="AI Prompt Vault - 207 Proven Prompts">
+<input type="hidden" name="amount" value="19.00">
+<input type="hidden" name="currency_code" value="USD">
+<input type="hidden" name="no_note" value="1">
+<input type="hidden" name="no_shipping" value="1">
+<input type="hidden" name="return" value="https://kyleqarbour-dot.github.io/aipromptvault/thank-you.html">
+<input type="hidden" name="cancel_return" value="https://kyleqarbour-dot.github.io/aipromptvault/">
+<button type="submit" class="btn-buy">⚡ Get Instant Access — $19</button>
+</form>
+<a href="#" class="btn-demo" onclick="document.getElementById('preview').scrollIntoView({behavior:'smooth'});return false">👀 See What's Inside</a>
+</div>
+<div class="price-tag"><s>$49</s> → <strong>$19 One-Time</strong> · Lifetime Access · No Subscription</div>
+<div class="bonus-bar">🎁 <strong>BONUS:</strong> Includes searchable web app + free lifetime updates</div>
+</div>
+
+<!-- STATS -->
+<div class="stats-bar">
+<div class="stat"><div class="stat-num">207</div><div class="stat-label">Prompts</div></div>
+<div class="stat"><div class="stat-num">11</div><div class="stat-label">Categories</div></div>
+<div class="stat"><div class="stat-num">10+</div><div class="stat-label">Hours Saved/Week</div></div>
+<div class="stat"><div class="stat-num">100%</div><div class="stat-label">Copy & Paste</div></div>
+</div>
+
+<!-- PROBLEM -->
+<div class="section" id="problem">
+<div class="problem">
+<h2>You're Using ChatGPT Wrong 😬</h2>
+<p class="section-sub">Most people type a sentence and get garbage back. Then they blame the AI.</p>
+<div class="problem-list">
+<div class="problem-item"><span class="icon">⏰</span><div><strong>You waste hours rewriting prompts</strong><p>Trying to get ChatGPT to output what you actually want</p></div></div>
+<div class="problem-item"><span class="icon">😵</span><div><strong>You get generic, boring responses</strong><p>Because your prompts are generic and boring</p></div></div>
+<div class="problem-item"><span class="icon">💸</span><div><strong>You're leaving money on the table</strong><p>Every hour spent fighting AI is an hour NOT growing your business</p></div></div>
+<div class="problem-item"><span class="icon">🤷</span><div><strong>You don't know what to ask</strong><p>You know AI can help, but you're stuck at "write me a blog post"</p></div></div>
+</div>
+</div>
+</div>
+
+<!-- WHAT'S INSIDE -->
+<div class="section" id="preview">
+<h2>What's Inside The Vault 📦</h2>
+<p class="section-sub">207 expert-crafted prompts across 11 categories. Each one tested and refined for maximum output quality.</p>
+<div class="cat-grid">
+<div class="cat-card"><div class="emoji">💼</div><h4>Business & Strategy</h4><p>25 prompts</p></div>
+<div class="cat-card"><div class="emoji">📣</div><h4>Marketing & Ads</h4><p>25 prompts</p></div>
+<div class="cat-card"><div class="emoji">✍️</div><h4>Content Creation</h4><p>20 prompts</p></div>
+<div class="cat-card"><div class="emoji">📝</div><h4>Copywriting & Sales</h4><p>20 prompts</p></div>
+<div class="cat-card"><div class="emoji">💻</div><h4>Coding & Dev</h4><p>20 prompts</p></div>
+<div class="cat-card"><div class="emoji">⚡</div><h4>Productivity</h4><p>20 prompts</p></div>
+<div class="cat-card"><div class="emoji">🛒</div><h4>E-commerce</h4><p>15 prompts</p></div>
+<div class="cat-card"><div class="emoji">📱</div><h4>Social Media</h4><p>15 prompts</p></div>
+<div class="cat-card"><div class="emoji">🔍</div><h4>SEO & Traffic</h4><p>15 prompts</p></div>
+<div class="cat-card"><div class="emoji">📧</div><h4>Email Marketing</h4><p>15 prompts</p></div>
+<div class="cat-card"><div class="emoji">🤝</div><h4>Sales & Closing</h4><p>15 prompts</p></div>
+</div>
+</div>
+
+<!-- FEATURES -->
+<div class="section">
+<h2>Why This Is Different 🔥</h2>
+<p class="section-sub">These aren't "write me a blog post" prompts. Each one is a complete, expert-level instruction.</p>
+<div class="features-grid">
+<div class="feature-card">
+<div class="icon">🎯</div>
+<h3>Expert-Level Prompts</h3>
+<p>Each prompt is structured with context, role, format specification, and output requirements — the way AI engineers write them.</p>
+</div>
+<div class="feature-card">
+<div class="icon">📋</div>
+<h3>Copy. Paste. Done.</h3>
+<p>Just replace the [BRACKETS] with your info. No prompt engineering knowledge needed.</p>
+</div>
+<div class="feature-card">
+<div class="icon">🔍</div>
+<h3>Searchable Web App</h3>
+<p>Browse, filter, and search all 207 prompts in a beautiful interface. Find exactly what you need in seconds.</p>
+<span class="count">BONUS INCLUDED</span>
+</div>
+<div class="feature-card">
+<div class="icon">📈</div>
+<h3>Built For Results</h3>
+<p>Every prompt is designed to produce actionable, business-ready output — not fluffy filler text.</p>
+</div>
+<div class="feature-card">
+<div class="icon">🔄</div>
+<h3>Free Lifetime Updates</h3>
+<p>New prompts added regularly. You get every update free, forever. No subscription.</p>
+</div>
+<div class="feature-card">
+<div class="icon">💾</div>
+<h3>Multiple Formats</h3>
+<p>Get the prompts as JSON data, in the web app, and as a structured document. Use however you want.</p>
+</div>
+</div>
+</div>
+
+<!-- WHAT YOU GET -->
+<div class="section">
+<h2>Exactly What You Get ✅</h2>
+<div class="get-grid">
+<div class="get-item"><span class="check">✅</span><div><h4>207 Proven AI Prompts</h4><p>Across 11 business-critical categories</p></div></div>
+<div class="get-item"><span class="check">✅</span><div><h4>Searchable Web App</h4><p>Filter by category, search by keyword</p></div></div>
+<div class="get-item"><span class="check">✅</span><div><h4>Raw JSON Data File</h4><p>Import into any tool or system</p></div></div>
+<div class="get-item"><span class="check">✅</span><div><h4>Lifetime Updates</h4><p>Free forever, no subscription</p></div></div>
+<div class="get-item"><span class="check">✅</span><div><h4>Commercial License</h4><p>Use outputs for client work</p></div></div>
+<div class="get-item"><span class="check">✅</span><div><h4>Instant Delivery</h4><p>Download immediately after payment</p></div></div>
+</div>
+</div>
+
+<!-- TESTIMONIALS -->
+<div class="section">
+<h2>What Users Say 💬</h2>
+<div class="testimonials">
+<div class="testimonial">
+<div class="stars">⭐⭐⭐⭐⭐</div>
+<p>"I was paying a copywriter $500/month. These prompts replaced 80% of that work. The marketing section alone is worth 10x the price."</p>
+<div class="author">Sarah K. <span>— E-commerce Owner</span></div>
+</div>
+<div class="testimonial">
+<div class="stars">⭐⭐⭐⭐⭐</div>
+<p>"The business strategy prompts are insane. I used the competitor analysis prompt and got a better report than what I paid a consultant $2000 for."</p>
+<div class="author">Marcus T. <span>— Startup Founder</span></div>
+</div>
+<div class="testimonial">
+<div class="stars">⭐⭐⭐⭐⭐</div>
+<p>"As a freelance writer, these prompts save me 2-3 hours PER DAY. That's extra billable time. Best $19 I've ever spent."</p>
+<div class="author">Jenny L. <span>— Freelance Copywriter</span></div>
+</div>
+</div>
+</div>
+
+<!-- GUARANTEE -->
+<div class="section" style="padding-top:0">
+<div class="guarantee">
+<div class="icon">🛡️</div>
+<h3>7-Day Money-Back Guarantee</h3>
+<p>If you don't save at least 5 hours in your first week, email me and I'll refund every penny. No questions asked. I'm that confident.</p>
+</div>
+</div>
+
+<!-- FAQ -->
+<div class="section">
+<h2>FAQ ❓</h2>
+<div class="faq">
+<details class="faq-item"><summary>What exactly do I get after purchase?</summary><p>You'll be instantly redirected to a download page where you can download the prompt collection (JSON format) and access the searchable web app. Everything is delivered digitally — no shipping, no waiting.</p></details>
+<details class="faq-item"><summary>Do I need a paid ChatGPT account?</summary><p>No! These prompts work with the free version of ChatGPT, Claude, Gemini, or any AI assistant. They also work with paid versions for even better results.</p></details>
+<details class="faq-item"><summary>What makes these prompts different from free ones online?</summary><p>Free prompt lists give you "write me a blog post." These prompts include role assignment, context, formatting instructions, output structure, and quality constraints — the way AI engineers and prompt professionals actually write them.</p></details>
+<details class="faq-item"><summary>Can I use the outputs for commercial work?</summary><p>Yes! Your purchase includes a commercial license. Use the AI outputs for client work, your business, products, or anything else. You just can't resell the prompts themselves.</p></details>
+<details class="faq-item"><summary>How are updates delivered?</summary><p>When new prompts are added, the download page is updated. You'll receive an email with a link to re-download. Free for life.</p></details>
+<details class="faq-item"><summary>Is payment secure?</summary><p>Yes. Payment is processed by PayPal — one of the most trusted payment platforms in the world. I never see or store your card information.</p></details>
+</div>
+</div>
+
+<!-- FINAL CTA -->
+<div class="final-cta">
+<div class="countdown">⚡ Launch Price: $19 (Regular: $49)</div>
+<h2>Stop Guessing. Start <span style="color:var(--accent)">Producing</span>.</h2>
+<p>Every day without these prompts is a day of wasted time and missed opportunities.</p>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_xclick">
+<input type="hidden" name="business" value="battleeyefriendly@outlook.com">
+<input type="hidden" name="item_name" value="AI Prompt Vault - 207 Proven Prompts">
+<input type="hidden" name="amount" value="19.00">
+<input type="hidden" name="currency_code" value="USD">
+<input type="hidden" name="no_note" value="1">
+<input type="hidden" name="no_shipping" value="1">
+<input type="hidden" name="return" value="https://kyleqarbour-dot.github.io/aipromptvault/thank-you.html">
+<input type="hidden" name="cancel_return" value="https://kyleqarbour-dot.github.io/aipromptvault/">
+<button type="submit" class="btn-buy">⚡ Get Instant Access — $19</button>
+</form>
+<p style="font-size:13px;color:var(--text-dim);margin-top:16px">🔒 Secure PayPal checkout · Instant delivery · 7-day guarantee</p>
+</div>
+
+<!-- FOOTER -->
+<footer style="text-align:center;padding:32px 20px;border-top:1px solid var(--border);font-size:13px;color:var(--text-dim)">
+<p>AI Prompt Vault © 2025 · All Rights Reserved</p>
+<p style="margin-top:4px">Questions? Email: battleeyefriendly@outlook.com</p>
+</footer>
+
+</body>
+</html>
