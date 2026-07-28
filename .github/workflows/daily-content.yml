@@ -1,0 +1,25 @@
+name: Daily Prompt Gist
+on:
+  schedule:
+    - cron: '0 9 * * *'
+  workflow_dispatch:
+jobs:
+  post-gist:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Create daily prompt gist
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          DAY=$(date +%Y%m%d)
+          PROMPT=$(python3 -c "
+import json, random
+with open('prompts.json','r') as f:
+    data = json.load(f)
+cats = list(data['categories'].values())
+cat = random.choice(cats)
+p = random.choice(cat['prompts'])
+print(f'# Prompt of the Day\n\n**{p[\"title\"]}**\n\n```\n{p[\"prompt\"]}\n```\n\n---\nGet all 207 prompts: https://kyleqarbour-dot.github.io/aipromptvault/')
+")
+          echo "$PROMPT" | gh gist create --public --desc "AI Prompt of the Day - $DAY" -f "prompt-$DAY.md" /dev/stdin || true
