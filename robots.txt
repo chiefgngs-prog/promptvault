@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://kyleqarbour-dot.github.io/aipromptvault/sitemap.xml
+Sitemap: https://chiefgngs-prog.github.io/promptvault/sitemap.xml

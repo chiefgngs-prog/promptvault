@@ -1,7 +1,7 @@
 # 🚀 MARKETING KIT — Copy & Paste Everything
 
 ## ⚠️ BEFORE YOU START
-Replace `https://kyleqarbour-dot.github.io/aipromptvault` with your actual website URL after deploying.
+Replace `https://chiefgngs-prog.github.io/promptvault` with your actual website URL after deploying.
 Replace `YOUR_PAYPAL_EMAIL` with your PayPal email in sales-page.html.
 
 ---
@@ -26,7 +26,7 @@ I packaged them into a searchable web app so I can find any prompt in seconds.
 
 The marketing prompt alone — the one that generates 10 Facebook ad variations with different psychological triggers — saves me like 2 hours a week.
 
-I put the whole thing together at: https://kyleqarbour-dot.github.io/aipromptvault
+I put the whole thing together at: https://chiefgngs-prog.github.io/promptvault
 
 Happy to share a few of the best ones in the comments if anyone's interested.
 
@@ -47,7 +47,7 @@ Each prompt is structured properly — role assignment, context, output format, 
 
 11 categories: Business Strategy, Marketing, Content, Copywriting, Coding, Productivity, E-commerce, Social Media, SEO, Email Marketing, Sales.
 
-If you run a business or freelance, this will save you serious time: https://kyleqarbour-dot.github.io/aipromptvault
+If you run a business or freelance, this will save you serious time: https://chiefgngs-prog.github.io/promptvault
 
 ---
 
@@ -70,7 +70,7 @@ So I built a library of 207 professional-grade prompts that actually produce bus
 
 And a bunch more. I put them in a searchable app so you can find what you need fast.
 
-Check it out: https://kyleqarbour-dot.github.io/aipromptvault
+Check it out: https://chiefgngs-prog.github.io/promptvault
 
 ---
 
@@ -87,7 +87,7 @@ I do freelance web design and content writing. These prompts have been a game ch
 
 I organized 207 prompts into 11 categories and made them searchable.
 
-https://kyleqarbour-dot.github.io/aipromptvault
+https://chiefgngs-prog.github.io/promptvault
 
 ---
 
@@ -139,7 +139,7 @@ Search by keyword, filter by category, click to copy.
 
 6/ The result? I've cut my content creation time by 70%. Tasks that took 2 hours now take 15 minutes.
 
-I'm sharing the whole library here: https://kyleqarbour-dot.github.io/aipromptvault
+I'm sharing the whole library here: https://chiefgngs-prog.github.io/promptvault
 
 RT the first tweet if this was helpful! 🙏
 
@@ -154,7 +154,7 @@ RT the first tweet if this was helpful! 🙏
 
 It's not perfect out of the box — you edit and refine. But it gets you 80% there in 30 seconds.
 
-I have 207 prompts like this: https://kyleqarbour-dot.github.io/aipromptvault
+I have 207 prompts like this: https://chiefgngs-prog.github.io/promptvault
 
 ---
 
@@ -170,7 +170,7 @@ I put together a collection of 207 AI prompts that help business owners handle m
 
 Most of my users report saving 10+ hours per week.
 
-It's $19 (one-time, not a subscription). Here's the link: https://kyleqarbour-dot.github.io/aipromptvault
+It's $19 (one-time, not a subscription). Here's the link: https://chiefgngs-prog.github.io/promptvault
 
 Would this be useful for you?
 
@@ -190,7 +190,7 @@ You can search by keyword and filter by category. Copy and paste into ChatGPT, C
 
 I've been using these for my own business and they've cut my content creation time by 70%.
 
-If you do any kind of marketing, SEO, or content work, this will save you serious time: https://kyleqarbour-dot.github.io/aipromptvault
+If you do any kind of marketing, SEO, or content work, this will save you serious time: https://chiefgngs-prog.github.io/promptvault
 
 ---
 
@@ -203,22 +203,22 @@ I tested hundreds of prompts and kept the 207 that consistently produce professi
 
 Put them in a searchable web app so I can find any prompt instantly.
 
-Sharing it here in case it helps: https://kyleqarbour-dot.github.io/aipromptvault
+Sharing it here in case it helps: https://chiefgngs-prog.github.io/promptvault
 
 ---
 
 ## 💬 DISCORD / SLACK / FORUM SIGS
 
-- "207 proven AI prompts for business → https://kyleqarbour-dot.github.io/aipromptvault"
-- "Stop wasting time with bad prompts → https://kyleqarbour-dot.github.io/aipromptvault"  
-- "The AI prompt vault that saves 10+ hrs/week → https://kyleqarbour-dot.github.io/aipromptvault"
+- "207 proven AI prompts for business → https://chiefgngs-prog.github.io/promptvault"
+- "Stop wasting time with bad prompts → https://chiefgngs-prog.github.io/promptvault"  
+- "The AI prompt vault that saves 10+ hrs/week → https://chiefgngs-prog.github.io/promptvault"
 
 ---
 
 ## 📌 PINNED TWEET / BIO
 
 Helping entrepreneurs save 10+ hours/week with AI.
-207 proven ChatGPT prompts → https://kyleqarbour-dot.github.io/aipromptvault ⬇️
+207 proven ChatGPT prompts → https://chiefgngs-prog.github.io/promptvault ⬇️
 
 ---
 

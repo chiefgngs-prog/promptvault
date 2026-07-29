@@ -30,7 +30,7 @@
 
 **$19 one-time payment** (regular price $49)
 
-Visit: [AI Prompt Vault](https://kyleqarbour-dot.github.io/aipromptvault/)
+Visit: [AI Prompt Vault](https://chiefgngs-prog.github.io/promptvault/)
 
 ## Why These Prompts Are Different
 
