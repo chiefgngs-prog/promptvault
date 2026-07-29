@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Content Writing Service - Pay Per Article | PromptVault</title>
+<meta name="description" content="Professional SEO articles written for you. $15 per article. 24 hour delivery. Pay via PayPal.">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#0a0a12;--surface:#13131f;--primary:#6c5ce7;--accent:#00d4aa;--hot:#e94560;--text:#e0e0e8;--text-dim:#888;--border:#252538}
+body{font-family:system-ui,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+.wrap{max-width:600px;margin:0 auto;padding:40px 20px}
+.header{text-align:center;margin-bottom:32px}
+.header h1{font-size:32px;font-weight:800}
+.header h1 span{background:linear-gradient(135deg,var(--hot),var(--accent));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.header p{color:var(--text-dim);margin-top:4px}
+.order-box{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:32px;margin-bottom:16px}
+label{display:block;font-size:13px;color:var(--text-dim);margin-bottom:6px;margin-top:12px}
+label:first-child{margin-top:0}
+input,textarea,select{width:100%;padding:12px 16px;background:var(--bg);border:1px solid var(--border);border-radius:8px;color:var(--text);font-size:14px;font-family:inherit;outline:none}
+input:focus,textarea:focus,select:focus{border-color:var(--primary)}
+.product{display:flex;justify-content:space-between;align-items:center;padding:12px;background:var(--bg);border-radius:8px;margin-bottom:8px}
+.product-info h4{font-size:14px}
+.product-info p{font-size:12px;color:var(--text-dim)}
+.product-price{font-size:18px;font-weight:700;color:var(--accent)}
+.total{display:flex;justify-content:space-between;padding:16px 0;border-top:1px solid var(--border);margin-top:8px;font-size:20px;font-weight:700}
+.btn{display:block;width:100%;padding:16px;background:var(--hot);color:#fff;border:none;border-radius:8px;font-size:18px;font-weight:700;cursor:pointer;margin-top:16px}
+.btn:hover{opacity:0.9}
+.guarantee{text-align:center;font-size:13px;color:var(--text-dim);margin-top:16px}
+footer{text-align:center;padding:24px;color:#444;font-size:13px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="header">
+<h1>Content <span>Writing Service</span></h1>
+<p>Professional SEO articles. Written for you. $15 each.</p>
+</div>
+
+<div class="order-box">
+<label>What do you need written?</label>
+<select id="service">
+<option value="article" data-price="15">SEO Article (1500 words) - $15</option>
+<option value="blog" data-price="12">Blog Post (800 words) - $12</option>
+<option value="email" data-price="25">Email Sequence (5 emails) - $25</option>
+<option value="landing" data-price="40">Landing Page Copy - $40</option>
+<option value="product" data-price="3">Product Description - $3 each</option>
+<option value="ad" data-price="20">Ad Copy (5 variations) - $20</option>
+<option value="social" data-price="15">Social Media Posts (10) - $15</option>
+</select>
+
+<label>Topic / Subject</label>
+<input type="text" id="topic" placeholder="e.g., Benefits of organic coffee for energy">
+
+<label>Keywords (optional)</label>
+<input type="text" id="keywords" placeholder="e.g., organic coffee, natural energy, caffeine alternative">
+
+<label>Tone</label>
+<select id="tone">
+<option>Professional</option>
+<option>Casual</option>
+<option>Conversational</option>
+<option>Authoritative</option>
+<option>Friendly</option>
+</select>
+
+<label>Special instructions (optional)</label>
+<textarea id="instructions" rows="2" placeholder="Any specific requirements..."></textarea>
+
+<label>Quantity</label>
+<select id="quantity">
+<option value="1">1 piece</option>
+<option value="3">3 pieces (save 10%)</option>
+<option value="5">5 pieces (save 15%)</option>
+<option value="10">10 pieces (save 20%)</option>
+</select>
+
+<div style="margin-top:16px">
+<div class="product">
+<div class="product-info">
+<h4 id="serviceName">SEO Article (1500 words)</h4>
+<p>24-hour delivery | Unlimited revisions</p>
+</div>
+<div class="product-price" id="servicePrice">$15</div>
+</div>
+<div class="total">
+<span>Total</span>
+<span id="totalPrice">$15.00</span>
+</div>
+</div>
+
+<form id="paypalForm" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_xclick">
+<input type="hidden" name="business" value="battleeyefriendly@outlook.com">
+<input type="hidden" name="item_name" id="ppItemName" value="SEO Article - 1500 words">
+<input type="hidden" name="amount" id="ppAmount" value="15.00">
+<input type="hidden" name="currency_code" value="USD">
+<input type="hidden" name="no_note" value="1">
+<input type="hidden" name="no_shipping" value="1">
+<button type="submit" class="btn">Pay & Order Now</button>
+</form>
+
+<p class="guarantee">After payment, email your topic to battleeyefriendly@outlook.com<br>Delivery within 24 hours. 100% money-back guarantee.</p>
+</div>
+
+<div class="order-box">
+<h3 style="color:var(--accent);margin-bottom:12px">Why Choose Us?</h3>
+<div style="font-size:14px;color:var(--text-dim)">
+<p>- Articles written by professional AI-assisted workflow</p>
+<p>- SEO-optimized with your keywords</p>
+<p>- 100% original (passes plagiarism checks)</p>
+<p>- Meta descriptions included</p>
+<p>- Unlimited revisions until satisfied</p>
+<p>- Full commercial rights included</p>
+<p>- Delivered in 24 hours or less</p>
+</div>
+</div>
+
+</div>
+<footer><p>PromptVault Content Service</p></footer>
+<script>
+var prices={article:15,blog:12,email:25,landing:40,product:3,ad:20,social:15};
+var names={article:'SEO Article (1500 words)',blog:'Blog Post (800 words)',email:'Email Sequence (5 emails)',landing:'Landing Page Copy',product:'Product Description',ad:'Ad Copy (5 variations)',social:'Social Media Posts (10)'};
+
+function updatePrice(){
+var s=document.getElementById('service');
+var q=parseInt(document.getElementById('quantity').value);
+var base=prices[s.value];
+var qty=parseInt(s.options[s.selectedIndex].dataset?1:1);
+var discount=1;
+if(q==3)discount=0.9;
+if(q==5)discount=0.85;
+if(q==10)discount=0.8;
+var total=(base*q*discount);
+document.getElementById('serviceName').textContent=names[s.value];
+document.getElementById('servicePrice').textContent='$'+(base*discount).toFixed(0)+' each';
+document.getElementById('totalPrice').textContent='$'+total.toFixed(2);
+document.getElementById('ppItemName').value=names[s.value]+' x'+q;
+document.getElementById('ppAmount').value=total.toFixed(2);
+}
+
+document.getElementById('service').addEventListener('change',updatePrice);
+document.getElementById('quantity').addEventListener('change',updatePrice);
+updatePrice();
+</script>
+</body>
+</html>
