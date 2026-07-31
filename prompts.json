@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "total_prompts": 500,
+  "total_prompts": 503,
   "categories": {
     "business": {
       "name": "Business & Strategy",
@@ -109,6 +109,10 @@
         {
           "title": "Board Meeting Prep",
           "prompt": "Prepare materials for a board meeting for [COMPANY]. Create: CEO update summary, financial performance dashboard, key wins, challenges and mitigation plans, strategic decisions needing board input, and proposed resolutions. Keep it concise and data-driven."
+        },
+        {
+          "title": "Startup Launch Checklist",
+          "prompt": "Create a comprehensive pre-launch checklist for a [TYPE] startup launching in [TIMELINE]. Organize by category: Legal (incorporation, trademarks, contracts), Product (MVP readiness, testing, security), Marketing (website, social, content, PR), Operations (tools, processes, vendors), Finance (banking, accounting, pricing), and Team (roles, hiring, onboarding). Include who's responsible for each item and deadline."
         }
       ]
     },
@@ -219,6 +223,10 @@
         {
           "title": "Local SEO Strategy",
           "prompt": "Create a local SEO strategy for [BUSINESS TYPE] in [CITY]. Include: Google Business Profile optimization, local keyword targets, review acquisition strategy, local citation building, location page optimization, and community engagement tactics."
+        },
+        {
+          "title": "Brand Voice Guidelines",
+          "prompt": "Create comprehensive brand voice guidelines for [BRAND NAME] in [INDUSTRY]. Define: brand personality (3-5 traits with descriptions), voice spectrum (formal↔casual, serious↔playful, respectful↔irreverent), vocabulary (words we use vs words we avoid), writing principles (5 rules), sample do's and don'ts with before/after examples, tone by context (social, email, error messages, legal), and how to handle sensitive topics."
         }
       ]
     },
@@ -305,6 +313,26 @@
         {
           "title": "Story Brand Script",
           "prompt": "Using the StoryBrand framework, write brand messaging for [BUSINESS]. Include: character (customer), problem (external/internal/philosophical), guide (brand), plan (3 steps), success/failure stakes, and a one-liner. Provide copy for website hero section."
+        },
+        {
+          "title": "Content Repurposing Machine",
+          "prompt": "I created this [ORIGINAL CONTENT - e.g., YouTube video/podcast/blog post]: [DESCRIBE OR PASTE]. Create a repurposing plan: 5 Twitter/X posts, 3 LinkedIn posts, 1 Instagram carousel, 2 short-form video scripts, 1 email newsletter section, 1 blog post outline, and 3 story angles for different audiences. For each: the specific extract, platform adaptation, and hook."
+        },
+        {
+          "title": "Editorial Calendar Builder",
+          "prompt": "Create a 3-month editorial calendar for [BRAND/CONTENT FOCUS]. Platforms: [LIST]. Publishing frequency: [DESCRIBE]. Content pillars: [LIST 3-5]. For each week: content themes, specific post topics per pillar, platform assignments, content format (video/carousel/text), keyword targets, and assigned writer/creator. Include key dates/holidays to align with."
+        },
+        {
+          "title": "Content Audit Framework",
+          "prompt": "Create a content audit framework for [WEBSITE/BLOG] with [NUMBER] existing pieces. Process: inventory all content, categorize by topic/format/date, evaluate performance metrics (traffic, engagement, conversions), quality assessment (accuracy, relevance, readability), action decision (keep/update/merge/delete), and prioritized update list. Include a scoring rubric and audit template."
+        },
+        {
+          "title": "YouTube Script Structure Optimizer",
+          "prompt": "Optimize this YouTube video script for retention: [PASTE OR DESCRIBE]. Apply retention principles: 0-15s hook (pattern interrupt + promise), 15-60s setup (context + stakes), body (pattern of open loops and payoffs), mid-video re-engagement, pattern interrupts every 60-90s, CTA placement (not too early), and strong ending. Rewrite the script with retention timestamps."
+        },
+        {
+          "title": "Podcast Show Notes Optimizer",
+          "prompt": "Create optimized show notes for this podcast episode: [PASTE EPISODE DESCRIPTION]. Include: SEO-optimized title, 3-sentence summary, bullet-point key takeaways (5-7), timestamped segments, guest bio with links, resources/tools mentioned, call-to-action (subscribe/review/follow), transcription excerpt, and social media quote graphics suggestions."
         }
       ]
     },
@@ -391,6 +419,14 @@
         {
           "title": "Mega-Pitch Builder",
           "prompt": "Create a complete pitch for [PRODUCT/SERVICE] to [TARGET CLIENT]. Include: elevator pitch (30 seconds), one-liner, problem statement, solution overview, key benefits (3), differentiation, pricing options, social proof, risk reversal, and next steps."
+        },
+        {
+          "title": "Brand Story Framework",
+          "prompt": "Write a brand story for [COMPANY] using the StoryBrand framework. Cast [COMPANY] as the guide, not the hero. The hero is the customer. Structure: 1) A character (customer with a problem), 2) Has a problem (external, internal, philosophical), 3) Meets a guide ([COMPANY] with empathy and authority), 4) Who gives them a plan, 5) And calls them to action, 6) That helps them avoid failure, 7) And ends in success. 500 words."
+        },
+        {
+          "title": "Microcopy & UX Writing",
+          "prompt": "Create UX microcopy for a [APP TYPE] application. Write copy for: onboarding screens (5 steps), empty states (no data, no results, error), loading messages, success messages, error messages (helpful, not blaming), button labels, tooltips, confirmation dialogs, and notification messages. Each piece: concise, human, on-brand, and action-oriented. Provide alternatives where appropriate."
         }
       ]
     },
@@ -477,6 +513,14 @@
         {
           "title": "Microservices Decomposition",
           "prompt": "Break down this monolithic application into microservices: [DESCRIBE APPLICATION]. Identify: service boundaries, shared data concerns, API contracts between services, data consistency strategy (saga/2PC), service discovery, and deployment approach for each service."
+        },
+        {
+          "title": "Code Review Checklist",
+          "prompt": "Create a comprehensive code review checklist for [LANGUAGE/FRAMEWORK] projects. Categories: Functionality (does it do what's intended), Design (SOLID principles, patterns, separation of concerns), Readability (naming, comments, complexity), Testing (unit tests, edge cases, mocks), Performance (algorithmic complexity, database queries, caching), Security (input validation, auth, injection prevention), and Documentation. Make it actionable, not vague."
+        },
+        {
+          "title": "API Design Best Practices Guide",
+          "prompt": "Create an API design guide for a [TYPE] REST/GraphQL API. Cover: resource naming conventions, HTTP methods and status codes, versioning strategy, pagination, filtering/sorting, error response format, authentication/authorization, rate limiting, idempotency, webhooks, documentation standards (OpenAPI), SDK generation, and deprecation policy. Include examples for each."
         }
       ]
     },
@@ -563,6 +607,14 @@
         {
           "title": "Second Brain Setup",
           "prompt": "Design a 'Second Brain' personal knowledge management system using [TOOL: Notion/Obsidian/Evernote]. Include: folder structure, tagging system, capture workflow, review cadence, note templates, and integration with existing tools."
+        },
+        {
+          "title": "Deep Work Environment Designer",
+          "prompt": "Help me design an environment and system for deep, focused work. My role: [DESCRIBE]. My space: [DESCRIBE]. Address: physical environment optimization (noise, light, clutter, ergonomics), digital environment (notifications, app organization, website blockers), time architecture (deep work blocks, shallow work batching), accountability system, energy management, and transition rituals between work modes."
+        },
+        {
+          "title": "Digital File Organization System",
+          "prompt": "Design a file organization system for [YOUR NEEDS - personal, freelance, small business]. Current chaos: [DESCRIBE]. Create: folder hierarchy (max 3 levels deep), naming conventions (dates, versions, projects), cloud sync strategy, backup plan, archival system, and a one-time cleanup process. Include rules for: where new files go, how to name them, and when to archive/delete."
         }
       ]
     },
@@ -629,6 +681,26 @@
         {
           "title": "Cross-Sell & Upsell Engine",
           "prompt": "Design a cross-sell and upsell system for [STORE/PRODUCTS]. Include: product pairing logic, cart page recommendations, product page add-ons, post-purchase offers, email recommendations, and expected revenue impact per touchpoint."
+        },
+        {
+          "title": "Product Description A/B Test Plan",
+          "prompt": "Design an A/B test for two product description versions for [PRODUCT]. Version A: [FEATURES-FOCUSED]. Version B: [BENEFITS-FOCUSED]. Define: test hypothesis, success metric (conversion rate, add-to-cart, revenue per visitor), sample size, test duration, segmentation plan, and what to do with results for each outcome."
+        },
+        {
+          "title": "Abandoned Cart Recovery Sequence",
+          "prompt": "Create a 3-email abandoned cart recovery sequence for [STORE TYPE]. Email 1 (1 hour): gentle reminder with product image. Email 2 (24 hours): social proof and urgency. Email 3 (48 hours): incentive or last chance. For each: subject line, preview text, body copy, CTA, and send conditions. Include personalization tokens and mobile optimization notes."
+        },
+        {
+          "title": "Product Bundle Pricing Strategy",
+          "prompt": "Create a product bundling strategy for [PRODUCT LINE]. Analyze: complementary products, price anchoring, bundle discount psychology (15-25% sweet spot), tiered bundles (good/better/best), and margin protection. Design 3 bundle offers with specific pricing, profit margins, and merchandising recommendations for each."
+        },
+        {
+          "title": "E-commerce Seasonal Planning Calendar",
+          "prompt": "Create a 12-month seasonal planning calendar for [PRODUCT CATEGORY/NICHE]. For each major holiday/season: recommended products to feature, promotion type, email campaign themes, landing page concepts, inventory planning timeline (8 weeks ahead), and ad creative direction. Include key dates: Black Friday, Cyber Monday, Prime Day, back-to-school, etc."
+        },
+        {
+          "title": "Customer Lifetime Value Optimizer",
+          "prompt": "Help me maximize CLV for my [STORE TYPE] e-commerce business. Current AOV: [AMOUNT], purchase frequency: [TIMES/YEAR], average customer lifespan: [YEARS]. Calculate current CLV. Then recommend: AOV optimization strategies, frequency boosters (subscriptions, replenishment reminders), retention tactics, loyalty program design, and referral mechanics. Target: increase CLV by 30%."
         }
       ]
     },
@@ -695,6 +767,26 @@
         {
           "title": "Social Listening Strategy",
           "prompt": "Design a social listening strategy for [BRAND]. Include: keywords/mentions to track, tools recommendation, monitoring schedule, sentiment analysis approach, competitor tracking, response protocol, insight reporting template, and action triggers."
+        },
+        {
+          "title": "Social Media Crisis Response Plan",
+          "prompt": "Create a social media crisis response plan for [BRAND TYPE]. Define: what constitutes a crisis (vs. routine complaint), severity levels, response team roles, approval workflow, response time targets by severity, holding statement templates, escalation criteria, post-crisis review process, and do's/don'ts for the team. Include 3 scenario playbooks."
+        },
+        {
+          "title": "User-Generated Content Campaign",
+          "prompt": "Design a UGC campaign for [BRAND] on [PLATFORM]. Campaign concept: [THEME]. Include: submission mechanics, incentive structure, content guidelines, hashtag strategy, permission/rights to use, curation process, reposting schedule, integration into paid ads, and success metrics. Make it easy for customers to participate and feel valued."
+        },
+        {
+          "title": "Influencer Campaign Brief Template",
+          "prompt": "Create an influencer campaign brief for [PRODUCT/SERVICE]. Include: brand overview, product key features and USPs, campaign objectives, target audience, content requirements (format, key messages, do's and don'ts), posting timeline, hashtag/tag requirements, disclosure requirements, compensation structure, deliverables checklist, and performance metrics."
+        },
+        {
+          "title": "Social Media Competitive Analysis",
+          "prompt": "Analyze [YOUR BRAND] vs [3 COMPETITORS] on social media. For each competitor: follower count and growth rate, posting frequency, top performing content types, engagement rate, response time to comments, unique strategies, and gaps I can exploit. Create a comparison table and 5 actionable recommendations to differentiate my brand."
+        },
+        {
+          "title": "Platform-Specific Content Adapter",
+          "prompt": "I have this core content: [PASTE]. Adapt it for: Instagram (carousel with hook slide + 8 content slides + CTA), TikTok (15-30 second video script with trending format), LinkedIn (professional angle, 1000 chars), Twitter (thread of 7 tweets), YouTube Shorts (script). For each: platform-native formatting, optimized hook, and engagement tactics specific to that platform's algorithm."
         }
       ]
     },
@@ -761,6 +853,26 @@
         {
           "title": "SEO Audit Presentation",
           "prompt": "Create an SEO audit presentation outline for [WEBSITE]. Include: methodology, findings by category (technical, on-page, content, links), prioritized recommendations (quick wins vs long-term), expected impact, implementation timeline, and resource needs."
+        },
+        {
+          "title": "Core Web Vitals Auditor",
+          "prompt": "Create a Core Web Vitals improvement plan for [WEBSITE TYPE]. Current scores: LCP [X]s, FID [X]ms, CLS [X]. Diagnose likely causes and provide specific fixes for each metric: LCP (image optimization, server response, render-blocking resources), FID (JavaScript execution, task splitting), CLS (image dimensions, ads, fonts). Prioritize by impact/effort and include before/after targets."
+        },
+        {
+          "title": "Content Gap Analysis",
+          "prompt": "Perform a content gap analysis between [MY SITE] and [TOP 3 COMPETITORS]. Process: identify keywords they rank for that I don't, categorize gaps by topic cluster and search intent, prioritize by volume/difficulty/relevance, and create a 3-month content production plan. Include: how to find their top pages, tools to use, and a gap opportunity scoring framework."
+        },
+        {
+          "title": "Backlink Outreach Campaign",
+          "prompt": "Design a backlink outreach campaign for [CONTENT/RESOURCE]. Target: [INDUSTRY/NICHE] sites. Create: prospect list criteria, qualification checklist, personalized outreach email templates (3 versions: compliment, value-add, collaboration), follow-up sequence, tracking system, and conversion metrics. Include relationship-building strategy beyond the initial ask."
+        },
+        {
+          "title": "Local SEO Dominance Plan",
+          "prompt": "Create a local SEO plan for [BUSINESS TYPE] in [CITY]. Include: Google Business Profile optimization checklist, local keyword targeting strategy, review acquisition system (template + timing), local citation building list, community engagement tactics, local landing page structure, and local link-building ideas. Target: rank in Google Maps top 3 for primary keywords."
+        },
+        {
+          "title": "Schema Markup Blueprint",
+          "prompt": "Create a schema markup plan for [WEBSITE TYPE]. Identify which schema types apply: Organization, LocalBusiness, Product, Review, FAQ, HowTo, Article, BreadcrumbList, SiteNavigationElement. For each: provide the JSON-LD template with placeholders, explain what it does for rich results, and identify the pages where it should be implemented."
         }
       ]
     },
@@ -827,6 +939,26 @@
         {
           "title": "Email Automation Flowchart",
           "prompt": "Design a complete email automation architecture for [BUSINESS TYPE]. Map out: entry points (signup, purchase, behavior), branching logic, delay/timing, conditional content, exit criteria, and goal tracking. Create as a text-based flowchart."
+        },
+        {
+          "title": "Email Deliverability Audit",
+          "prompt": "Audit my email deliverability for [DOMAIN/SENDER]. Check likely issues with: SPF, DKIM, DMARC records, sender reputation, spam trigger words, image-to-text ratio, list hygiene, bounce rate, complaint rate, engagement metrics. Create a fix-it checklist prioritized by impact and a 30-day deliverability improvement plan."
+        },
+        {
+          "title": "Re-engagement Campaign Designer",
+          "prompt": "Design a re-engagement email campaign for [NUMBER] inactive subscribers (no open in 90 days). Sequence: Email 1 'We miss you' + incentive, Email 2 'Last chance' + different angle, Email 3 'Are we breaking up?' + sunset. For each: subject line, copy, CTA, and send conditions. Include: segmentation logic, what to do with non-responders, and list hygiene protocol."
+        },
+        {
+          "title": "Email Automation Flow Architect",
+          "prompt": "Design a complete email automation architecture for [BUSINESS TYPE]. Map all flows: Welcome (5 emails), Browse Abandonment, Cart Abandonment (3 emails), Post-Purchase (reviews + cross-sell), Winback, Replenishment, Birthday, Educational drip. For each flow: trigger, delay logic, branch conditions, and goal. Create a visual flow description."
+        },
+        {
+          "title": "Newsletter Growth Strategy",
+          "prompt": "Create a newsletter growth strategy for [NEWSLETTER TOPIC]. Current: [NUMBER] subscribers. Goal: [NUMBER] in 6 months. Tactics: lead magnet ideas, opt-in placement optimization, referral program design, cross-promotion strategy, paid acquisition (if budget), content strategy for forward-ability, and retention practices. Include weekly/monthly metrics to track."
+        },
+        {
+          "title": "Black Friday Email Strategy",
+          "prompt": "Create a Black Friday/Cyber Monday email strategy for [STORE TYPE]. Timeline: 2 weeks pre-BF to Cyber Monday. Include: teaser sequence (3 emails), early access email, BF launch, urgency mid-day, Cyber Monday, and last chance. For each: send time, subject line, offer, segmentation, and preview text. Include A/B test plan and revenue projections."
         }
       ]
     },
@@ -893,6 +1025,1136 @@
         {
           "title": "Sales Onboarding Plan",
           "prompt": "Create a 30-60-90 day sales onboarding plan for new reps at [COMPANY]. Include: product training schedule, shadowing plan, call/video review process, first deals timeline, quota ramp, mentorship structure, and success milestones."
+        },
+        {
+          "title": "Sales Discovery Call Framework",
+          "prompt": "Create a discovery call framework for [PRODUCT/SERVICE] sales. Duration: [MINUTES]. Structure: rapport building (3 min), agenda setting (2 min), current situation questions (10 min), pain point exploration (10 min), budget/authority/timeline (5 min), solution preview (5 min), next steps (5 min). For each section: sample questions, active listening tips, and red/yellow/green flags."
+        },
+        {
+          "title": "Sales Objection Handler",
+          "prompt": "Create an objection handling playbook for [PRODUCT/SERVICE]. Top 10 objections: 'too expensive,' 'need to think,' 'talk to partner,' 'happy with current solution,' 'no budget,' 'too busy,' 'send me info,' 'not the right time,' 'doesn't have X feature,' 'need board approval.' For each: acknowledge/reframe technique, probing questions, evidence to share, and redirect to next step."
+        },
+        {
+          "title": "Sales Pipeline Optimizer",
+          "prompt": "Analyze my sales pipeline: [DESCRIBE STAGES AND CONVERSION RATES]. Identify: which stage has the biggest drop-off, average deal velocity per stage, stage leakage reasons, ideal stage progression criteria (exit conditions), and bottleneck diagnosis. Recommend: stage definition improvements, activities per stage, and coaching priorities to improve overall win rate."
+        },
+        {
+          "title": "Enterprise Sales Playbook",
+          "prompt": "Create an enterprise sales playbook for [PRODUCT] targeting [BUYER PERSONA] at [COMPANY SIZE]. Include: account qualification criteria, stakeholder mapping template, multi-threading strategy, champion development plan, business case builder template, mutual action plan format, procurement/legal navigation tips, and closing techniques for large deals."
+        },
+        {
+          "title": "Sales Email Sequence Writer",
+          "prompt": "Write a cold email sequence for [PRODUCT/SERVICE] targeting [ICP]. 6 emails over 14 days. Email 1: pattern interrupt + value. Email 2: social proof case study. Email 3: quick insight/resource. Email 4: different angle/pain point. Email 5: soft breakup. For each: subject line, body (under 100 words), CTA, send timing, and personalization tokens."
+        }
+      ]
+    },
+    "education": {
+      "name": "Education & Learning",
+      "icon": "🎓",
+      "prompts": [
+        {
+          "title": "Lesson Plan Generator",
+          "prompt": "Act as an experienced teacher. Create a detailed 60-minute lesson plan for [GRADE LEVEL] students on [TOPIC]. Include: learning objectives, materials needed, introduction/hook (5 min), main activity (30 min), group work (15 min), assessment/exit ticket (10 min), and homework assignment. Differentiate for visual, auditory, and kinesthetic learners."
+        },
+        {
+          "title": "Study Guide Creator",
+          "prompt": "Create a comprehensive study guide for [SUBJECT/TOPIC] exam. Organize by: key concepts with definitions, important formulas or dates, practice questions (mix of multiple choice and short answer), common mistakes to avoid, memory tricks/mnemonics, and a 7-day study schedule leading up to the exam."
+        },
+        {
+          "title": "Complex Topic Explainer",
+          "prompt": "Explain [COMPLEX TOPIC] as if you were teaching it to a [GRADE/LEVEL] student. Use the Feynman Technique: break it down into simple language, use real-world analogies, create a step-by-step explanation, identify common points of confusion, and provide 3 self-check questions to verify understanding."
+        },
+        {
+          "title": "Essay Outline Builder",
+          "prompt": "Create a detailed essay outline for a [TYPE] essay on [TOPIC]. Include: thesis statement, introduction hook and context, 3-5 body paragraphs each with a topic sentence, 2-3 pieces of evidence, and analysis, counterargument section, and conclusion. Format in academic style appropriate for [HIGH SCHOOL/COLLEGE/GRAD] level."
+        },
+        {
+          "title": "Quiz Question Generator",
+          "prompt": "Generate 20 quiz questions about [TOPIC] at [DIFFICULTY] level. Include: 5 multiple choice, 5 true/false, 5 fill-in-the-blank, 3 short answer, and 2 essay questions. Provide the correct answer and a brief explanation for each. Make questions test different cognitive levels (recall, understanding, application, analysis)."
+        },
+        {
+          "title": "Research Paper Structure",
+          "prompt": "Help me structure a research paper on [TOPIC] for [COURSE/LEVEL]. Provide: a working thesis, detailed section breakdown (abstract, introduction, literature review, methodology, findings, discussion, conclusion), suggested word count per section, key sources to investigate, and transition sentences between major sections."
+        },
+        {
+          "title": "Flashcard Set Creator",
+          "prompt": "Create a set of 30 flashcards for studying [TOPIC]. Each flashcard should have: front (term/concept/question), back (definition/explanation/example). Organize by difficulty: 10 basic recall, 10 intermediate understanding, 10 advanced application. Include a study schedule for spaced repetition."
+        },
+        {
+          "title": "Presentation Builder",
+          "prompt": "Create a [LENGTH]-slide presentation outline on [TOPIC] for [AUDIENCE]. For each slide include: slide title, bullet points (max 5), speaker notes, suggested visual/image, and transition to next slide. Start with a compelling hook and end with a memorable call-to-action or takeaway."
+        },
+        {
+          "title": "Concept Map Generator",
+          "prompt": "Create a text-based concept map for [TOPIC]. Start with the central concept, then branch out to 5 major sub-concepts. For each sub-concept, provide 3-4 related details or examples. Show relationships between concepts using arrows and connection words (leads to, depends on, is part of, contrasts with)."
+        },
+        {
+          "title": "Homework Helper Framework",
+          "prompt": "Act as a patient tutor. Help me understand this homework problem: [PASTE PROBLEM]. Don't just give the answer. Walk me through: 1) What concept this is testing, 2) What information is given, 3) What approach to take, 4) Step-by-step solution with explanations, 5) How to verify the answer is correct."
+        },
+        {
+          "title": "Language Learning Plan",
+          "prompt": "Create a 90-day language learning plan for [LANGUAGE] starting from [BEGINNER/INTERMEDIATE] level. Break down by week: vocabulary targets, grammar concepts, daily practice schedule (30 min), recommended free resources, weekly milestones, and assessment methods. Include cultural immersion tips."
+        },
+        {
+          "title": "Debate Argument Preparer",
+          "prompt": "Prepare arguments for a debate on [TOPIC] taking the [PRO/CON] position. Provide: opening statement (2 paragraphs), 5 main arguments each with evidence and reasoning, anticipated counterarguments with rebuttals, powerful quotes or statistics, and a closing statement. Keep arguments logical and persuasive."
+        },
+        {
+          "title": "Book Summary Generator",
+          "prompt": "Create a comprehensive summary of [BOOK TITLE] by [AUTHOR]. Include: 3-sentence overview, chapter-by-chapter key takeaways, the author's main thesis, 5 most important quotes with context, practical lessons to apply, who should read this book, and 3 related books for further reading."
+        },
+        {
+          "title": "Exam Anxiety Coach",
+          "prompt": "Act as a student wellness coach. Help me manage exam anxiety for my upcoming [SUBJECT] exam. Provide: 5 pre-exam relaxation techniques, a positive visualization exercise, study strategies that reduce stress, day-of-exam routine, in-the-moment calming techniques if I panic during the test, and reframing strategies for negative self-talk."
+        },
+        {
+          "title": "Science Fair Project Planner",
+          "prompt": "Design a winning science fair project for a [GRADE] student interested in [FIELD]. Include: project title, testable question, hypothesis, materials list (household items), step-by-step procedure, variables (independent, dependent, control), data collection method, display board layout, and tips for judge interviews."
+        },
+        {
+          "title": "Math Problem Solver Guide",
+          "prompt": "Act as a math tutor. Solve this step by step and explain each step: [PASTE MATH PROBLEM]. For each step explain: what you're doing, why you're doing it, and the mathematical rule being applied. Then provide 2 similar practice problems with answers to reinforce the concept."
+        },
+        {
+          "title": "Historical Timeline Builder",
+          "prompt": "Create a detailed timeline of [HISTORICAL EVENT/ERA]. Include 15-20 key events in chronological order, each with: date, event description, cause, effect, historical significance, and key figures involved. Group events into phases and explain how each phase led to the next."
+        },
+        {
+          "title": "Reading Comprehension Guide",
+          "prompt": "Create a reading comprehension guide for [BOOK/ARTICLE TITLE]. Include: pre-reading questions to activate prior knowledge, vocabulary to preview, chapter-by-chapter discussion questions (literal, inferential, and evaluative), literary devices to identify, themes to track, and a post-reading reflection activity."
+        },
+        {
+          "title": "College Application Essay Coach",
+          "prompt": "Act as a college admissions counselor. Help me brainstorm and structure a college application essay responding to this prompt: [PASTE PROMPT]. Suggest 3 unique angles I could take, outline the strongest one, identify what admissions officers look for, and give me a paragraph-by-paragraph structure with word count targets."
+        },
+        {
+          "title": "Group Project Organizer",
+          "prompt": "Create a project management plan for a group school project on [TOPIC] with [NUMBER] team members over [TIMELINE]. Include: task breakdown with assignments, deadlines for each milestone, meeting schedule, communication plan, quality standards, conflict resolution process, and peer evaluation rubric."
+        },
+        {
+          "title": "Learning Style Optimizer",
+          "prompt": "I learn best through [VISUAL/AUDITORY/KINESTHETIC/READING] methods. Create a personalized study system for [SUBJECT] that leverages my learning style. Include: note-taking method, study environment setup, active learning techniques, memory strategies, review schedule, and 3 tools or apps that support my style."
+        },
+        {
+          "title": "Test-Taking Strategy Guide",
+          "prompt": "Create a test-taking strategy guide for [EXAM TYPE - multiple choice/essay/standardized]. Include: pre-test preparation checklist, time allocation strategy, question-answering order, process of elimination techniques, educated guessing strategy, essay structure template, common traps to avoid, and post-test review method."
+        },
+        {
+          "title": "Coding Bootcamp Study Plan",
+          "prompt": "Create a 12-week coding study plan to learn [PROGRAMMING LANGUAGE/FRAMEWORK] from scratch. Break down by week: concepts to learn, free resources (documentation, YouTube, interactive), daily coding exercises, weekend project, skills checklist, and portfolio project milestones. Include links to free practice platforms."
+        },
+        {
+          "title": "Critical Thinking Exercise Builder",
+          "prompt": "Design 10 critical thinking exercises based on [TOPIC]. Each exercise should require: analyzing information, questioning assumptions, evaluating evidence, identifying biases, synthesizing multiple viewpoints, and drawing reasoned conclusions. Vary the format: scenarios, data analysis, ethical dilemmas, and logic puzzles."
+        },
+        {
+          "title": "Dissertation Chapter Writer",
+          "prompt": "Help me write the [CHAPTER NAME - e.g., Literature Review] chapter of my dissertation on [TOPIC]. Provide: chapter structure and flow, subsection headings, what to include in each subsection, transition sentences, how to synthesize sources rather than just listing them, word count per subsection, and common pitfalls to avoid."
+        },
+        {
+          "title": "Rubric Designer",
+          "prompt": "Create a detailed grading rubric for a [ASSIGNMENT TYPE] in [SUBJECT]. Define 5 criteria (e.g., content, organization, creativity, mechanics, citation). For each criterion, describe what Exemplary (4), Proficient (3), Developing (2), and Beginning (1) looks like. Include point values and overall grade calculation."
+        },
+        {
+          "title": "Differentiated Instruction Planner",
+          "prompt": "Create a differentiated instruction plan for a lesson on [TOPIC] for a class with diverse learners. Differentiate by: readiness (3 tiers of difficulty), interest (choice boards with 4 options), and learning profile (visual, auditory, kinesthetic activities). For each differentiation: describe the activity, materials needed, how you'll assess, and grouping strategy. Include management tips for running stations."
+        }
+      ]
+    },
+    "personal_development": {
+      "name": "Personal Development",
+      "icon": "🌱",
+      "prompts": [
+        {
+          "title": "Life Audit Framework",
+          "prompt": "Guide me through a comprehensive life audit. Assess 8 areas: Career, Finances, Health, Relationships, Personal Growth, Recreation, Spirituality, and Environment. For each area, provide: self-assessment questions, a 1-10 rating scale, what success looks like, and one action to improve. End with a prioritized action plan."
+        },
+        {
+          "title": "Habit Stack Designer",
+          "prompt": "Help me build a habit stacking routine. My current morning habit is [EXISTING HABIT]. I want to add [NEW HABITS]. Create a chained routine where each new habit piggybacks on an existing one. Include: trigger, action, reward for each habit, a tracking system, escalation plan, and troubleshooting for common failure points."
+        },
+        {
+          "title": "Goal Setting Framework",
+          "prompt": "Help me set SMART goals for [LIFE AREA]. Take my big goal: [DESCRIBE GOAL]. Break it into: Specific (exactly what), Measurable (how to track), Achievable (realistic timeline), Relevant (why it matters), Time-bound (deadline). Then create monthly milestones, weekly actions, and daily habits. Identify obstacles and mitigation strategies."
+        },
+        {
+          "title": "Morning Routine Optimizer",
+          "prompt": "Design an energizing morning routine for someone who [CURRENT SITUATION - e.g., works 9-5, has kids, is a student]. Allocate time blocks for: hydration, movement, mindfulness, learning, nutrition, and planning. Total time: [X] minutes. Include alternatives for rushed days and tips for consistency. Explain the science behind each element."
+        },
+        {
+          "title": "Imposter Syndrome CBT Exercise",
+          "prompt": "Act as a cognitive behavioral therapist. I'm experiencing imposter syndrome about [SITUATION]. Help me: 1) Identify the automatic negative thoughts, 2) Examine evidence for and against these thoughts, 3) Identify cognitive distortions, 4) Reframe into balanced thoughts, 5) Create a behavioral experiment to test the reframed belief."
+        },
+        {
+          "title": "Time Blocking Schedule",
+          "prompt": "Create a time-blocked daily schedule for [YOUR ROLE/SITUATION]. Block time for: deep work, shallow work, meetings, breaks, meals, exercise, learning, and personal time. Include buffer blocks, a shutdown ritual, and flexibility rules. Account for energy levels throughout the day (chronotype: [MORNING/EVENING BIRD])."
+        },
+        {
+          "title": "Personal Values Clarifier",
+          "prompt": "Help me identify my core personal values. Present 50 common values in categories (achievement, relationships, character, contribution, growth). Ask me to narrow to top 10, then top 5. For each top value, provide: definition, what it looks like in practice, how to align daily decisions with it, and signs I'm violating it."
+        },
+        {
+          "title": "Decision Matrix Builder",
+          "prompt": "I need to make a difficult decision: [DESCRIBE DECISION]. Help me build a decision matrix. Identify: the options, 5-7 evaluation criteria, weights for each criterion (1-5 importance), and a 1-10 score for each option per criterion. Calculate weighted scores. Then do a gut-check: does the 'winner' feel right? If not, explore why."
+        },
+        {
+          "title": "Confidence Building Plan",
+          "prompt": "Create a 30-day confidence building plan targeting [SPECIFIC AREA - e.g., public speaking, social situations, professional presence]. For each week: daily micro-challenges that slightly stretch comfort zone, affirmations grounded in evidence, body language tips, journaling prompts, and reflection questions. Include relapse recovery strategies."
+        },
+        {
+          "title": "Burnout Recovery Protocol",
+          "prompt": "Act as a wellness coach. I'm experiencing burnout symptoms: [DESCRIBE]. Create a recovery protocol: immediate relief strategies (first 48 hours), short-term changes (first 2 weeks), sustainable adjustments (ongoing), boundary-setting scripts, energy management techniques, and red flags indicating need for professional help."
+        },
+        {
+          "title": "Journaling System Designer",
+          "prompt": "Design a personalized journaling practice for [GOAL - e.g., self-discovery, gratitude, productivity, emotional processing]. Provide: 3 journaling methods to try (with instructions), 30 powerful prompts, recommended frequency and duration, structure for each entry, privacy considerations, and a 21-day progression plan to build the habit."
+        },
+        {
+          "title": "Difficult Conversation Scripter",
+          "prompt": "I need to have a difficult conversation with [PERSON] about [TOPIC]. Help me prepare using the Nonviolent Communication framework: 1) Observations (facts without judgment), 2) Feelings, 3) Needs, 4) Request. Provide a script, anticipate their likely responses, suggest coping strategies for emotional reactions, and define what success looks like."
+        },
+        {
+          "title": "Personal Brand Builder",
+          "prompt": "Help me define my personal brand. Through a series of questions, help me identify: my unique value proposition, target audience, core message, brand personality (3-5 adjectives), visual identity direction, content pillars (3-5 topics), platforms to focus on, and a 90-day visibility plan. Make it authentic, not performative."
+        },
+        {
+          "title": "Shadow Work Guide",
+          "prompt": "Guide me through a shadow work exercise to explore [PATTERN/TRAIT I STRUGGLE WITH]. Help me: identify when this pattern shows up, explore its origin, understand what it's protecting me from, find the gift hidden in it, integrate it consciously, and create an action plan for when it arises. Be gentle and non-judgmental."
+        },
+        {
+          "title": "Energy Management Audit",
+          "prompt": "Audit my energy throughout a typical day/week. Help me identify: activities that energize me, activities that drain me, energy peaks and valleys, energy vampires in my environment, and recovery practices. Create an energy-optimized weekly schedule that front-loads demanding work during peaks and protects recovery time."
+        },
+        {
+          "title": "Boundary Setting Framework",
+          "prompt": "I struggle with boundaries in [AREA - work, family, relationships]. Help me: identify which boundaries I need, create scripts for communicating them (firm but kind), handle pushback, deal with guilt, create visual reminders, establish consequences for violations, and track how boundaries improve my wellbeing over 30 days."
+        },
+        {
+          "title": " quarterly Review System",
+          "prompt": "Guide me through a quarterly personal review. Reflect on the last 90 days across: achievements (celebrate wins), disappointments (extract lessons), relationships (who matters most), health (physical and mental), finances (income, savings, debt), growth (skills learned), and set 3 priorities for next quarter. End with a one-page summary."
+        },
+        {
+          "title": "Procrastination Root Cause Analyzer",
+          "prompt": "Act as a behavioral psychologist. I procrastinate on [TASK/AREA]. Help me identify the root cause through questions: Is it fear of failure? Perfectionism? Overwhelm? Lack of clarity? Rebellion? Help me understand the specific trigger, then provide 5 targeted strategies based on the root cause, and a 7-day behavior modification experiment."
+        },
+        {
+          "title": "Mentor Outreach Template",
+          "prompt": "Help me reach out to a potential mentor, [NAME/TYPE OF PERSON], who I admire for [REASON]. Write 3 versions of an outreach message (formal, casual, value-first). Each should be: concise, personalized, clear about what I'm asking for, respectful of their time, and easy to say yes to. Include follow-up message templates."
+        },
+        {
+          "title": "Life Vision Statement Generator",
+          "prompt": "Guide me through creating a personal vision statement. Ask about: what I want to be known for, problems I want to solve, people I want to impact, experiences I want to have, and legacy. Synthesize my answers into: a one-sentence vision, a paragraph-length vision, a 5-year vision description, and guiding principles."
+        },
+        {
+          "title": "Loneliness Action Plan",
+          "prompt": "I'm feeling lonely and want to build meaningful connections. Act as a supportive coach. Help me: understand the type of connection I'm missing (intimate, social, collective), identify barriers (social anxiety, routine, location), create a weekly social action plan (low-pressure activities), practice conversation skills, leverage existing relationships, join communities aligned with my interests, and track progress without pressure."
+        },
+        {
+          "title": "Anger Management Toolkit",
+          "prompt": "Create an anger management toolkit. Techniques: immediate de-escalation (STOP technique, 4-7-8 breathing, physical grounding), cognitive reframing (identifying triggers, challenging angry thoughts), communication scripts for expressing anger constructively, physical outlets, journaling framework for processing anger, professional help indicators, and a daily practice for building emotional regulation over time."
+        }
+      ]
+    },
+    "career": {
+      "name": "Career & Job Search",
+      "icon": "🚀",
+      "prompts": [
+        {
+          "title": "Resume Optimization Engine",
+          "prompt": "Act as an expert resume writer. Optimize my resume for a [JOB TITLE] position at [COMPANY TYPE]. My current resume: [PASTE]. Improve: action verbs, quantified achievements (add metrics where possible), keyword optimization for ATS systems, bullet point structure (accomplishment + method + result), and visual scannability. Explain every change you make."
+        },
+        {
+          "title": "Cover Letter Customizer",
+          "prompt": "Write a compelling cover letter for [JOB TITLE] at [COMPANY]. Use this job description: [PASTE]. Make it: 3 paragraphs only, opening with a hook (not 'I am writing to apply'), middle paragraph proving fit with 2 specific achievements, closing with enthusiasm and clear CTA. Match the company's tone from their website. No generic phrases."
+        },
+        {
+          "title": "Interview Question Predictor",
+          "prompt": "I'm interviewing for [JOB TITLE] at [COMPANY]. Based on the job description [PASTE] and company context, predict the 15 most likely interview questions. Categorize: behavioral (STAR format), technical, situational, and culture-fit. For each question, provide what they're really evaluating and a framework for answering effectively."
+        },
+        {
+          "title": "STAR Story Builder",
+          "prompt": "Help me build STAR (Situation, Task, Action, Result) stories for interviews about [COMPETENCY - e.g., leadership, conflict resolution, overcoming failure]. Take my experience: [DESCRIBE]. Structure it into a 90-second story with: vivid Situation setup, clear Task, detailed Actions showcasing my skills, and quantified Results. Make it memorable."
+        },
+        {
+          "title": "Salary Negotiation Script",
+          "prompt": "I received a job offer for [JOB TITLE] at [COMPANY]. The offer: [DETAILS]. Market rate: [RESEARCH]. Write negotiation scripts for: initial response (buy time), counter-offer conversation, handling pushback, negotiating non-salary benefits (if base is fixed), and accepting/rejecting gracefully. Include exact words and tone guidance."
+        },
+        {
+          "title": "LinkedIn Profile Optimizer",
+          "prompt": "Optimize my LinkedIn profile for [TARGET ROLE]. Current headline: [PASTE]. Rewrite: headline (keyword-rich, value-proposing), about section (story-driven, not resume-repeating), experience section (achievement-focused), skills section (strategic), and featured section recommendations. Suggest 5 content ideas to boost visibility."
+        },
+        {
+          "title": "Career Change Roadmap",
+          "prompt": "I want to transition from [CURRENT CAREER] to [TARGET CAREER]. Create a realistic roadmap: transferable skills audit, skill gaps to fill, certifications/education needed, portfolio projects to build, networking strategy, resume repositioning tips, timeline (3-6-12 months), and financial planning for the transition period."
+        },
+        {
+          "title": "Networking Conversation Guide",
+          "prompt": "I'm attending [EVENT TYPE] and want to network effectively. Provide: pre-event preparation checklist, 10 conversation starters (not awkward), active listening techniques, graceful exit lines, LinkedIn follow-up templates (within 24 hours), relationship-nurturing cadence, and how to ask for a favor without being transactional."
+        },
+        {
+          "title": "Performance Review Preparer",
+          "prompt": "Help me prepare for my annual performance review. I'm a [JOB TITLE]. Create: a self-assessment template, a system to document achievements with metrics, a way to frame challenges as growth, talking points for requesting a raise/promotion, responses to potential criticism, and a professional development plan to present."
+        },
+        {
+          "title": "Technical Interview Prep Plan",
+          "prompt": "Create a 4-week technical interview prep plan for [ROLE - e.g., Software Engineer, Data Analyst]. Daily schedule covering: [TECH STACK/TYPE] practice, system design, behavioral prep, and company research. Include free resources, mock interview strategy, common question patterns, and a self-evaluation rubric."
+        },
+        {
+          "title": "Job Search Strategy Optimizer",
+          "prompt": "My job search for [ROLE] has been [STRUGGLING/SLOW]. Audit my strategy: application volume vs quality, resume ATS optimization, networking activity, interview conversion rate, and follow-up consistency. Identify the bottleneck and create a focused 30-day action plan to improve results. Include weekly metrics to track."
+        },
+        {
+          "title": "Resignation Letter Writer",
+          "prompt": "Help me resign from my [JOB TITLE] position at [COMPANY] professionally. Write a resignation letter that: states last day clearly, expresses gratitude genuinely, offers transition support, avoids negativity, and protects my reputation. Also provide: verbal resignation script, counter-offer response, and exit interview guidance."
+        },
+        {
+          "title": "Promotion Business Case",
+          "prompt": "I want to make the case for my promotion from [CURRENT] to [TARGET]. Help me build a business case: document my achievements with quantified impact, list responsibilities I've taken on beyond my role, show market data for the target role, identify decision-makers, create a timeline for the conversation, and script the actual request."
+        },
+        {
+          "title": "Freelance Rate Calculator",
+          "prompt": "Help me determine my freelance rate for [SERVICE/SKILL]. Consider: my experience level, market rates, cost of doing business (taxes, insurance, tools, time off), desired annual income, billable vs non-billable hours, and value-based pricing. Calculate 3 pricing models: hourly, project-based, and retainer. Provide scripts for quoting rates confidently."
+        },
+        {
+          "title": "Workplace Conflict Resolver",
+          "prompt": "I'm having a conflict with [COWORKER/MANAGER] about [SITUATION]. Act as a mediator. Help me: see their perspective objectively, identify my role in the conflict, prepare talking points, script a direct conversation, de-escalate if emotions run high, propose solutions, and know when to involve HR. Prioritize professional relationship preservation."
+        },
+        {
+          "title": "Side Hustle Idea Generator",
+          "prompt": "Generate 15 realistic side hustle ideas for someone with skills in [YOUR SKILLS] who has [X] hours per week available. For each: describe the hustle, estimate startup cost, time to first dollar, monthly income potential, required tools/platforms, and how to scale. Rank by: fastest to revenue, highest hourly rate, and best long-term potential."
+        },
+        {
+          "title": "Reference Request Template",
+          "prompt": "Write reference request messages to [TYPE OF PERSON - former boss, colleague, client] for my [JOB TITLE] application. Provide 3 versions (formal email, LinkedIn message, casual text). Each should: remind them of our relationship, explain the role I'm pursuing, highlight what I'd like them to mention, make it easy to say yes or no, and express gratitude."
+        },
+        {
+          "title": "Career Pivot Resume Bridge",
+          "prompt": "I'm pivoting from [INDUSTRY/ROLE] to [TARGET INDUSTRY/ROLE]. Rewrite my resume to bridge the gap: reframe transferable skills using target industry language, highlight relevant projects/courses, reposition my summary, de-emphasize irrelevant experience, and add a 'Relevant Projects' or 'Skills' section. Explain why each change bridges the pivot."
+        },
+        {
+          "title": "Remote Work Productivity System",
+          "prompt": "Design a remote work productivity system for [YOUR ROLE]. Address: workspace setup essentials, daily structure/routine, communication norms with team, async vs sync decision framework, deep work protection, avoiding overwork/burnout, virtual collaboration tools, and maintaining visibility for promotions while remote."
+        },
+        {
+          "title": "Dream Company Penetration Plan",
+          "prompt": "I want to work at [DREAM COMPANY] as a [ROLE]. Create a multi-channel approach: find and connect with 5 employees on LinkedIn (with message templates), engage with their content, identify problems I can solve, create a value-demonstration project, find the hiring manager, craft a referral request, and time outreach around hiring cycles."
+        },
+        {
+          "title": "Day 1 at a New Job Plan",
+          "prompt": "I'm starting a new job as [ROLE] at [COMPANY TYPE] on Monday. Create a 30-60-90 day plan. First 30 days: learn (people, systems, culture, expectations). 30-60 days: contribute (small wins, relationships, identify improvements). 60-90 days: own (take initiative, deliver visible results, establish credibility). For each phase: specific goals, questions to ask, relationships to build, and success indicators."
+        }
+      ]
+    },
+    "creative_writing": {
+      "name": "Creative Writing",
+      "icon": "✍️",
+      "prompts": [
+        {
+          "title": "Story Premise Generator",
+          "prompt": "Generate 10 unique story premises for [GENRE]. Each premise should include: a compelling hook, the protagonist and their flaw, the central conflict, the stakes, what makes it fresh/different from existing works, and a one-sentence logline. Make them range from grounded to high-concept."
+        },
+        {
+          "title": "Character Development Deep Dive",
+          "prompt": "Help me develop a complex character for my [GENRE] story. Starting with: [BASIC DESCRIPTION]. Create: full backstory (childhood wound, defining moment), personality (MBTI, strengths, fatal flaw), physical description, speech pattern, relationships, secrets, fears, desires, arc (what they need vs what they want), and their voice in first person."
+        },
+        {
+          "title": "World Building Guide",
+          "prompt": "Help me build the world for my [GENRE] story. The core concept: [DESCRIBE]. Develop: geography and climate, political system, economy and currency, religion/beliefs, social hierarchy, technology/magic system (with rules and costs), history (3 major events), daily life details, cultural norms, and potential conflicts within the world."
+        },
+        {
+          "title": "Plot Structure Architect",
+          "prompt": "Architect a [LENGTH] plot for my [GENRE] story about [CONCEPT]. Use the [Save the Cat / Hero's Journey / Three-Act] structure. For each beat: describe what happens, how it raises stakes, character development moment, estimated page/word count, and the emotional arc. Include subplot integration points and a twist suggestion."
+        },
+        {
+          "title": "Dialogue Enhancement Coach",
+          "prompt": "Improve this dialogue to make it natural and character-specific: [PASTE DIALOGUE]. Rewrite it to: give each character a distinct voice, add subtext (what's unsaid), remove exposition-heavy lines, add action beats, vary rhythm (short punches and longer flows), and advance plot or reveal character. Explain what changed and why."
+        },
+        {
+          "title": "Scene Structure Builder",
+          "prompt": "Help me structure a critical scene: [DESCRIBE THE SCENE]. Define: the scene goal (what the POV character wants), conflict (what stands in their way), disaster/complication, sequel (reaction, dilemma, decision), emotional shift from start to end, sensory details to include, and how it connects to the next scene. Target: [WORD COUNT] words."
+        },
+        {
+          "title": "Poem Generator",
+          "prompt": "Write a [STYLE - sonnet/haiku/free verse/spoken word] poem about [TOPIC/THEME]. Incorporate: vivid imagery (show don't tell), metaphor and simile, rhythm that matches the mood, line breaks for emphasis, and emotional progression. If formal style, follow the rules strictly. Provide a brief note on craft choices."
+        },
+        {
+          "title": "Short Story Completer",
+          "prompt": "Here's the beginning of my short story: [PASTE]. Continue it for [WORD COUNT] words. Maintain: my writing style and voice, established character dynamics, story tone, pacing, and planted hints. Escalate the conflict toward a turning point. Do not resolve the story yet—end on a hook that compels reading."
+        },
+        {
+          "title": "Song Lyric Writer",
+          "prompt": "Write lyrics for a [GENRE] song about [THEME/EMOTION]. Structure: Verse 1 (set the scene), Pre-chorus (build tension), Chorus (emotional core/hook), Verse 2 (develop the story), Pre-chorus, Chorus, Bridge (shift perspective/revelation), Chorus, Outro. Include rhyme scheme, suggested melody direction, and rhythm notes. Make it singable."
+        },
+        {
+          "title": "Screenplay Formatter",
+          "prompt": "Convert this scene description into properly formatted screenplay format: [PASTE]. Format with: scene heading (INT./EXT., LOCATION, TIME), action lines (present tense, visual), character names (centered, caps), dialogue, parentheticals (sparingly), and transitions. Follow industry-standard formatting. Improve description to be cinematic."
+        },
+        {
+          "title": "Editing Pass Guide",
+          "prompt": "Act as a developmental editor. Review this story: [PASTE]. Provide feedback on: pacing (where it drags or rushes), character consistency, plot holes, showing vs telling, dialogue naturalness, sensory engagement, emotional resonance, opening hook strength, and ending satisfaction. Prioritize: 3 things that work, 3 critical fixes, 3 polish suggestions."
+        },
+        {
+          "title": "Backstory Generator",
+          "prompt": "Create a compelling backstory for [CHARACTER NAME/TYPE] in a [GENRE] setting. Include: birth/childhood circumstances, one traumatic event that shaped them, one joyous memory they cling to, relationship with parents, defining choice they made, skill they developed as coping, a secret they've never told, and how all of this explains their current behavior."
+        },
+        {
+          "title": "Villain Creator",
+          "prompt": "Create a complex, memorable villain for my [GENRE] story. The hero is [DESCRIBE HERO]. The villain should: have understandable motivations (not evil for evil's sake), be the hero's mirror or shadow, have a philosophy that's almost convincing, possess strengths the hero lacks, have a personal connection to the hero, and a vulnerability the hero can exploit."
+        },
+        {
+          "title": "Chapter Outline Creator",
+          "prompt": "Outline the next [NUMBER] chapters of my [GENRE] novel. Current state: [WHERE WE ARE]. For each chapter: chapter title, POV character, summary (2-3 sentences), key plot event, character development beat, emotional tone, cliffhanger or hook at chapter end, and how it advances the main story arc."
+        },
+        {
+          "title": "Writing Style Analyzer",
+          "prompt": "Analyze my writing style from this sample: [PASTE]. Identify: sentence structure patterns, vocabulary level and preferences, dialogue-to-narration ratio, tense and POV consistency, pacing tendencies, recurring themes, tone, unique stylistic choices, and 3 authors with a similar style. Then suggest 3 techniques to strengthen my unique voice."
+        },
+        {
+          "title": "Flash Fiction Writer",
+          "prompt": "Write a complete flash fiction story (500-750 words) about [PROMPT/THEME]. Requirements: single POV, one setting, one conflict, twist or revelation at the end. Every sentence must earn its place. Show character through action. Start in media res. No wasted words. End with emotional resonance."
+        },
+        {
+          "title": "Story Opening Hook Generator",
+          "prompt": "Generate 10 opening lines/paragraphs for my [GENRE] story about [CONCEPT]. Each should: hook immediately (question, conflict, mystery, bold statement, vivid image), establish voice, imply stakes, avoid info-dumping, and make it impossible not to read the next line. Vary the technique: action, dialogue, introspection, world-building, mystery."
+        },
+        {
+          "title": "Magic System Designer",
+          "prompt": "Design a hard magic system for my fantasy story. The system should: have clear rules, a cost/limitation (Sanderson's Second Law), a weakness, a source of power, categories/types, skill progression, societal impact, relationship to plot (Sanderson's First Law), and a way it can be abused. Make it original—not just elemental magic."
+        },
+        {
+          "title": "Memoir Chapter Writer",
+          "prompt": "Help me write a chapter of my memoir about [LIFE EVENT]. Take my notes: [PASTE]. Structure it as a story: establish the before (normal), the inciting incident, the experience with sensory details and emotional honesty, the turning point or revelation, the aftermath, and the reflection (what it means now). Write in first person, present or past tense."
+        },
+        {
+          "title": "Writing Productivity Coach",
+          "prompt": "Act as a writing coach. I want to write a [NOVEL/SCREENPLAY/SHORT STORY] but struggle with [PROBLEM - procrastination, perfectionism, blank page, editing while writing]. Create a personalized system: daily word count target, writing schedule, pre-writing ritual, anti-procrastination strategies, tracking system, rewards, and accountability structure."
+        },
+        {
+          "title": "Comedy Writing Coach",
+          "prompt": "Act as a comedy writing coach. Help me add humor to [DESCRIBE YOUR WRITING]. Techniques to apply: setup and punchline structure, misdirection, rule of three, callback, exaggeration, specificity, self-deprecation (not too much), observational humor, and timing/pacing. Provide 5 humorous rewrites of my passages and explain the comedic mechanic in each. Keep it appropriate for [AUDIENCE]."
+        }
+      ]
+    },
+    "data_analysis": {
+      "name": "Data Analysis & Analytics",
+      "icon": "📊",
+      "prompts": [
+        {
+          "title": "Data Cleaning Pipeline",
+          "prompt": "I have a dataset about [DESCRIBE DATA] with issues: [MISSING VALUES, DUPLICATES, OUTLIERS, FORMATTING]. Create a step-by-step data cleaning pipeline: identify and handle missing values (imputation strategy), remove duplicates, detect and treat outliers (with justification), standardize formats, validate data types, and document all changes. Provide Python code."
+        },
+        {
+          "title": "SQL Query Optimizer",
+          "prompt": "Optimize this SQL query for performance: [PASTE QUERY]. Table structure: [DESCRIBE]. Analyze: full table scans, missing indexes, inefficient JOINs, subquery vs CTE, unnecessary columns, WHERE clause efficiency, and GROUP BY optimization. Rewrite the query, explain each change, suggest indexes to create, and estimate performance improvement."
+        },
+        {
+          "title": "Exploratory Data Analysis Plan",
+          "prompt": "Create an EDA plan for my dataset about [DESCRIBE DOMAIN] with [NUMBER] rows and columns: [LIST COLUMNS]. Outline: summary statistics to compute, distributions to visualize (and chart types), correlations to explore, group-by analysis, time-series patterns (if applicable), outlier investigation, missing data analysis, and 5 key questions the data should answer."
+        },
+        {
+          "title": "Dashboard Design Blueprint",
+          "prompt": "Design a [BUSINESS INTELLIGENCE / ANALYTICS] dashboard for [AUDIENCE] tracking [METRICS/KPIs]. Specify: layout grid, widget placement (top KPIs at top-left, trend charts below, detail tables at bottom), chart types for each metric, color scheme (max 5 colors), filter/slicer design, drill-down paths, refresh frequency, and annotation/note features."
+        },
+        {
+          "title": "A/B Test Designer",
+          "prompt": "Design an A/B test for [WHAT YOU'RE TESTING] on [PLATFORM]. Define: hypothesis (null and alternative), primary metric, secondary metrics, minimum detectable effect, sample size calculation, test duration, traffic split, randomization method, success criteria, guardrail metrics, and analysis plan (statistical test, significance level, power)."
+        },
+        {
+          "title": "Statistical Analysis Guide",
+          "prompt": "I need to analyze data to answer: [RESEARCH QUESTION]. Data: [DESCRIBE]. Recommend: the appropriate statistical test (t-test, ANOVA, chi-square, regression, etc.) with justification, assumptions to verify, how to handle violations, effect size measure, software/code to use, interpretation guidelines, and how to report results to non-technical stakeholders."
+        },
+        {
+          "title": "Data Storytelling Framework",
+          "prompt": "Transform these analysis findings into a compelling data story for [AUDIENCE]: [PASTE FINDINGS]. Structure: start with the hook (why should they care?), context (what we analyzed), key insight (the 'aha' moment), supporting evidence (2-3 visuals described), implications (what it means for them), recommended actions, and potential objections. Use the Minto Pyramid principle."
+        },
+        {
+          "title": "Machine Learning Model Selector",
+          "prompt": "I want to predict [TARGET] from [DESCRIBE FEATURES]. Data size: [ROWS x COLUMNS]. Task type: [CLASSIFICATION/REGRESSION/CLUSTERING]. Recommend 3 suitable algorithms ranked by suitability. For each: why it fits, pros and cons, data preprocessing requirements, hyperparameters to tune, expected performance, and Python code to implement."
+        },
+        {
+          "title": "Customer Churn Analysis Plan",
+          "prompt": "Create a churn analysis plan for [BUSINESS TYPE - SaaS/E-commerce/App]. Identify: definition of churn, data needed (usage, transactions, demographics, support tickets), features to engineer (recency, frequency, monetary, tenure, engagement trends), analysis approach (descriptive → predictive), retention strategy framework, and reporting cadence for stakeholders."
+        },
+        {
+          "title": "Revenue Forecasting Model",
+          "prompt": "Build a revenue forecasting model for [BUSINESS TYPE]. Inputs available: [DESCRIBE DATA]. Recommend: forecasting method (time series, regression, ML), decomposition (trend, seasonality, cyclical, irregular), driver identification, scenario planning (base/upside/downside), confidence intervals, refresh frequency, and presentation format for executives."
+        },
+        {
+          "title": "Cohort Analysis Template",
+          "prompt": "Design a cohort analysis for [BUSINESS TYPE - SaaS, e-commerce, mobile app]. Define: cohort grouping (sign-up date, first purchase, acquisition channel), metric to track (retention, revenue, engagement), time granularity (weekly/monthly), visualization format (heatmap/triangle table), insights to extract, and retention benchmarks. Provide SQL or Python template."
+        },
+        {
+          "title": "Funnel Analysis Builder",
+          "prompt": "Create a conversion funnel analysis for [PRODUCT/SERVICE]. Steps: [DEFINE FUNNEL STAGES]. For each stage: define the event/condition, identify drop-off causes, benchmark conversion rate, suggest 3 optimization experiments, and estimate revenue impact of improving each stage by 10%. Include attribution model considerations and time-delay analysis."
+        },
+        {
+          "title": "Data Dictionary Creator",
+          "prompt": "Create a comprehensive data dictionary for my dataset. Columns: [LIST]. For each column: provide field name, data type, description, allowed values/range, source, example value, null handling, transformation rules, dependencies, and PII/sensitivity classification. Format as a table. Add a section for data quality rules and validation checks."
+        },
+        {
+          "title": "KPI Tree Builder",
+          "prompt": "Build a KPI tree for [BUSINESS TYPE]. Root: [NORTH STAR METRIC]. Decompose into: acquisition metrics, activation metrics, retention metrics, revenue metrics, and referral metrics. For each leaf metric: definition, formula, data source, target, frequency, owner, and how improving it affects the parent metric. Show the math connecting each level."
+        },
+        {
+          "title": "Survey Data Analyzer",
+          "prompt": "I collected survey data about [TOPIC] with [NUMBER] responses. Questions: [LIST]. Create an analysis plan: response rate assessment, demographic breakdown, Likert scale analysis (distribution + central tendency), open-ended coding framework, cross-tabulation plan, significance testing, key insights template, and visualization recommendations for reporting."
+        },
+        {
+          "title": "Anomaly Detection Guide",
+          "prompt": "Design an anomaly detection system for [DATA TYPE - metrics, logs, transactions]. Specify: what constitutes an anomaly for this use case, detection methods (statistical, ML, rule-based), threshold setting approach, false positive management, alerting design, root cause analysis workflow, and feedback loop for improving detection accuracy over time."
+        },
+        {
+          "title": "Pricing Analytics Framework",
+          "prompt": "Create a pricing analytics framework for [PRODUCT/SERVICE]. Analyze: price elasticity estimation method, competitor price tracking, segment-based pricing opportunities, bundling analysis, promotional effectiveness, willingness-to-pay research plan, price testing strategy, and margin impact modeling. Provide a dashboard layout for pricing decisions."
+        },
+        {
+          "title": "Data Governance Plan",
+          "prompt": "Create a data governance framework for [ORGANIZATION TYPE]. Address: data ownership matrix, quality standards and monitoring, access control model, privacy compliance (GDPR/CCPA), retention policies, lineage tracking, cataloging, stewardship roles, incident response, and audit procedures. Make it practical for a [SMALL/MID/LARGE] organization."
+        },
+        {
+          "title": "ETL Pipeline Designer",
+          "prompt": "Design an ETL pipeline for [SOURCE] → [DESTINATION]. Data volume: [ESTIMATE]. Specify: extraction method and frequency, transformation steps (cleaning, enrichment, aggregation), loading strategy (full vs incremental), error handling and retry logic, data quality checks, monitoring and alerting, and technology stack recommendations with rationale."
+        },
+        {
+          "title": "Competitive Intelligence Dashboard",
+          "prompt": "Design a competitive intelligence dashboard tracking [YOUR INDUSTRY]. Track for each competitor: pricing changes, feature launches, funding/news, social media sentiment, SEO visibility, content output, customer reviews/ratings, and hiring trends. Define data sources, collection frequency, analysis methods, and alert triggers for significant changes."
+        },
+        {
+          "title": "Data Visualization Best Practices",
+          "prompt": "Create a data visualization best practices guide for [AUDIENCE - executives, analysts, general audience]. Cover: chart selection framework (when to use bar, line, scatter, heatmap, etc.), color theory for accessibility (colorblind-safe palettes), avoiding misleading visuals (truncated axes, 3D charts, dual axes), annotation and labeling, dashboard layout principles, and storytelling with data. Include before/after examples."
+        }
+      ]
+    },
+    "finance": {
+      "name": "Personal Finance",
+      "icon": "💰",
+      "prompts": [
+        {
+          "title": "Budget Builder 50/30/20",
+          "prompt": "Help me create a monthly budget using the 50/30/20 method. Income: [AMOUNT]. Fixed expenses: [LIST]. Categorize spending into Needs (50%), Wants (30%), and Savings/Debt (20%). Identify where I'm over/under budget, suggest specific cuts, create a tracking system, and set up sinking funds for irregular expenses."
+        },
+        {
+          "title": "Debt Payoff Strategy",
+          "prompt": "I have these debts: [LIST WITH BALANCES, INTEREST RATES, MINIMUM PAYMENTS]. I can pay [AMOUNT] monthly total. Compare snowball vs avalanche methods. Create a month-by-month payoff timeline for each. Calculate total interest paid and time to debt-free for both. Recommend the best method for my psychology and math, with reasoning."
+        },
+        {
+          "title": "Emergency Fund Planner",
+          "prompt": "Help me build an emergency fund. Current savings: [AMOUNT]. Monthly expenses: [AMOUNT]. Target: [3/6/12] months. Create: monthly savings target, timeline to fully funded, where to park the money (HYSA vs money market vs CD ladder), automation setup, what qualifies as an emergency (and what doesn't), and rebuild plan after using it."
+        },
+        {
+          "title": "Investment Portfolio Builder",
+          "prompt": "I'm [AGE], risk tolerance [CONSERVATIVE/MODERATE/AGGRESSIVE], investing for [GOAL] in [TIMEFRAME]. Recommend an asset allocation: stocks/bonds/cash/alternatives percentages. Within stocks: domestic/international/large-cap/small-cap. Suggest specific low-cost index funds or ETFs for each slice. Include rebalancing schedule and contribution strategy."
+        },
+        {
+          "title": "Retirement Calculator Guide",
+          "prompt": "I'm [AGE], want to retire at [AGE], currently have [AMOUNT] saved, saving [AMOUNT]/month. Estimate: will I hit my target? Run scenarios for different return rates (6%, 8%, 10%). Calculate the 4% rule withdrawal amount. Identify if I'm on track, ahead, or behind. Suggest specific changes to close any gap. Consider inflation."
+        },
+        {
+          "title": "Side Income Optimizer",
+          "prompt": "I earn [AMOUNT] from my [JOB/SIDE HUSTLE]. Analyze: current effective tax rate, opportunities for tax-advantaged accounts (IRA, 401k, HSA), deductible expenses I'm missing, business structure considerations (LLC vs sole proprietor), quarterly tax estimation, and audit-proof recordkeeping system. Suggest 3 strategies to legally reduce tax burden."
+        },
+        {
+          "title": "House vs Rent Decision",
+          "prompt": "I'm deciding whether to buy or rent in [CITY]. Home price: [AMOUNT]. Rent equivalent: [AMOUNT]. Down payment available: [AMOUNT]. Run the 5-year cost comparison: total cost of buying (down payment, mortgage, property tax, insurance, maintenance, HOA, closing costs) vs renting (rent + renter's insurance + opportunity cost of invested down payment)."
+        },
+        {
+          "title": "Subscription Audit",
+          "prompt": "Help me audit my subscriptions: [LIST WITH MONTHLY COSTS]. For each: evaluate usage frequency, cost per use, cheaper alternatives, duplicate services, and emotional attachment. Calculate total annual cost. Categorize: keep, downgrade, cancel. Estimate annual savings from recommended cuts. Create a system for ongoing subscription management."
+        },
+        {
+          "title": "Financial Independence Calculator",
+          "prompt": "Calculate my path to FIRE (Financial Independence, Retire Early). Current age: [X], annual expenses: [X], current net worth: [X], annual savings rate: [X]%. Calculate: my FIRE number (25x annual expenses), years to FIRE at current savings rate, how accelerating savings by [X]% changes the timeline, and coast FIRE / lean FIRE / fat FIRE scenarios."
+        },
+        {
+          "title": "Expense Tracking System",
+          "prompt": "Design an expense tracking system that I'll actually stick with. Consider: my style ([SPREADSHEET/APP/ENVELOPE]), categories relevant to my life, automation opportunities (bank API, receipt scanning), weekly review ritual, monthly close-out process, and annual summary for tax purposes. Include a starter spreadsheet template description with formulas."
+        },
+        {
+          "title": "First-Time Home Buyer Guide",
+          "prompt": "I'm a first-time home buyer in [COUNTRY/STATE]. Create a step-by-step guide: financial preparation (credit score target, debt-to-income ratio, down payment), mortgage types and how to choose, pre-approval process, house hunting criteria, offer strategy, inspection and closing process, hidden costs, and first-year homeownership financial planning."
+        },
+        {
+          "title": "College Savings Planner",
+          "prompt": "Help me plan for my [AGE]-year-old child's college education. Current savings: [AMOUNT]. Target school type: [PUBLIC/PRIVATE]. Create: estimated cost at college age (with inflation), monthly savings needed, account types (529, Coverdell, custodial), investment strategy within the account, and what-if scenarios for scholarships, in-state, or trade school."
+        },
+        {
+          "title": "Tax Deduction Finder",
+          "prompt": "Based on my situation ([EMPLOYMENT STATUS, FILING STATUS, STATE]), identify all tax deductions and credits I likely qualify for. Consider: standard vs itemized, education, home office, self-employment, healthcare, charitable, retirement contributions, and energy credits. Estimate total tax savings. List documentation needed. Flag commonly missed deductions."
+        },
+        {
+          "title": "Net Worth Tracker",
+          "prompt": "Create a system to track and grow my net worth. Current assets: [LIST]. Current liabilities: [LIST]. Design: a balance sheet template, monthly update process, growth strategies for each asset category, debt reduction priorities, milestone celebrations, and an annual net worth statement format. Include tracking of liquid vs illiquid assets."
+        },
+        {
+          "title": "Insurance Coverage Audit",
+          "prompt": "Audit my insurance coverage. Current policies: [LIST]. Analyze: coverage gaps, over-insurance areas, deductible optimization, policy bundle opportunities, term life vs whole life analysis, disability insurance need calculation, umbrella policy recommendation, and annual review checklist. Estimate potential savings from optimization."
+        },
+        {
+          "title": "Passive Income Blueprint",
+          "prompt": "Create a passive income blueprint for my situation. Starting capital: [AMOUNT]. Skills: [LIST]. Risk tolerance: [LEVEL]. Evaluate 10 passive income streams: dividend investing, REITs, peer-to-peer lending, digital products, course creation, affiliate marketing, rental properties, royalties, high-yield savings, and index fund portfolio. Rank by: capital needed, time to income, and risk."
+        },
+        {
+          "title": "Negotiation Script: Bills",
+          "prompt": "Create scripts for negotiating lower rates on: internet/cable, phone bill, car insurance, gym membership, and subscription services. For each: research to do beforehand, exact opening line, negotiation tactics, what to ask for, escalation path (ask for retention department), and backup providers. Target: reduce monthly expenses by 15-20%."
+        },
+        {
+          "title": "Estate Planning Checklist",
+          "prompt": "Create an estate planning checklist for my situation: [SINGLE/MARRIED/PARENT/HOMEOWNER]. Cover: will (what to include), trust (do I need one?), power of attorney, healthcare directive, beneficiary designations on all accounts, guardianship (if children), digital asset plan, letter of intent, document storage, and review schedule. Estimate cost for each."
+        },
+        {
+          "title": "Credit Score Improvement Plan",
+          "prompt": "My current credit score is [SCORE]. Target: [SCORE]. Analyze: the 5 factors (payment history, utilization, age, mix, inquiries) and identify my weak spots. Create a 90-day improvement plan with: specific actions for each factor, dispute strategy for errors, credit utilization optimization, authorized user strategy, and monitoring system."
+        },
+        {
+          "title": "Charitable Giving Strategy",
+          "prompt": "Help me create a charitable giving plan. Annual giving budget: [AMOUNT]. Causes I care about: [LIST]. Create: giving criteria for evaluating charities, research process (Charity Navigator, GiveWell), portfolio approach (local/global/impact), tax-efficient giving (bunching, DAF, appreciated stock), and an annual giving review process."
+        },
+        {
+          "title": "Tax-Loss Harvesting Strategy",
+          "prompt": "Explain and create a tax-loss harvesting strategy for my investment portfolio: [DESCRIBE HOLDINGS]. Rules to follow: wash-sale rule (30 days), substantial similarity test, replacing with similar-but-not-identical assets, maintaining asset allocation, $3,000 ordinary income offset limit, carryforward rules. Create a step-by-step process with specific replacement suggestions for my holdings."
+        },
+        {
+          "title": "Money Conversation Guide for Couples",
+          "prompt": "Create a guide for couples to discuss money openly. Cover: setting up the conversation (timing, environment, ground rules), key topics to align on (spending priorities, debt philosophy, savings goals, financial independence, combining vs separating finances), navigating income disparity, handling financial disagreements, money personality assessment, and creating a shared financial vision. Include conversation prompts."
+        }
+      ]
+    },
+    "hr_recruitment": {
+      "name": "HR & Recruitment",
+      "icon": "👥",
+      "prompts": [
+        {
+          "title": "Job Description Writer",
+          "prompt": "Write a compelling job description for [JOB TITLE] at [COMPANY TYPE]. Include: company overview (2 sentences, exciting), role summary, 5 key responsibilities (outcome-focused not task-list), requirements (must-have vs nice-to-have), what we offer, growth opportunities, and inclusive language. Make it sell the role. Avoid jargon and generic phrases."
+        },
+        {
+          "title": "Interview Rubric Designer",
+          "prompt": "Create a structured interview rubric for [JOB TITLE]. Define 5 competencies. For each: write 1 behavioral question, 1 situational question, what excellent/good/poor answers look like (with examples), follow-up probes, red flags, and scoring guide (1-5 scale). Include space for notes and an overall recommendation matrix."
+        },
+        {
+          "title": "Onboarding Plan Builder",
+          "prompt": "Design a 90-day onboarding plan for a new [JOB TITLE]. Week 1: orientation and setup. Weeks 2-4: learning and shadowing. Weeks 5-8: guided contribution. Weeks 9-12: independent work. For each phase: goals, activities, training resources, check-ins, deliverables, success metrics, and feedback touchpoints. Include pre-day-one preparation."
+        },
+        {
+          "title": "Performance Review Template",
+          "prompt": "Create a 360-degree performance review template for [ROLE]. Sections: self-assessment, peer feedback (3 questions), manager assessment, goal review, competency evaluation (rate 1-5 with evidence), development areas, career aspirations, and next-period goal-setting. Include calibration guide for managers and example language for each rating."
+        },
+        {
+          "title": "Employee Engagement Survey",
+          "prompt": "Design an employee engagement survey for [COMPANY SIZE] company. Create 25 questions across: job satisfaction, manager relationship, team dynamics, growth opportunities, company culture, compensation fairness, work-life balance, and intent to stay. Mix Likert scale and open-ended. Include benchmark targets and an action-planning framework for results."
+        },
+        {
+          "title": "Compensation Strategy Builder",
+          "prompt": "Design a compensation strategy for [COMPANY TYPE/SIZE]. Include: pay philosophy (market leader, match, or lag), salary band structure (how many bands, width, overlap), variable pay design (bonus/commission/equity), benefits package tiers, pay equity monitoring process, geographic adjustment policy, and communication guidelines for transparency."
+        },
+        {
+          "title": "Employee Handbook Outline",
+          "prompt": "Create an employee handbook outline for a [STARTUP/SMALL BUSINESS/MID-SIZE] company. Cover: company mission and values, employment policies, code of conduct, compensation and benefits, leave policies, remote work policy, anti-harassment, health and safety, performance management, grievance procedure, and acknowledgments. Tone: warm but legally sound."
+        },
+        {
+          "title": "Conflict Resolution Protocol",
+          "prompt": "Create a workplace conflict resolution protocol for [COMPANY TYPE]. Define: levels of conflict, when to self-resolve vs involve HR, mediation process steps, documentation requirements, confidentiality guidelines, escalation matrix, timeline expectations, and follow-up process. Include scripts for managers having initial conversations with conflicting parties."
+        },
+        {
+          "title": "Training Program Designer",
+          "prompt": "Design a training program for [SKILL/TOPIC] for [AUDIENCE - new hires, managers, all staff]. Include: learning objectives, prerequisite knowledge, module breakdown (each with content, activity, assessment), delivery format (live/async/hybrid), materials needed, duration, measurement of learning transfer, and reinforcement plan."
+        },
+        {
+          "title": "Remote Work Policy Writer",
+          "prompt": "Write a comprehensive remote/hybrid work policy for [COMPANY TYPE]. Address: eligibility criteria, equipment and stipend, core hours and flexibility, communication expectations, meeting norms, performance measurement (outcomes not hours), security requirements, tax/legal considerations, wellbeing support, and team-building practices."
+        },
+        {
+          "title": "Termination Script & Checklist",
+          "prompt": "I need to terminate an employee for [REASON]. Create: a pre-termination checklist (documentation, legal review, final pay), script for the conversation (respectful, clear, brief), logistics (access revocation, equipment return, transition plan), communication to the team, and post-termination follow-up. Include DOs and DON'Ts to minimize legal risk."
+        },
+        {
+          "title": "Diversity & Inclusion Action Plan",
+          "prompt": "Create a D&I action plan for [COMPANY TYPE/SIZE]. Include: current state assessment, goals (hiring, retention, promotion, culture), sourcing strategies for diverse candidates, interview process bias mitigation, employee resource group framework, inclusive policies checklist, training plan, measurement metrics, and accountability structure."
+        },
+        {
+          "title": "Exit Interview Guide",
+          "prompt": "Design an exit interview process for departing [ROLE TYPE]. Create: interview invitation message, 15 questions covering reasons for leaving, job satisfaction, manager relationship, what would have made them stay, feedback on company culture, suggestions for improvement, and whether they'd recommend the company. Include analysis framework for trends."
+        },
+        {
+          "title": "Promotion Criteria Matrix",
+          "prompt": "Create promotion criteria for [CURRENT LEVEL] to [NEXT LEVEL]. Define: technical skills required, leadership/impact expectations, scope of influence, autonomy level, and business outcomes expected at the next level. Create a self-assessment checklist, manager evaluation form, and a promotion packet template. Include calibration guidance."
+        },
+        {
+          "title": "Company Culture Assessment",
+          "prompt": "Design a culture assessment for [COMPANY]. Create: a values alignment survey, behavioral culture indicators to observe, interview questions for employees at each level, physical/virtual workspace assessment, ritual and tradition audit, decision-making process evaluation, and a culture health scorecard. Output: findings template and recommendations format."
+        },
+        {
+          "title": "Recruitment Marketing Strategy",
+          "prompt": "Create a recruitment marketing strategy for [COMPANY] hiring [ROLES]. Include: employer value proposition, careers page optimization, job board strategy (free + paid), social media recruiting plan, employee referral program design, university recruitment plan, and talent pipeline nurturing. Budget: [AMOUNT]. Include metrics: cost per hire, time to fill, quality of hire."
+        },
+        {
+          "title": "Behavioral Interview Question Bank",
+          "prompt": "Create a bank of 30 behavioral interview questions for [ROLE], organized by competency: Leadership (5), Problem-solving (5), Teamwork (5), Adaptability (5), Communication (5), Integrity (5). For each question: what it assesses, what a strong answer includes, red flags, and follow-up probes. Include guidance on avoiding biased questions."
+        },
+        {
+          "title": "Candidate Experience Designer",
+          "prompt": "Map and optimize the candidate experience for [COMPANY]'s hiring process. Current stages: [LIST]. For each stage: candidate emotions, communication touchpoints, time-to-feedback, and friction points. Create: automated communication templates, realistic timeline expectations, feedback delivery framework, and a 'candidate delight' moment at each stage."
+        }
+      ]
+    },
+    "customer_support": {
+      "name": "Customer Support",
+      "icon": "🎧",
+      "prompts": [
+        {
+          "title": "Angry Customer De-escalation",
+          "prompt": "A customer is furious about [ISSUE]. Write a response using the HEARD framework: Hear, Empathize, Apologize, Resolve, Diagnose. Provide 3 response versions (email, live chat, phone script). Tone: calm, genuine, accountable. Never blame the customer. Include: immediate fix, goodwill gesture, and follow-up plan to rebuild trust."
+        },
+        {
+          "title": "Knowledge Base Article Writer",
+          "prompt": "Write a knowledge base article for [COMMON CUSTOMER QUESTION]. Structure: clear title (phrased as a question), 1-sentence summary, step-by-step solution (numbered, with screenshots described), common error messages and fixes, video script suggestion, related articles, last updated date, and feedback prompt. Write at a 6th-grade reading level."
+        },
+        {
+          "title": "Response Template Library",
+          "prompt": "Create a library of 20 customer support response templates for [PRODUCT/SERVICE TYPE]. Categories: greetings, technical issues, billing questions, feature requests, refunds, account access, complaints, positive feedback, follow-ups, and closings. Each template: [variable] placeholders, warm tone, concise, and includes next steps."
+        },
+        {
+          "title": "SLA Framework Designer",
+          "prompt": "Design a Service Level Agreement framework for [SUPPORT TEAM SIZE] supporting [CUSTOMER COUNT]. Define: priority levels (critical/high/medium/low), response time targets for each, resolution time targets, escalation matrix, business hours vs 24/7, breach consequences, reporting metrics, and continuous improvement process."
+        },
+        {
+          "title": "Customer Feedback Analysis",
+          "prompt": "I have [NUMBER] customer feedback responses about [TOPIC]. Create an analysis framework: categorization scheme (bug, feature request, praise, complaint, question), sentiment scoring method, theme identification process, priority matrix (frequency x impact), reporting template, and a system for closing the loop with customers who provided feedback."
+        },
+        {
+          "title": "Self-Service Portal Planner",
+          "prompt": "Design a self-service support portal for [PRODUCT TYPE]. Include: content audit (what to migrate, create, retire), taxonomy/categories, search optimization strategy, article templates, video script library, community forum guidelines, chatbot integration plan, success metrics (deflection rate, CSAT), and content maintenance schedule."
+        },
+        {
+          "title": "Difficult Refund Decision",
+          "prompt": "A customer is requesting a refund for [SITUATION] that falls [OUTSIDE/ON THE EDGE] of our policy. Our policy: [DESCRIBE]. Analyze: policy interpretation, customer lifetime value, word-of-mouth impact, precedent risk, and cost of the refund vs cost of the negative review. Provide a recommended decision and the exact response to the customer."
+        },
+        {
+          "title": "Support Metrics Dashboard",
+          "prompt": "Design a support metrics dashboard for [TEAM]. Top-level: CSAT, NPS, First Response Time, Resolution Time, Reopen Rate, Ticket Volume, Backlog. For each metric: definition, target, current trend, breakdown options (by agent/channel/topic), alert thresholds, and weekly review cadence. Include coaching action triggers."
+        },
+        {
+          "title": "Proactive Outreach Campaign",
+          "prompt": "Design a proactive customer outreach campaign for [SCENARIO - new feature, known issue, re-engagement]. Define: target segment, trigger criteria, message sequence (email, in-app, phone), personalization variables, tone guidelines, FAQ preparation, success metrics, and A/B test plan. Goal: reduce inbound tickets and increase satisfaction."
+        },
+        {
+          "title": "Onboarding Support Sequence",
+          "prompt": "Create a day 1-30 customer onboarding support sequence for [PRODUCT TYPE]. Include: welcome message, first-login guidance, day-3 check-in, day-7 value realization check, day-14 tip campaign, day-21 feedback request, day-30 success review. For each touchpoint: channel, message template, common questions, and success criteria."
+        },
+        {
+          "title": "Customer Success Playbook",
+          "prompt": "Create a customer success playbook for [PRODUCT TYPE - SaaS/App/Service]. Define: customer lifecycle stages, health score formula, risk signals and responses, expansion opportunities, advocacy milestones, renewal process, and escalation paths. Include trigger-based actions (e.g., if usage drops 50% in week → [action])."
+        },
+        {
+          "title": "Complaint Response Escalation",
+          "prompt": "Create a complaint escalation matrix for [COMPANY TYPE]. Define: complaint levels (1-minor, 2-moderate, 3-serious, 4-critical), who handles each, response timelines, approval requirements, customer communication at each stage, executive notification triggers, legal/PR involvement criteria, and post-resolution review process."
+        },
+        {
+          "title": "Multi-Channel Support Strategy",
+          "prompt": "Design a multi-channel support strategy for [BUSINESS TYPE]. Channels: email, live chat, phone, social media, in-app. For each: staffing model, hours, target response time, ticket routing rules, escalation triggers, and integration with central system. Include channel-specific tone guidelines and when to move conversations between channels."
+        },
+        {
+          "title": "Customer Health Score Designer",
+          "prompt": "Design a customer health score model for [SaaS PRODUCT]. Inputs to consider: product usage frequency, feature adoption breadth, support ticket volume/trend, payment status, NPS/CSAT, time since last login, key action completion. Define: scoring formula, weight rationale, health thresholds (red/yellow/green), and automated actions for each threshold."
+        },
+        {
+          "title": "Churn Rescue Campaign",
+          "prompt": "Create a churn rescue campaign for [PRODUCT]. Define: at-risk signals, intervention triggers, outreach sequence (who, what, when), offer/incentive strategy, win-back message templates, executive escalation criteria, success metrics, and learning capture for product improvement. Include template for root cause analysis of each saved/lost customer."
+        },
+        {
+          "title": "Customer Effort Score Optimizer",
+          "prompt": "Help me reduce customer effort in [SUPPORT PROCESS]. Map the current customer journey for [COMMON ISSUE]: steps, touchpoints, effort points, and emotion. Identify: friction points, unnecessary steps, self-service opportunities, automation potential, and process simplification. Create a before/after comparison and an implementation plan targeting 50% effort reduction."
+        },
+        {
+          "title": "Chatbot Conversation Designer",
+          "prompt": "Design a customer support chatbot for [PRODUCT TYPE]. Define: top 20 intents to handle, conversation flows for top 5 intents, fallback strategy, escalation to human criteria, personality and tone, greeting and menu structure, response templates, and handoff protocol with context passing. Include testing scenarios and success metrics."
+        },
+        {
+          "title": "Customer Advocacy Program Builder",
+          "prompt": "Design a customer advocacy program for [PRODUCT/SERVICE]. Define: advocate personas, recruitment criteria and outreach, engagement tiers (reviewers, references, case studies, speakers), rewards and recognition, community platform, internal participation model (who from the company engages), success metrics, and program evolution plan."
+        }
+      ]
+    },
+    "consulting": {
+      "name": "Consulting & Advisory",
+      "icon": "🧠",
+      "prompts": [
+        {
+          "title": "Client Discovery Questionnaire",
+          "prompt": "Design a discovery questionnaire for a consulting engagement with a [INDUSTRY] client seeking help with [PROBLEM AREA]. Create 20 questions covering: current state, pain points, goals, success metrics, constraints, stakeholders, timeline, budget, previous attempts, competitive landscape, and decision-making process. Order from broad to specific."
+        },
+        {
+          "title": "Consulting Proposal Writer",
+          "prompt": "Write a consulting proposal for [CLIENT TYPE] experiencing [PROBLEM]. Include: executive summary, situation assessment, proposed approach (phases with deliverables), methodology, timeline with milestones, team composition and roles, investment and payment terms, assumptions and exclusions, success metrics, and next steps. Tone: confident and professional."
+        },
+        {
+          "title": "SWOT Facilitation Guide",
+          "prompt": "Create a facilitation guide for leading a SWOT workshop with [CLIENT TYPE] leadership team. Include: pre-work for participants, 90-minute agenda with time blocks, ground rules, probing questions for each SWOT category, prioritization exercise, TOWS matrix (turn weaknesses into strengths, threats into opportunities), and deliverable template."
+        },
+        {
+          "title": "Process Improvement Plan",
+          "prompt": "I'm consulting for a [COMPANY TYPE] with this problem: [DESCRIBE]. Apply Lean/Six Sigma principles. Create: current state process map description, waste identification (8 wastes), root cause analysis (5 Whys + Fishbone), future state design, improvement initiatives (ranked by impact/effort), implementation roadmap, and KPIs to track."
+        },
+        {
+          "title": "Change Management Framework",
+          "prompt": "Create a change management plan for [ORGANIZATION] implementing [CHANGE]. Use Kotter's 8-step or ADKAR model. For each step: specific actions, timeline, stakeholders to engage, communication plan, resistance mitigation strategies, training needs, quick wins to build momentum, and success indicators. Include a stakeholder influence map."
+        },
+        {
+          "title": "Market Sizing Model",
+          "prompt": "Help me size the market for [PRODUCT/SERVICE] in [GEOGRAPHY]. Use both top-down and bottom-up approaches. Top-down: TAM, SAM, SOM with sources. Bottom-up: number of potential customers x average spend. Include: market growth rate, trends affecting size, assumptions and confidence levels, data source recommendations, and sensitivity analysis."
+        },
+        {
+          "title": "Stakeholder Analysis Matrix",
+          "prompt": "Create a stakeholder analysis for [PROJECT/CHANGE] at [ORGANIZATION]. List likely stakeholders. For each: assess interest level (1-5), influence level (1-5), current position (supporter/neutral/resister), what they care about, key message for them, engagement strategy (manage closely, keep satisfied, keep informed, monitor), and influence plan."
+        },
+        {
+          "title": "Business Case Builder",
+          "prompt": "Build a business case for [INVESTMENT/INITIATIVE] at [COMPANY TYPE]. Include: problem statement, proposed solution, cost analysis (CapEx + OpEx over 3-5 years), benefit quantification (revenue increase + cost savings + risk reduction), ROI calculation, payback period, NPV, sensitivity analysis, risks and mitigations, alternatives considered, and recommendation."
+        },
+        {
+          "title": "Operating Model Design",
+          "prompt": "Design a target operating model for [ORGANIZATION] post-[CHANGE/MERGER/TRANSFORMATION]. Define: value streams, organizational structure, governance model, processes (to-be), technology stack, people and capabilities needed, location strategy, performance metrics, and transition plan from current to future state. Create a one-page visual summary."
+        },
+        {
+          "title": "Consulting Engagement Kickoff",
+          "prompt": "Create a kickoff agenda and materials for a consulting engagement with [CLIENT]. Include: 90-minute agenda, objectives for the meeting, introduction script, project overview presentation outline, roles and responsibilities (RACI), communication plan, governance cadence, risk register template, and action item template. Set the tone for partnership."
+        },
+        {
+          "title": "Digital Transformation Roadmap",
+          "prompt": "Create a digital transformation roadmap for [INDUSTRY/COMPANY TYPE]. Current maturity: [DESCRIBE]. Define: target digital maturity across dimensions (customer experience, operations, culture, technology), initiatives sequenced by priority, dependencies, quick wins vs strategic bets, investment requirements, change management needs, and 3-year milestone plan."
+        },
+        {
+          "title": "Vendor Selection Framework",
+          "prompt": "Create a vendor selection framework for [CATEGORY OF SPEND]. Define: requirements (must-have and nice-to-have), evaluation criteria with weights, scoring methodology, RFP structure, vendor longlist strategy, demo evaluation guide, reference check questions, total cost of ownership model, negotiation levers, and recommendation template."
+        },
+        {
+          "title": "M&A Integration Plan",
+          "prompt": "Create a post-merger integration plan for [ACQUIRING COMPANY] acquiring [TARGET COMPANY]. Define: integration approach (absorption/preservation/best-of-both), workstreams (culture, operations, IT, HR, finance, customer), Day 1 checklist, 30/60/90-day milestones, synergy targets and tracking, governance structure, communication plan, and risk mitigation."
+        },
+        {
+          "title": "Strategy Offsite Facilitation",
+          "prompt": "Design a 2-day strategy offsite for [COMPANY TYPE]'s leadership team of [NUMBER] people. Day 1: retrospection and market analysis. Day 2: strategy formulation and commitment. Include: detailed agenda, pre-read materials, discussion formats, decision-making frameworks, breakout exercises, output templates, and post-offsite follow-up plan."
+        },
+        {
+          "title": "Cost Transformation Strategy",
+          "prompt": "Create a cost transformation strategy for [COMPANY TYPE] targeting [%] cost reduction. Analyze spend categories: people, technology, facilities, vendors, marketing, and operations. For each: identify reduction methods (eliminate, optimize, automate, outsource), estimate savings and implementation costs, assess impact on operations, and sequence initiatives by risk/reward."
+        },
+        {
+          "title": "Consulting Rate Calculator",
+          "prompt": "Help me set consulting rates for [SERVICE/EXPERTISE]. My experience: [DESCRIBE]. Consider: target annual income, billable utilization rate (typically 60-70%), overhead costs, market rates by tier, value-based vs hourly pricing, retainer vs project pricing, and premium positioning factors. Calculate 3 rate scenarios and provide scripts for quoting rates to clients."
+        },
+        {
+          "title": "Thought Leadership Content Plan",
+          "prompt": "Create a 90-day thought leadership content plan for a consultant in [FIELD]. Content types: LinkedIn posts (2x/week), long-form articles (biweekly), newsletter (weekly), speaking proposals (monthly), and one flagship resource (whitepaper/toolkit). For each: topics tied to [MY EXPERTISE], target audience, key message, CTA, and cross-posting strategy."
+        },
+        {
+          "title": "Client Retention Strategy",
+          "prompt": "Create a client retention strategy for my consulting practice in [FIELD]. Current clients: [DESCRIBE]. Include: relationship nurturing cadence (check-ins between engagements), value-add content (insights, templates, benchmarks), expansion opportunities (scope growth, new service lines), feedback and improvement loop, renewal/re-engagement timeline, pricing for loyalty, and creating switching costs through deep expertise."
+        }
+      ]
+    },
+    "real_estate": {
+      "name": "Real Estate",
+      "icon": "🏠",
+      "prompts": [
+        {
+          "title": "Rental Property Analyzer",
+          "prompt": "Analyze this rental property: Price [AMOUNT], Down payment [%], Interest rate [%], Rent [AMOUNT/month], Property tax [AMOUNT/year], Insurance [AMOUNT/year], HOA [AMOUNT/month]. Calculate: monthly mortgage payment, cash flow, cash-on-cash return, cap rate, 1% rule check, break-even occupancy, and 5-year projections. Recommend buy/pass with reasoning."
+        },
+        {
+          "title": "House Flipping Calculator",
+          "prompt": "Analyze a house flip: Purchase price [AMOUNT], Repair costs [AMOUNT], After-Repair Value (ARV) [AMOUNT], Holding time [MONTHS], Financing [CASH/HARD MONEY/BANK]. Calculate: total project cost (purchase + repairs + holding + closing + selling), profit, ROI, 70% rule check, and best/worst case scenarios. Flag risks and include a deal-killing checklist."
+        },
+        {
+          "title": "Airbnb Listing Optimizer",
+          "prompt": "Optimize my Airbnb listing for [PROPERTY TYPE] in [CITY]. Current title: [PASTE]. Rewrite: title (keyword-rich, benefit-driven), description (hooks guests, highlights unique features, addresses common concerns), amenities prioritization, photo order strategy, pricing recommendations, house rules (firm but welcoming), and automated message templates for guests."
+        },
+        {
+          "title": "Real Estate Market Analysis",
+          "prompt": "Analyze the real estate market in [CITY/NEIGHBORHOOD] for [BUYING/SELLING/INVESTING]. Evaluate: median home prices and 5-year trend, days on market, inventory levels, price-to-rent ratio, job growth, population growth, school ratings, crime rates, development projects, and neighborhood trajectory. Recommend: buy, sell, or wait, with reasoning."
+        },
+        {
+          "title": "Tenant Screening Framework",
+          "prompt": "Create a tenant screening framework for [PROPERTY TYPE] rental. Include: application requirements (income 3x rent, credit score minimum, references), background check process, red flags (not protected classes), approval/denial criteria documented consistently, adverse action process, security deposit logic, and lease addendum recommendations. Ensure Fair Housing compliance."
+        },
+        {
+          "title": "Lease Agreement Reviewer",
+          "prompt": "Review this lease agreement for a tenant: [PASTE KEY TERMS]. Flag: unusual clauses, hidden costs, maintenance responsibility gaps, early termination penalties, rent increase terms, subletting restrictions, pet policies, security deposit terms, and ambiguous language. Provide negotiation points and specific counter-offer language for problematic clauses."
+        },
+        {
+          "title": "BRRRR Method Planner",
+          "prompt": "Plan a BRRRR (Buy, Rehab, Rent, Refinance, Repeat) strategy for a property: Purchase [AMOUNT], Rehab [AMOUNT], ARV [AMOUNT], Expected rent [AMOUNT]. Calculate: total investment, refinance amount (75% of ARV), money left in deal, cash-on-cash return post-refinance, and how many repeats until target cash flow. Include risks: appraisal coming low, rehab overruns, refinance delays."
+        },
+        {
+          "title": "Property Management SOP",
+          "prompt": "Create a property management standard operating procedure for [NUMBER] rental units. Cover: tenant onboarding, rent collection process, maintenance request handling (urgency tiers), vendor management, lease renewal process, move-out inspection, security deposit handling, eviction procedure, financial reporting, and emergency response protocol."
+        },
+        {
+          "title": "Wholesale Real Estate Deal Analyzer",
+          "prompt": "Analyze a potential wholesale deal: Property [TYPE] at [ADDRESS/AREA], Estimated ARV [AMOUNT], Estimated repairs [AMOUNT], Seller's asking price [AMOUNT]. Calculate: maximum allowable offer (MAO) at 70% rule, assignment fee target, profit for end buyer, and whether this deal works. Include a script for negotiating with the seller and a buyer's list building strategy."
+        },
+        {
+          "title": "Mortgage Comparison Tool",
+          "prompt": "Compare mortgage options for a [AMOUNT] loan: 30-year fixed at [%], 15-year fixed at [%], 7/1 ARM at [%], and [ANY OTHER]. For each: monthly payment, total interest paid, total cost, break-even analysis for paying points, and pros/cons. Factor in: how long I plan to stay ([YEARS]), my risk tolerance, and prepayment penalty considerations. Recommend with reasoning."
+        },
+        {
+          "title": "Rental Rate Optimizer",
+          "prompt": "Help me set the optimal rent for my [PROPERTY TYPE] in [LOCATION]. Details: [BEDS/BATHS/SQFT/AMENITIES]. Analyze: comparable rentals (premium/average/below-average), seasonal pricing strategy, amenities premium, pet rent potential, utility responsibilities, and lease-incentive options (free month vs lower rate). Provide a pricing recommendation and adjustment triggers."
+        },
+        {
+          "title": "Real Estate Investment Portfolio Planner",
+          "prompt": "I currently have [DESCRIBE PORTFOLIO - number of properties, types, equity, cash flow]. Goal: [TARGET - cash flow amount, portfolio size, retirement]. Create a 5-year acquisition plan: strategy (BRRRR, buy-and-hold, commercial), financing options, target markets, criteria checklist, annual milestones, tax considerations, and exit/transition strategy."
+        },
+        {
+          "title": "Home Inspection Checklist Generator",
+          "prompt": "Create a comprehensive home inspection checklist for a [PROPERTY TYPE] buyer. Categories: exterior (roof, siding, drainage, landscaping), structural (foundation, walls, floors), systems (electrical, plumbing, HVAC), interior (windows, doors, appliances, fixtures), environmental (mold, radon, pests), and safety (smoke detectors, handrails, GFCI). Include red flags for each category."
+        },
+        {
+          "title": "REIT Investment Analyzer",
+          "prompt": "Analyze these REITs for my portfolio: [LIST REIT NAMES/TICKERS]. For each: sector focus, dividend yield, payout ratio, FFO growth, debt-to-equity, occupancy rates, geographic diversification, and 5-year performance. Compare to sector benchmarks. Recommend allocation across REIT types (residential, commercial, healthcare, industrial, data centers) based on current economic conditions."
+        },
+        {
+          "title": "Seller's Closing Checklist",
+          "prompt": "I'm selling my home. Create a closing checklist timeline from accepted offer to closing day. Cover: title search, appraisal scheduling, inspection negotiation, repair requests, buyer's loan progress, document preparation, final walk-through, closing disclosure review, moving logistics, utility transfers, address change, and tax implications."
+        },
+        {
+          "title": "Real Estate Listing Copywriter",
+          "prompt": "Write compelling listing copy for a [PROPERTY TYPE] in [LOCATION]. Specs: [BEDS/BATHS/SQFT/LOT/PRICE]. Key features: [LIST]. Create: attention-grabbing headline (8-12 words), opening hook (2 sentences), feature highlights with emotional benefit, neighborhood description, call to action, and MLS-optimized version (character limits). Avoid clichés. Make it stand out."
+        },
+        {
+          "title": "Real Estate Investor Negotiation Script",
+          "prompt": "Create negotiation scripts for a real estate investor making offers on [PROPERTY TYPE]. Scenarios: motivated seller, overpriced listing, multiple offers, off-market opportunity, price reduction request after inspection. For each: opening offer strategy, anchoring technique, concession trading framework, walk-away criteria, and relationship-preserving language."
+        }
+      ]
+    },
+    "health_fitness": {
+      "name": "Health & Fitness",
+      "icon": "💪",
+      "prompts": [
+        {
+          "title": "Personalized Workout Plan Builder",
+          "prompt": "Create a [NUMBER]-week workout plan for a [AGE]-year-old [MALE/FEMALE], [FITNESS LEVEL], goal: [LOSE WEIGHT/BUILD MUSCLE/ENDURANCE/GENERAL FITNESS]. Equipment: [GYM/HOME/BODYWEIGHT]. Available: [DAYS] days/week, [MINUTES] per session. Include: weekly split, exercises with sets/reps/rest, progressive overload plan, warm-up/cool-down, and deload week. Explain the rationale."
+        },
+        {
+          "title": "Meal Plan Generator",
+          "prompt": "Create a 7-day meal plan for [GOAL - weight loss/muscle gain/maintenance]. Calories: [TARGET]. Dietary restrictions: [LIST]. Preferences: [LIST]. Include: 3 meals + 2 snacks daily, macro breakdown, grocery shopping list organized by store section, prep instructions for batch cooking, and estimated daily cost. Make it realistic and sustainable."
+        },
+        {
+          "title": "Habit-Based Nutrition Coach",
+          "prompt": "Act as a nutrition coach. I'm [CURRENT EATING HABITS], [GOAL], [RESTRICTIONS]. Don't give me a restrictive diet. Instead, create 10 progressive weekly habits (e.g., week 1: drink water before each meal). For each habit: why it works, how to implement, common obstacles, success criteria, and how it builds on the previous week. Focus on sustainability over speed."
+        },
+        {
+          "title": "Sleep Optimization Protocol",
+          "prompt": "Create a sleep optimization protocol. Current sleep issues: [DESCRIBE - trouble falling asleep, waking up, insufficient hours]. Address: sleep environment (temperature, light, noise, mattress), pre-sleep routine (90 min wind-down), daytime habits (caffeine, exercise, light exposure), sleep schedule consistency, relaxation techniques, and when to seek medical evaluation."
+        },
+        {
+          "title": "Stress Management Toolkit",
+          "prompt": "Create a personalized stress management toolkit for someone dealing with [TYPE OF STRESS - work, personal, financial, health]. Include: 3-minute emergency techniques (box breathing, grounding), daily practices (10 min), weekly reset activities, monthly self-assessment, burnout warning signs, boundary-setting scripts, and professional help criteria."
+        },
+        {
+          "title": "Running Program Designer",
+          "prompt": "Create a [NUMBER]-week running program for a [BEGINNER/INTERMEDIATE/ADVANCED] runner training for [5K/10K/HALF/MARATHON]. Current ability: [DESCRIBE]. Include: weekly schedule (runs with type - easy/tempo/long/interval), cross-training, strength exercises for runners, progression plan, rest/recovery protocol, and race-day strategy. Include injury prevention tips."
+        },
+        {
+          "title": "Calorie & Macro Calculator",
+          "prompt": "Calculate my calorie and macro targets: [AGE], [GENDER], [HEIGHT], [WEIGHT], [ACTIVITY LEVEL], goal: [LOSE/GAIN/MAINTAIN]. Calculate: BMR (Mifflin-St Jeor), TDEE, target calories, protein/fat/carb split with reasoning, adjustment protocol (what to change if not progressing after 2 weeks), refeed day strategy, and tracking recommendations."
+        },
+        {
+          "title": "Home Gym Setup Planner",
+          "prompt": "Design a home gym for [BUDGET] and [SPACE - room/garage/corner]. Fitness goals: [DESCRIBE]. Recommend: essential equipment ranked by priority, cost breakdown for 3 tiers (budget/quality/premium), space layout description, flooring and ventilation needs, storage solutions, and alternatives for each major exercise. Calculate cost-per-use over 5 years vs gym membership."
+        },
+        {
+          "title": "Injury Prevention & Recovery",
+          "prompt": "I do [ACTIVITY/SPORT] and keep getting [TYPE OF INJURY]. Create an injury prevention and recovery plan: pre-activity warm-up (dynamic), mobility exercises targeting my weak points, strength imbalances to correct, post-activity recovery routine, warning signs to watch for, return-to-activity protocol after injury, and when to see a physical therapist."
+        },
+        {
+          "title": "Healthy Meal Prep System",
+          "prompt": "Design a meal prep system for [NUMBER] people, [DIETARY NEEDS], [DAYS] of meals per prep session. Include: master ingredient list, batch-cook recipes (3 proteins, 3 carbs, 3 vegetables), mix-and-match combination guide, storage containers and organization, reheating instructions, food safety guidelines, and a 2-hour Sunday prep schedule."
+        },
+        {
+          "title": "Mental Health Journaling Guide",
+          "prompt": "Create a mental health journaling system for managing [ANXIETY/DEPRESSION/STRESS/OVERWHELM]. Include: morning check-in prompts (mood, intention, gratitude), evening reflection (wins, challenges, tomorrow's focus), CBT thought records (situation, thought, evidence, reframe), mood tracking system, triggers log, and weekly pattern review. Include privacy and safety notes."
+        },
+        {
+          "title": "Desk Worker Health Protocol",
+          "prompt": "Create a health protocol for someone who sits [HOURS] hours daily at a desk. Include: ergonomic setup checklist, movement breaks (every 30/60/90 min), desk stretches (neck, shoulders, hips, wrists), posture correction exercises, eye strain prevention (20-20-20), hydration system, nutrition strategies for energy, and after-work mobility routine."
+        },
+        {
+          "title": "Water Intake Optimizer",
+          "prompt": "Create a personalized hydration plan. Current intake: [AMOUNT]. Activity level: [DESCRIBE]. Climate: [DESCRIBE]. Calculate: optimal daily intake, schedule (when to drink throughout the day), electrolyte considerations, signs of over/under-hydration, tracking system, hydration-rich foods to add, and adjustment for exercise, heat, and altitude."
+        },
+        {
+          "title": "Fitness Progress Tracker Design",
+          "prompt": "Design a comprehensive fitness progress tracking system. Track: body metrics (weight, measurements, body fat %), performance (lift numbers, run times, reps), photos (frequency and posing guide), subjective measures (energy, sleep quality, confidence), habit adherence (workout completion, nutrition, sleep), and monthly review questions. Include what NOT to obsess over."
+        },
+        {
+          "title": "Fasting Protocol Designer",
+          "prompt": "I want to try intermittent fasting. Goals: [DESCRIBE]. Current eating pattern: [DESCRIBE]. Health conditions: [LIST]. Recommend: fasting protocol (16:8, 18:6, 5:2, etc.) with rationale, transition plan (gradual adjustment), what to consume during fasting window, breaking-the-fast guidelines, workout timing, monitoring metrics, and red flags to stop."
+        },
+        {
+          "title": "Fitness Challenge Designer",
+          "prompt": "Design a [NUMBER]-day fitness challenge for [AUDIENCE - beginners, busy professionals, seniors]. Goal: [DESCRIBE]. Include: daily workout (scalable for fitness levels), nutrition guidelines, habit tracking sheet, progress measurement method, community/check-in structure, motivational messages, modification options, and post-challenge transition plan."
+        },
+        {
+          "title": "Corporate Wellness Program",
+          "prompt": "Design a corporate wellness program for [COMPANY SIZE] employees. Components: physical health (step challenge, ergonomic assessment, gym subsidy), mental health (meditation sessions, EAP, mental health days), nutrition (healthy snacks, lunch and learns), social (team activities), and measurement (participation rates, health outcomes, productivity, satisfaction). Include budget and ROI framework."
+        },
+        {
+          "title": "Post-Injury Return to Exercise Plan",
+          "prompt": "I'm recovering from [INJURY] and want to return to [ACTIVITY/SPORT]. Create a phased return plan (always with a disclaimer to consult a doctor). Phase 1: pain-free range of motion. Phase 2: light resistance. Phase 3: functional movement. Phase 4: sport-specific drills. Phase 5: full return. For each phase: exercises, progression criteria, warning signs, and estimated duration. Include confidence-building strategies."
+        },
+        {
+          "title": "Healthy Habits for Night Shift Workers",
+          "prompt": "Create a health and wellness guide for night shift workers. Address: sleep optimization (blackout curtains, sleep schedule consistency, melatonin timing), nutrition (meal timing, food choices for energy, avoiding the 3am crash), exercise scheduling, social/family life balance, mental health (isolation, depression risk), light exposure management, supplement considerations, and regular health monitoring."
+        }
+      ]
+    },
+    "travel": {
+      "name": "Travel & Events",
+      "icon": "✈️",
+      "prompts": [
+        {
+          "title": "Trip Itinerary Planner",
+          "prompt": "Create a detailed [NUMBER]-day itinerary for [DESTINATION]. Travelers: [DESCRIBE - solo, couple, family with kids ages]. Budget: [AMOUNT]. Interests: [LIST - food, history, nature, adventure, nightlife]. Include: daily schedule with morning/afternoon/evening, specific places with addresses, transport between locations, meal recommendations, cost breakdown, and buffer time."
+        },
+        {
+          "title": "Travel Budget Optimizer",
+          "prompt": "Optimize my travel budget for a trip to [DESTINATION] for [NUMBER] days. Total budget: [AMOUNT]. Analyze: flight booking strategy (timing, airlines, alternatives), accommodation options (hotel vs Airbnb vs hostel vs house-sit), daily food budget, activity prioritization, transportation, and hidden costs. Create a budget allocation and money-saving tips specific to this destination."
+        },
+        {
+          "title": "Packing List Generator",
+          "prompt": "Create a comprehensive packing list for a [NUMBER]-day trip to [DESTINATION] in [SEASON], doing [ACTIVITIES]. Include: clothing (outfit-planned by day), toiletries, electronics (with adapters), documents, first aid, and destination-specific items. Distinguish: essential vs nice-to-have. Include carry-on vs checked bag split and a pre-departure checklist."
+        },
+        {
+          "title": "Event Planning Master Plan",
+          "prompt": "Create an event planning master plan for [EVENT TYPE - conference, wedding, meetup, fundraiser] for [NUMBER] attendees. Timeline: [NUMBER] weeks out. Include: budget breakdown, venue criteria checklist, vendor categories with selection process, marketing/invitation timeline, day-of run sheet (minute by minute), contingency plans, and post-event evaluation."
+        },
+        {
+          "title": "Travel Hacking Strategy",
+          "prompt": "Create a travel hacking strategy for [FREQUENT TRAVELER/OCCASIONAL]. Current points/miles: [DESCRIBE]. Home airport: [CODE]. Goal destination: [PLACE]. Analyze: best credit cards for signup bonuses, points earning strategy, redemption sweet spots, airline/hotel alliance optimization, status matching opportunities, and a 12-month plan to earn a [SPECIFIC] free flight or hotel stay."
+        },
+        {
+          "title": "Wedding Planning Timeline",
+          "prompt": "Create a wedding planning timeline for a wedding in [NUMBER] months. Budget: [AMOUNT]. Guests: [NUMBER]. Style: [DESCRIBE]. Include: month-by-month checklist (12 months to day-of), budget allocation by category, vendor booking deadlines, invitation timeline, day-of coordination run sheet, and common budget-busters to avoid."
+        },
+        {
+          "title": "Conference Organizer Guide",
+          "prompt": "Organize a [INDUSTRY/TOPIC] conference for [NUMBER] attendees over [NUMBER] days. Include: theme and content strategy, speaker outreach plan, sponsor packages, venue requirements, tech setup (AV, streaming, app), registration process, attendee experience journey, networking opportunities, post-event content strategy, and budget template."
+        },
+        {
+          "title": "Digital Nomad Destination Guide",
+          "prompt": "I'm a digital nomad considering [CITY/COUNTRY] for [NUMBER] months. Analyze: cost of living breakdown (rent, food, transport, coworking), internet speed and reliability, visa requirements and digital nomad visa availability, safety (neighborhoods to avoid), community and networking, healthcare access, climate, pros/cons vs alternatives, and a first-week setup checklist."
+        },
+        {
+          "title": "Birthday Party Planner",
+          "prompt": "Plan a [THEME] birthday party for a [AGE]-year-old, [NUMBER] guests, budget [AMOUNT]. Include: venue ideas, decoration concept, food and drink menu, entertainment/activities schedule, timeline (setup to cleanup), shopping list, DIY vs buy decisions, party favor ideas, and a contingency plan for weather (if outdoor). Make it memorable, not generic."
+        },
+        {
+          "title": "Group Trip Coordinator",
+          "prompt": "I'm coordinating a group trip for [NUMBER] people to [DESTINATION] for [NUMBER] days. Create a coordination plan: group decision process, payment collection system and tool recommendations, shared document setup, itinerary proposal template, dietary/needs collection form, communication channels, conflict prevention strategies, and a shared expenses tracking system."
+        },
+        {
+          "title": "Restaurant Research Guide",
+          "prompt": "Create a dining guide for [CITY] trip. Preferences: [CUISINE TYPES], [BUDGET RANGE], [DIETARY RESTRICTIONS]. For each meal of the trip, recommend: restaurant name, cuisine, price range, must-order dish, vibe/atmosphere, reservation necessity, and backup option. Include local food specialties to try and markets/street food worth visiting."
+        },
+        {
+          "title": "Volunteer Travel Planner",
+          "prompt": "Plan a meaningful volunteer travel experience in [COUNTRY/REGION] for [DURATION]. Consider: reputable organizations (with vetting criteria), types of work matching my skills [DESCRIBE], cost structure (program fees + travel + living), visa requirements, vaccinations, cultural preparation, ethical volunteering guidelines, and how to continue impact after returning."
+        },
+        {
+          "title": "Corporate Retreat Designer",
+          "prompt": "Design a [NUMBER]-day corporate retreat for [TEAM SIZE] at [COMPANY TYPE]. Goals: [TEAM BUILDING/STRATEGY/CELEBRATION]. Include: venue criteria, agenda with work sessions and team activities, dining and social plan, transportation logistics, swag/gift ideas, dietary and accessibility needs, budget breakdown, and post-retreat feedback survey."
+        },
+        {
+          "title": "Festival & Fair Organizer",
+          "prompt": "Organize a [TYPE] festival/fair in [LOCATION] expecting [NUMBER] attendees. Include: concept and theme, vendor recruitment and management, entertainment schedule, permits and insurance, security and medical plan, parking and traffic flow, waste management, marketing campaign timeline, sponsorship tiers, volunteer coordination, and financial projections."
+        },
+        {
+          "title": "Travel Insurance Analyzer",
+          "prompt": "Help me choose travel insurance for a trip to [DESTINATIONS] for [DURATION], doing [ACTIVITIES]. Compare coverage needs: medical emergencies, evacuation, trip cancellation/interruption, baggage loss, flight delays, adventure sports coverage, pre-existing conditions, and COVID-related coverage. Recommend coverage amounts and 3 specific providers to compare."
+        },
+        {
+          "title": "Solo Female Travel Safety Guide",
+          "prompt": "Create a solo female travel safety guide for [DESTINATION/REGION]. Include: pre-trip research checklist, accommodation safety criteria, transportation safety tips, cultural norms and dress code, communication plan template, emergency resources (embassy, local emergency numbers, women's helplines), self-defense basics, common scams to avoid, and community resources/apps."
+        },
+        {
+          "title": "Accessible Travel Planner",
+          "prompt": "Plan an accessible trip to [DESTINATION] for a traveler with [DISABILITY/ACCESSIBILITY NEED]. Include: accessible accommodation criteria and booking tips, transportation options, attraction accessibility research method, medical/equipment considerations, documentation needs, accessible restaurants and activities, backup plans, and relevant apps/resources."
+        },
+        {
+          "title": "Travel Photography Guide",
+          "prompt": "Create a travel photography guide for [DESTINATION TYPE] using a [CAMERA TYPE - phone/DSLR/mirrorless]. Include: must-capture shot list (iconic + hidden gems), best times for lighting at key locations, composition tips for landscapes/street/architecture/food, cultural photography etiquette, backup and storage strategy, editing presets/style direction, and gear packing list with weight optimization."
+        }
+      ]
+    },
+    "research": {
+      "name": "Research & Academia",
+      "icon": "🔬",
+      "prompts": [
+        {
+          "title": "Literature Review Framework",
+          "prompt": "Help me structure a literature review on [TOPIC] for a [GRANT/THESIS/PAPER]. Define: search strategy (databases, keywords, inclusion/exclusion criteria), thematic organization approach, synthesis matrix template (author, year, methodology, findings, limitations), gap identification method, and narrative structure. Provide the first 3 paragraphs as a template."
+        },
+        {
+          "title": "Research Question Refiner",
+          "prompt": "My broad research interest is [TOPIC]. Help me refine it into a research question using the FINER criteria (Feasible, Interesting, Novel, Ethical, Relevant). Generate 5 specific research questions, evaluate each against the criteria, identify the strongest one, and convert it into a testable hypothesis with independent and dependent variables clearly defined."
+        },
+        {
+          "title": "Methodology Selector",
+          "prompt": "My research question is: [PASTE]. Help me choose the best methodology. Compare: quantitative vs qualitative vs mixed methods. For the recommended approach: justify the choice, identify the specific design (experiment, survey, case study, ethnography, etc.), define sampling strategy, outline data collection tools, and address validity/reliability concerns."
+        },
+        {
+          "title": "Survey Design Expert",
+          "prompt": "Design a survey to measure [CONSTRUCT/VARIABLE] for [POPULATION]. Create 20 questions mixing types (Likert, multiple choice, open-ended, ranking). Ensure: face validity, construct validity, avoidance of leading/double-barreled questions, logical flow, demographic section placement, attention checks, and estimated completion time. Include a pre-test plan."
+        },
+        {
+          "title": "Grant Proposal Writer",
+          "prompt": "Write a grant proposal for [FUNDING BODY] on [RESEARCH TOPIC]. Structure: specific aims (2-3 clear objectives), significance (gap in knowledge and impact), innovation (what's new), approach (preliminary data, methodology, timeline), budget justification, and broader impacts. Make it compelling to reviewers who may not be experts in my specific sub-field."
+        },
+        {
+          "title": "Systematic Review Protocol",
+          "prompt": "Create a systematic review protocol following PRISMA guidelines for the question: [RESEARCH QUESTION]. Define: eligibility criteria (PICOS), information sources, search strategy (with example Boolean string), selection process, data extraction template, risk of bias assessment tool, synthesis method, and heterogeneity handling plan."
+        },
+        {
+          "title": "Academic Paper Abstract Writer",
+          "prompt": "Write a structured abstract for my paper about [TOPIC]. Key findings: [SUMMARIZE]. Format: Background (2 sentences on context and gap), Methods (3 sentences on approach), Results (3 sentences on key findings with key numbers), Conclusions (2 sentences on implications), and Keywords (6-8 terms). Target: 250 words. Make every sentence information-dense."
+        },
+        {
+          "title": "Thesis Structure Planner",
+          "prompt": "Create a detailed thesis/dissertation outline for [TOPIC] at [MASTERS/PHD] level. For each chapter: purpose, estimated page count, section breakdown, key arguments/claims, literature to cite, methodology details, and how it connects to the next chapter. Include milestone timeline: proposal, data collection, draft, defense. Flag common committee concerns per chapter."
+        },
+        {
+          "title": "Data Collection Plan",
+          "prompt": "Design a data collection plan for my study on [TOPIC]. Method: [SURVEY/INTERVIEW/OBSERVATION/EXPERIMENT]. Include: operationalization of variables, instrument design (or selection of validated instruments), sampling plan (type, size calculation, recruitment strategy), data management procedures, quality control measures, ethics/IRB considerations, and timeline."
+        },
+        {
+          "title": "Peer Review Response Letter",
+          "prompt": "I received peer reviews for my paper on [TOPIC]. Reviewer comments: [PASTE]. Draft a response letter. For each comment: quote the reviewer, respond respectfully, describe the exact change made (with page/line numbers), or provide a reasoned rebuttal. Start with a summary of major changes. Tone: appreciative, professional, non-defensive. Include revised manuscript notes."
+        },
+        {
+          "title": "Research Ethics Application",
+          "prompt": "Prepare an IRB/ethics application for my study: [DESCRIBE STUDY]. Complete: study purpose, research design summary, participant population and recruitment, informed consent process, data privacy and storage plan, risk assessment (physical, psychological, social, economic), risk minimization strategies, debriefing plan, and researcher qualifications."
+        },
+        {
+          "title": "Conference Presentation Builder",
+          "prompt": "Create a conference presentation for [CONFERENCE NAME/TYPE] based on my research: [DESCRIBE FINDINGS]. Duration: [MINUTES]. Outline: slide-by-slide breakdown, each with title, key points (max 4 bullets), visual description (chart, diagram, image), speaker notes, and audience engagement moments. Start with a hook, build the narrative, end with impact and Q&A prep."
+        },
+        {
+          "title": "Meta-Analysis Plan",
+          "prompt": "Design a meta-analysis plan for [RESEARCH QUESTION]. Define: effect size metric (Cohen's d, odds ratio, correlation), literature search strategy, inclusion/exclusion criteria, coding sheet template, heterogeneity assessment (I², Q-test), publication bias detection (funnel plot, Egger's test), subgroup analysis plan, and software choice (RevMan, Comprehensive Meta-Analysis, R)."
+        },
+        {
+          "title": "Interview Study Designer",
+          "prompt": "Design a qualitative interview study on [TOPIC]. Include: interview approach (structured, semi-structured, unstructured) with justification, participant sampling strategy (purposive, snowball, maximum variation), interview guide with 15-20 main questions and probes, pilot plan, transcription approach, coding strategy (grounded theory, thematic analysis), and trustworthiness measures."
+        },
+        {
+          "title": "Science Communication Writer",
+          "prompt": "Translate my research findings into accessible science communication for [AUDIENCE - general public, policymakers, students]. My research: [DESCRIBE]. Create: a 200-word plain-language summary, a 60-second elevator pitch, a social media thread (8 posts), 3 analogies for different audiences, FAQ with anticipated questions, and a headline that's accurate but compelling."
+        },
+        {
+          "title": "Research Grant Database Builder",
+          "prompt": "Help me build a funding opportunity database for [RESEARCH AREA] at [CAREER STAGE]. Sources to search: federal agencies (NIH, NSF, etc.), foundations, professional associations, university internal grants, and international opportunities. Create a tracking template with: funder, amount, deadline, eligibility, fit assessment, required documents, and timeline. Prioritize by fit and deadline."
         }
       ]
     }
