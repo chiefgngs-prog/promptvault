@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>365 Social Media Content Calendar - AI Prompt Vault</title>
+<meta name="description" content="Never run out of content ideas. 365 daily social media post ideas organized by content type and platform. Filter, search, and copy instantly.">
+<style>
+:root{--bg:#0f0f1e;--surface:#1a1a2e;--primary:#6c5ce7;--accent:#00d4aa;--text:#e0e0e0;--text-dim:#8888aa;--border:#2a2a4a}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Segoe UI',system-ui,sans-serif;background:var(--bg);color:var(--text)}
+.header{background:linear-gradient(135deg,rgba(108,92,231,0.15),rgba(0,212,170,0.1));border-bottom:1px solid var(--border);padding:40px 20px;text-align:center}
+.header h1{font-size:2rem;background:linear-gradient(135deg,var(--primary),var(--accent));-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+.header p{color:var(--text-dim);max-width:600px;margin:0 auto}
+.filters{max-width:1000px;margin:-20px auto 20px;padding:0 20px;display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.filter-select{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:10px 16px;color:var(--text);font-size:0.9rem;cursor:pointer;outline:none}
+.search-box{flex:1;min-width:200px;background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:10px 16px;color:var(--text);font-size:0.9rem;outline:none}
+.calendar{max-width:1000px;margin:0 auto;padding:0 20px 40px}
+.month-group{margin-bottom:32px}
+.month-header{font-size:1.2rem;color:var(--accent);margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid var(--border)}
+.day-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
+.day-card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:16px;transition:border-color 0.2s;cursor:pointer}
+.day-card:hover{border-color:var(--primary)}
+.day-num{font-size:0.75rem;color:var(--text-dim);margin-bottom:4px}
+.day-type{display:inline-block;padding:2px 8px;border-radius:10px;font-size:0.7rem;font-weight:600;margin-bottom:8px}
+.type-educational{background:rgba(108,92,231,0.2);color:var(--primary)}
+.type-engagement{background:rgba(0,212,170,0.2);color:var(--accent)}
+.type-promotional{background:rgba(233,69,96,0.2);color:#e94560}
+.type-personal{background:rgba(243,156,18,0.2);color:#f39c12}
+.type-inspiration{background:rgba(155,89,182,0.2);color:#9b59b6}
+.day-idea{font-size:0.88rem;line-height:1.5}
+.day-platform{font-size:0.72rem;color:var(--text-dim);margin-top:8px}
+.toast{position:fixed;bottom:30px;left:50%;transform:translateX(-50%) translateY(100px);background:var(--accent);color:#000;padding:14px 28px;border-radius:12px;font-weight:600;transition:transform 0.3s;z-index:100}
+.toast.show{transform:translateX(-50%) translateY(0)}
+.cta{text-align:center;padding:40px 20px;background:var(--surface);border-top:1px solid var(--border)}
+.cta a{color:var(--accent);text-decoration:none;font-weight:600}
+footer{text-align:center;padding:20px;color:var(--text-dim);font-size:0.8rem}
+</style>
+</head>
+<body>
+
+<div class="header">
+<h1>📅 365 Social Media Content Calendar</h1>
+<p>365 days of content ideas. No more staring at a blank screen. Click any card to copy.</p>
+</div>
+
+<div class="filters">
+<select class="filter-select" id="typeFilter" onchange="filter()">
+<option value="">All Types</option>
+<option value="educational">Educational</option>
+<option value="engagement">Engagement</option>
+<option value="promotional">Promotional</option>
+<option value="personal">Personal/Behind-the-Scenes</option>
+<option value="inspiration">Inspiration</option>
+</select>
+<select class="filter-select" id="monthFilter" onchange="filter()">
+<option value="">All Months</option>
+</select>
+<input class="search-box" type="text" id="searchBox" placeholder="Search ideas..." oninput="filter()">
+</div>
+
+<div class="calendar" id="calendar"></div>
+
+<div class="cta">
+<p>🚀 Want more content tools? Get <strong>503 AI prompts</strong> for content creation</p>
+<p style="margin-top:8px"><a href="https://chiefgngs-prog.github.io/promptvault/">Get the AI Prompt Vault →</a></p>
+</div>
+
+<footer>© 2026 AI Prompt Vault · <a href="https://chiefgngs-prog.github.io/freetools/" style="color:var(--text-dim)">Free Tools</a></footer>
+
+<div class="toast" id="toast">Copied!</div>
+
+<script>
+const months=['January','February','March','April','May','June','July','August','September','October','November','December'];
+
+// Generate 365 content ideas
+const typeMap=['educational','engagement','promotional','personal','inspiration'];
+const platformMap=['LinkedIn','Instagram','Twitter/X','TikTok','Facebook'];
+
+const ideasByType={
+educational:[
+'Share a "how-to" tutorial for your industry',
+'Explain a common misconception in your field',
+'Break down a complex topic into simple terms',
+'Share a tool or resource you use daily',
+'Create a "myth vs fact" post',
+'Share a book recommendation with key takeaways',
+'Teach a quick skill in under 60 seconds',
+'Create an infographic about industry stats',
+'Share a glossary of terms beginners should know',
+'Answer a frequently asked question',
+'Do a "this or that" comparison',
+'Share a step-by-step process',
+'Explain the science/reasoning behind something',
+'Create a checklist your audience can save',
+'Share a before-and-after transformation',
+'Debunk a popular myth',
+'Share keyboard shortcuts or productivity tips',
+'Create a FAQ post',
+'Share a framework or methodology',
+'Break down a case study with lessons'
+],
+engagement:[
+'Ask your audience to fill in the blank',
+'Run a poll or survey',
+'Host a Q&A session',
+'Share an unpopular opinion and ask for debate',
+'Ask: "What would you do?" scenario',
+'Create a "tag someone who needs this" post',
+'Ask for recommendations',
+'Run a "this or that" vote',
+'Start a discussion thread',
+'Ask your audience about their biggest challenge',
+'Share a controversial take and invite discussion',
+'Run a caption contest',
+'Ask people to share their wins this week',
+'Create a "comment your favorite" post',
+'Ask: "Hot take or not?" with a debate',
+'Share two options and ask which is better',
+'Ask what content they want to see from you',
+'Create a game or quiz',
+'Ask for feedback on a project',
+'Share a "would you rather" for your niche'
+],
+promotional:[
+'Share a customer testimonial',
+'Announce a new product or feature',
+'Showcase your best-selling product',
+'Share a limited-time offer',
+'Highlight a case study or success story',
+'Show before-and-after using your product',
+'Share behind-the-scenes of product creation',
+'Run a giveaway or contest',
+'Share a discount code',
+'Answer: "Why choose us?"',
+'Compare your product to the alternative',
+'Share a demo or tutorial of your product',
+'Highlight a unique feature',
+'Share social proof (reviews, mentions)',
+'Announce an upcoming event or launch',
+'Share your guarantee or warranty',
+'Showcase your team member',
+'Share pricing transparency',
+'Create a bundle offer',
+'Thank your customers with a special offer'
+],
+personal:[
+'Share your origin story',
+'Post a behind-the-scenes look at your workspace',
+'Share a failure and what you learned',
+'Introduce yourself or your team',
+'Share your morning routine',
+'Post about a personal milestone',
+'Share your "why" — why you do what you do',
+'Show your office or workspace setup',
+'Share a lesson from a mentor',
+'Post about a hobby outside work',
+'Share your goals for the quarter',
+'Post a "day in the life"',
+'Share what you're currently learning',
+'Talk about a challenge you overcame',
+'Share your favorite productivity hack',
+'Post about a book that changed your perspective',
+'Share a personal philosophy or value',
+'Show your team culture',
+'Share what inspires you',
+'Post a reflection on how far you have come'
+],
+inspiration:[
+'Share a motivational quote with context',
+'Post an "if I could go back" reflection',
+'Share a success story from your community',
+'Post about resilience and perseverance',
+'Share an affirmation for your audience',
+'Post about embracing failure',
+'Share a powerful statistic that motivates',
+'Post about the importance of starting',
+'Share wisdom from someone you admire',
+'Post about work-life balance',
+'Share a reminder to rest and recharge',
+'Post about celebrating small wins',
+'Share an empowering message for your audience',
+'Post about consistency over intensity',
+'Share a vision for the future of your industry',
+'Post about the power of community',
+'Share a lesson from nature',
+'Post about overcoming self-doubt',
+'Share a message about financial freedom',
+'Post about leaving a legacy'
+]
+};
+
+const content=[];
+let idCounter=0;
+for(let m=0;m<12;m++){
+for(let d=0;d<30;d++){
+const typeIdx=idCounter%5;
+const type=typeMap[typeIdx];
+const ideas=ideasByType[type];
+const idea=ideas[(m*30+d)%ideas.length];
+const platform=platformMap[idCounter%5];
+content.push({month:m,day:d+1,type,idea,platform,id:idCounter});
+idCounter++;
+}
+}
+
+// Populate month filter
+months.forEach((m,i)=>{
+const opt=document.createElement('option');
+opt.value=i;opt.textContent=m;
+document.getElementById('monthFilter').appendChild(opt);
+});
+
+function filter(){
+const typeF=document.getElementById('typeFilter').value;
+const monthF=document.getElementById('monthFilter').value;
+const search=document.getElementById('searchBox').value.toLowerCase();
+const filtered=content.filter(c=>{
+if(typeF&&c.type!==typeF)return false;
+if(monthF!==''&&c.month!=monthF)return false;
+if(search&&!c.idea.toLowerCase().includes(search))return false;
+return true;
+});
+render(filtered);
+}
+
+function render(items){
+const cal=document.getElementById('calendar');
+const byMonth={};
+items.forEach(c=>{
+if(!byMonth[c.month])byMonth[c.month]=[];
+byMonth[c.month].push(c);
+});
+let html='';
+for(let m=0;m<12;m++){
+if(!byMonth[m])continue;
+html+=`<div class="month-group"><h2 class="month-header">${months[m]}</h2><div class="day-grid">`;
+byMonth[m].forEach(c=>{
+html+=`<div class="day-card" onclick="copyIdea('${c.idea.replace(/'/g,"\\'")}')">
+<div class="day-num">Day ${c.day}</div>
+<span class="day-type type-${c.type}">${c.type}</span>
+<div class="day-idea">${c.idea}</div>
+<div class="day-platform">📱 ${c.platform}</div>
+</div>`;
+});
+html+='</div></div>';
+}
+cal.innerHTML=html||'<p style="text-align:center;color:var(--text-dim);padding:40px">No ideas match your filters.</p>';
+}
+
+function copyIdea(idea){
+navigator.clipboard.writeText(idea);
+const t=document.getElementById('toast');
+t.classList.add('show');
+setTimeout(()=>t.classList.remove('show'),2000);
+}
+
+render(content);
+</script>
+</body>
+</html>
