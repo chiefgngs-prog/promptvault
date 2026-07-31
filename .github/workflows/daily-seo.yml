@@ -1,0 +1,74 @@
+name: Daily Pinterest + SEO Content Engine
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate SEO content
+        run: |
+          DAY=$(date +%Y%m%d)
+          python3 -c "
+          import json, random, os
+
+          with open('prompts.json','r') as f:
+              data = json.load(f)
+
+          cats = list(data['categories'].values())
+          cat = random.choice(cats)
+          p = random.choice(cat['prompts'])
+
+          # Create SEO article
+          slug = p['title'].lower().replace(' ','-').replace('--','-')
+          slug = ''.join(c for c in slug if c.isalnum() or c=='-')[:60].rstrip('-')
+
+          article = '''<!DOCTYPE html>
+          <html><head>
+          <meta charset=\"UTF-8\">
+          <meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\">
+          <title>ChatGPT Prompt: ''' + p['title'] + ''' (2026 Guide)</title>
+          <meta name=\"description\" content=\"Professional ChatGPT prompt for ''' + p['title'].lower() + '''. Copy and paste for instant results. Free.\">
+          <style>
+          *{margin:0;padding:0;box-sizing:border-box}
+          body{font-family:system-ui,sans-serif;background:#0a0a12;color:#e0e0e8;line-height:1.7;padding:40px 20px}
+          .wrap{max-width:700px;margin:0 auto}
+          h1{font-size:28px;margin-bottom:8px}
+          h1 span{color:#00d4aa}
+          h2{font-size:20px;margin-top:32px;margin-bottom:12px}
+          p{color:#888;margin-bottom:16px}
+          .prompt-box{background:#13131f;border:1px solid #252538;border-radius:12px;padding:20px;margin:16px 0}
+          .prompt-box code{display:block;font-size:13px;color:#00d4aa;white-space:pre-wrap;font-family:monospace}
+          .cta{text-align:center;padding:24px;background:linear-gradient(135deg,rgba(233,69,96,0.1),rgba(108,92,231,0.1));border:1px solid rgba(233,69,96,0.3);border-radius:12px;margin:24px 0}
+          .cta a{display:inline-block;padding:14px 32px;background:#e94560;color:#fff;border-radius:8px;text-decoration:none;font-weight:700}
+          footer{text-align:center;padding:24px;border-top:1px solid #252538;font-size:13px;color:#444}
+          footer a{color:#6c5ce7;text-decoration:none}
+          </style>
+          </head><body><div class=\"wrap\">
+          <h1>ChatGPT Prompt: <span>''' + p['title'] + '''</span></h1>
+          <p>Professional prompt for ''' + p['title'].lower() + '''. Copy and paste into ChatGPT, Claude, or any AI assistant.</p>
+          <h2>The Prompt</h2>
+          <div class=\"prompt-box\"><code>''' + p['prompt'].replace('<','&lt;').replace('>','&gt;') + '''</code></div>
+          <h2>How To Use</h2>
+          <p>1. Copy the prompt above<br>2. Paste into your AI tool<br>3. Replace [BRACKETS] with your info<br>4. Get professional results</p>
+          <div class=\"cta\">
+          <p>Want 207 more professional prompts?</p>
+          <a href=\"https://ko-fi.com/promptvault22630/shop\">Get the AI Prompt Vault - \$19</a>
+          </div>
+          <footer><p><a href=\"https://ko-fi.com/promptvault22630/shop\">Ko-fi Shop</a> | <a href=\"https://chiefgngs-prog.github.io/freetools/\">Free Tools</a></p></footer>
+          </div></body></html>'''
+
+          os.makedirs('prompts', exist_ok=True)
+          with open('prompts/' + slug + '.html', 'w') as f:
+              f.write(article)
+          print('Created: prompts/' + slug + '.html')
+          "
+
+          git config user.name "chiefgngs-prog"
+          git config user.email "chief.gngs@gmail.com"
+          git add -A
+          git commit -m "Daily SEO content - $DAY" || true
+          git push || true
