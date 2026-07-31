@@ -1,0 +1,163 @@
+{
+  "name": "50 Cold Email Templates That Get Replies",
+  "version": "1.0",
+  "description": "50 proven cold email templates for every situation. B2B sales, partnerships, job applications, networking, and more. Each template includes psychology notes and personalization tips.",
+  "categories": {
+    "b2b_sales": {
+      "name": "B2B Sales",
+      "templates": [
+        {
+          "name": "The Pattern Interrupt",
+          "subject": "Quick question, {{firstName}}",
+          "body": "Hi {{firstName}},\n\nI know you get 100 cold emails a day, so I'll be brief.\n\n{{company}} is doing something interesting with {{specificObservation}}. We helped {{similarCompany}} go from {{beforeMetric}} to {{afterMetric}} in {{timeframe}} by {{method}}.\n\nWorth a 10-minute chat next week?\n\n{{senderName}}",
+          "psychology": "Acknowledges email overload (empathy), shows research (not generic), provides proof with similar company (social proof), low-friction ask (10 min).",
+          "personalization": "Replace {{specificObservation}} with something genuinely specific you noticed about their company."
+        },
+        {
+          "name": "The Value-First Approach",
+          "subject": "I analyzed {{company}}'s {{specificArea}}",
+          "body": "Hi {{firstName}},\n\nI spent 20 minutes looking at {{company}}'s {{specificArea}} and found 3 quick wins:\n\n1. {{specificFinding1}}\n2. {{specificFinding2}}\n3. {{specificFinding3}}\n\nNo strings attached — I just enjoy this stuff. But if you want help implementing any of these, I'm around.\n\n{{senderName}}",
+          "psychology": "Delivers value before asking for anything. Creates reciprocity. Shows expertise without bragging.",
+          "personalization": "Actually do the analysis. This only works if the findings are genuine and specific."
+        },
+        {
+          "name": "The Social Proof Hammer",
+          "subject": "{{mutualConnection}} suggested we connect",
+          "body": "Hi {{firstName}},\n\n{{mutualConnection}} mentioned you're the person to talk to about {{topic}} at {{company}}.\n\nWe recently helped {{clientName}} {{specificResult}} — they were dealing with {{specificPainPoint}}, which sounds similar to what {{company}} might be facing.\n\nOpen to a quick intro call?\n\n{{senderName}}\n\nP.S. {{mutualConnection}} said to say hello!",
+          "psychology": "Referral creates instant trust. Social proof with named client. P.S. reinforces the connection.",
+          "personalization": "Only use if you actually have a mutual connection who gave you permission."
+        },
+        {
+          "name": "The Problem-Agitate-Solve",
+          "subject": "{{painPoint}} at {{company}}?",
+          "body": "Hi {{firstName}},\n\nMost {{jobTitle}}s I talk to are frustrated with {{painPoint}}. They spend {{timeWasted}} on {{specificActivity}} instead of {{desiredOutcome}}.\n\nSound familiar?\n\nWe built {{product}} specifically for this. {{clientName}} used it to {{specificResult}} in {{timeframe}}.\n\nHappy to show you how it works — here's my calendar: {{calendarLink}}\n\n{{senderName}}",
+          "psychology": "PAS framework. Agitates the pain before presenting the solution. Calendar link reduces friction.",
+          "personalization": "The pain point must be specific enough that they feel 'how did you know?'"
+        },
+        {
+          "name": "The Case Study Drop",
+          "subject": "How {{clientName}} {{achievedResult}}",
+          "body": "Hi {{firstName}},\n\nJust published a case study on how {{clientName}} {{achievedResult}} using {{method}}.\n\nKey takeaway: {{insight}}\n\nSince {{company}} is in a similar space, I thought you might find it interesting.\n\nHere's the full breakdown: {{link}}\n\nNo pitch — just thought it was relevant. Let me know if you'd like to discuss how this applies to {{company}}.\n\n{{senderName}}",
+          "psychology": "Provides free value (case study). 'No pitch' reduces resistance. Ends with soft CTA.",
+          "personalization": "Pick a case study that's relevant to their industry or challenge."
+        }
+      ]
+    },
+    "partnerships": {
+      "name": "Partnership & Collaboration",
+      "templates": [
+        {
+          "name": "The Win-Win Pitch",
+          "subject": "Partnership idea: {{yourCompany}} + {{company}}",
+          "body": "Hi {{firstName}},\n\nI've been following {{company}}'s work in {{industry}} — especially {{specificProject}}.\n\nI run {{yourCompany}}, where we {{whatYouDo}}. I see a natural partnership:\n\n• Your audience needs {{whatTheyNeed}}\n• Our product delivers {{whatYouProvide}}\n• We could {{specificPartnershipIdea}}\n\nBoth audiences win, both brands grow.\n\nOpen to exploring this? I'd love to hop on a call.\n\n{{senderName}}",
+          "psychology": "Shows research. Frames as win-win. Specific enough to be actionable but open enough to invite collaboration.",
+          "personalization": "Propose a specific partnership model, not just 'let's partner.'"
+        },
+        {
+          "name": "The Co-Marketing Proposal",
+          "subject": "Idea: {{company}} + {{yourCompany}} content collab",
+          "body": "Hi {{firstName}},\n\nQuick idea: what if {{company}} and {{yourCompany}} co-created {{contentType}} about {{topic}}?\n\nHere's why it works:\n• Your audience: {{audienceDescription}}\n• Our audience: {{audienceDescription}}\n• Combined reach: {{estimatedReach}}\n• Topic is trending in {{industry}}\n\nI'd handle {{yourContribution}}. You'd handle {{theirContribution}}.\n\nInterested?\n\n{{senderName}}",
+          "psychology": "Concrete proposal with clear division of labor. Shows you've thought it through. Mutual benefit is obvious.",
+          "personalization": "Propose a content type that matches their brand voice."
+        }
+      ]
+    },
+    "job_search": {
+      "name": "Job Search & Career",
+      "templates": [
+        {
+          "name": "The Hiring Manager Direct",
+          "subject": "{{role}} position — {{yourName}}",
+          "body": "Hi {{managerName}},\n\nI saw the {{role}} opening at {{company}} and wanted to reach out directly.\n\nHere's why I'm a strong fit:\n• {{achievement1}} at {{previousCompany}}\n• {{achievement2}} ({{metric}})\n• Experience with {{relevantSkill}}\n\nI applied through your careers page, but wanted to introduce myself personally.\n\nWould love to chat about how I can contribute to {{specificTeamOrProject}}.\n\n{{senderName}}\nPortfolio: {{portfolioLink}}\nLinkedIn: {{linkedinLink}}",
+          "psychology": "Bypasses ATS by going direct. Leads with quantified achievements. Shows initiative. Easy to scan.",
+          "personalization": "Research the hiring manager's name on LinkedIn. Reference a specific team or project they own."
+        },
+        {
+          "name": "The Informational Interview",
+          "subject": "Quick question about your work at {{company}}",
+          "body": "Hi {{firstName}},\n\nI'm a {{yourRole}} interested in transitioning into {{targetField}}. Your career path from {{theirPreviousRole}} to {{theirCurrentRole}} at {{company}} is exactly what I aspire to.\n\nWould you be open to a 15-minute coffee chat (virtual or in-person)? I'd love to hear about:\n• Your experience at {{company}}\n• What you wish you'd known starting out\n• Any advice for someone making this transition\n\nNo agenda — genuinely just looking to learn.\n\n{{senderName}}",
+          "psychology": "Flatters genuinely. Low ask (15 min). 'No agenda' reduces resistance. People love helping those who admire them.",
+          "personalization": "Reference something specific about their career path that you genuinely admire."
+        },
+        {
+          "name": "The Value-Add Networking Message",
+          "subject": "Thought you'd find this useful, {{firstName}}",
+          "body": "Hi {{firstName}},\n\nI read your {{content type — post/article/talk}} about {{topic}}. Really insightful take on {{specificPoint}}.\n\nIt reminded me of {{relevantResource}} — thought you might find it useful for your work at {{company}}.\n\nNo response needed — just wanted to share.\n\nIf you're ever open to connecting, I'd love to learn more about {{theirWork}}.\n\n{{senderName}}",
+          "psychology": "Leads with value (a resource). 'No response needed' removes pressure. Creates the opening for a relationship.",
+          "personalization": "The resource must genuinely be relevant. Don't force it."
+        }
+      ]
+    },
+    "follow_up": {
+      "name": "Follow-Up Sequences",
+      "templates": [
+        {
+          "name": "The Gentle Bump (3 days)",
+          "subject": "Re: {{originalSubject}}",
+          "body": "Hi {{firstName}},\n\nFloating this to the top of your inbox in case it got buried.\n\nNo rush — just wanted to make sure you saw my note about {{topic}}.\n\n{{senderName}}",
+          "psychology": "Acknowledges they're busy. Low guilt. Short and friendly.",
+          "personalization": "Keep it to 3 sentences max."
+        },
+        {
+          "name": "The Value Add (7 days)",
+          "subject": "Re: {{originalSubject}} — thought of something",
+          "body": "Hi {{firstName}},\n\nSince I last reached out, I thought of something that might be useful:\n\n{{newValueAdd}}\n\nFigured it was worth sharing even if my original email isn't a priority right now.\n\n{{senderName}}",
+          "psychology": "New reason to engage. Doesn't guilt-trip. Provides additional value.",
+          "personalization": "The value-add should be different from your original email."
+        },
+        {
+          "name": "The Breakup Email (14 days)",
+          "subject": "Closing the loop",
+          "body": "Hi {{firstName}},\n\nI don't want to keep cluttering your inbox, so I'll make this my last note for now.\n\nIf {{topic}} becomes a priority, you know where to find me: {{calendarLink}}\n\nEither way, wishing you and {{company}} the best.\n\n{{senderName}}",
+          "psychology": "Creates FOMO. Removes you from their inbox. Often triggers replies from people who meant to respond but forgot.",
+          "personalization": "Be genuinely warm. You may cross paths again."
+        },
+        {
+          "name": "The Different Angle (21 days)",
+          "subject": "Different approach: {{newAngle}}",
+          "body": "Hi {{firstName}},\n\nI've been thinking about {{company}} from a different angle since we last connected.\n\nInstead of {{originalApproach}}, what if you focused on {{newApproach}}?\n\nHere's why: {{reasoning}}\n\nHappy to explore this if it's interesting. Otherwise, I'll stop chasing! :)\n\n{{senderName}}",
+          "psychology": "Shows persistence without being annoying. Demonstrates you're thinking, not just spamming. New angle = new reason to engage.",
+          "personalization": "The new angle must be genuinely different, not a rephrasing."
+        }
+      ]
+    },
+    "networking": {
+      "name": "Networking & Mentorship",
+      "templates": [
+        {
+          "name": "The Mentor Ask",
+          "subject": "Seeking guidance from someone who's been there",
+          "body": "Hi {{firstName}},\n\nI've been following your work at {{company}} for a while — particularly {{specificWork}}. Your trajectory from {{theirBackground}} to {{currentRole}} is exactly the path I'm working toward.\n\nI'm currently {{yourSituation}} and could really use advice from someone who's navigated this stage.\n\nWould you be willing to be an informal mentor? Just a 30-minute call once a quarter. I'll come prepared with specific questions and won't waste your time.\n\n{{senderName}}",
+          "psychology": "Specific and respectful. Low commitment (quarterly). Shows you'll value their time. Flattering without being sycophantic.",
+          "personalization": "Reference specific work they've done — show you're not mass-emailing."
+        },
+        {
+          "name": "The Investor Update",
+          "subject": "{{company}} update — {{metric}}",
+          "body": "Hi {{firstName}},\n\nQuick update from {{yourCompany}} since we last spoke:\n\n📊 Key Metrics:\n• Revenue: {{currentRevenue}} ({{growthPercent}} MoM)\n• Users: {{userCount}} ({{growthPercent}} MoM)\n• Key win: {{specificWin}}\n\n🚀 What we're focused on:\n{{currentFocus}}\n\n🎯 What we need:\n{{specificAsk}}\n\nFull deck here if useful: {{link}}\n\nHappy to discuss when you have time.\n\n{{senderName}}",
+          "psychology": "Scannable format. Leads with numbers. Clear ask. Not asking for money directly — keeping them in the loop.",
+          "personalization": "Only send to investors or potential investors who've shown interest."
+        }
+      ]
+    },
+    "reactivation": {
+      "name": "Customer Reactivation",
+      "templates": [
+        {
+          "name": "The We Miss You",
+          "subject": "We miss you at {{company}}, {{firstName}}",
+          "body": "Hi {{firstName}},\n\nIt's been a while since you used {{product}}. We've shipped some big updates:\n\n• {{update1}}\n• {{update2}}\n• {{update3}}\n\nI'd love to win you back. Here's {{incentive}} on us: {{link}}\n\nIf something went wrong last time, reply and tell me. I'll fix it personally.\n\n{{senderName}}",
+          "psychology": "Shows what they missed. Incentive to return. Personal accountability for past issues.",
+          "personalization": "The updates should be relevant to why they might have left."
+        },
+        {
+          "name": "The Check-In (No Pitch)",
+          "subject": "How are things going, {{firstName}}?",
+          "body": "Hi {{firstName}},\n\nNot reaching out to sell you anything — just wanted to check in.\n\nLast time we talked, you were working on {{specificProject}}. How did that turn out?\n\nIf there's anything I can help with — even if it's not related to {{product}} — let me know.\n\n{{senderName}}",
+          "psychology": "Zero pitch. Genuinely human. Often reopens conversations naturally.",
+          "personalization": "Reference a specific detail from your last conversation."
+        }
+      ]
+    }
+  }
+}
