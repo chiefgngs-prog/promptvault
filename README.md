@@ -1,10 +1,10 @@
-# AI Prompt Vault - 207 Proven ChatGPT Prompts for Business
+# AI Prompt Vault - 503 Proven ChatGPT Prompts for Business
 
-> Stop wasting hours writing prompts. Get 207 proven, copy-and-paste AI prompts for business, marketing, sales, SEO, copywriting, coding, and more.
+> Stop wasting hours writing prompts. Get 503 proven, copy-and-paste AI prompts for business, marketing, sales, SEO, copywriting, coding, and more.
 
 ## What's Inside
 
-- **207 expert-crafted prompts** across 11 categories
+- **503 expert-crafted prompts** across 24 categories
 - **Searchable web app** - find any prompt instantly
 - **Raw JSON data** - import into any tool
 - **Lifetime updates** - free forever

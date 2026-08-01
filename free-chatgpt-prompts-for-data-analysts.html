@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Free ChatGPT Prompts for Data Analysts 2026</title>
+<meta name="description" content="12 free ChatGPT prompts for data analysts — explain findings, write SQL, build dashboards, and turn charts into plain-English insight.">
+<link rel="canonical" href="https://chiefgngs-prog.github.io/promptvault/free-chatgpt-prompts-for-data-analysts.html">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#0a0a12;--surface:#13131f;--primary:#6c5ce7;--accent:#00d4aa;--hot:#e94560;--text:#e0e0e8;--text-dim:#888;--border:#252538}
+body{font-family:system-ui,sans-serif;background:var(--bg);color:var(--text);line-height:1.7}
+.wrap{max-width:700px;margin:0 auto;padding:40px 20px}
+h1{font-size:32px;margin-bottom:8px}
+h1 span{background:linear-gradient(135deg,var(--primary),var(--accent));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+h2{font-size:22px;margin-top:32px;margin-bottom:12px}
+h3{font-size:15px;margin-bottom:8px;color:var(--text)}
+p{color:var(--text-dim);margin-bottom:16px}
+.cta{text-align:center;background:linear-gradient(135deg,rgba(233,69,96,0.1),rgba(108,92,231,0.1));border:1px solid rgba(233,69,96,0.3);border-radius:16px;padding:32px;margin:24px 0}
+.cta a{display:inline-block;padding:16px 36px;background:var(--hot);color:#fff;border-radius:8px;text-decoration:none;font-weight:700}
+.prompt-box{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:20px;margin:16px 0}
+.prompt-box code{display:block;font-size:13px;color:var(--accent);white-space:pre-wrap;font-family:monospace}
+.related{font-size:13px;color:var(--text-dim);margin-top:32px;line-height:2}
+.related a{color:var(--primary);text-decoration:none}
+footer{text-align:center;padding:24px;border-top:1px solid var(--border);font-size:13px;color:#444}
+footer a{color:var(--primary);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>Free ChatGPT Prompts for <span>Data Analysts</span></h1>
+<p>You pull the data, clean it, model it, and then face the hardest part: explaining what it means to someone who does not speak SQL or statistics. Stakeholders want the answer and the action, not the query plan. Meanwhile you are also writing documentation, drafting data definitions, debugging queries, and translating a chart into a recommendation. ChatGPT is surprisingly strong on the communication side of analytics — explaining a result in plain language, suggesting what a dashboard should show, writing starter SQL from a description, or summarizing a month of metrics into a short narrative. It is not reliable for the math itself, so these prompts are built to help you explain, document, and structure analysis you have already validated, not to replace your calculations. Feed it your findings or your table schema, review anything code-related before you run it, and let it carry the prose. Choose your prompt below.</p>
+
+<h2>13 Free Prompts</h2>
+<div class="prompt-box"><h3>Data Cleaning Pipeline</h3><code>I have a dataset about [DESCRIBE DATA] with issues: [MISSING VALUES, DUPLICATES, OUTLIERS, FORMATTING]. Create a step-by-step data cleaning pipeline: identify and handle missing values (imputation strategy), remove duplicates, detect and treat outliers (with justification), standardize formats, validate data types, and document all changes. Provide Python code.</code></div>
+<div class="prompt-box"><h3>SQL Query Optimizer</h3><code>Optimize this SQL query for performance: [PASTE QUERY]. Table structure: [DESCRIBE]. Analyze: full table scans, missing indexes, inefficient JOINs, subquery vs CTE, unnecessary columns, WHERE clause efficiency, and GROUP BY optimization. Rewrite the query, explain each change, suggest indexes to create, and estimate performance improvement.</code></div>
+<div class="prompt-box"><h3>Exploratory Data Analysis Plan</h3><code>Create an EDA plan for my dataset about [DESCRIBE DOMAIN] with [NUMBER] rows and columns: [LIST COLUMNS]. Outline: summary statistics to compute, distributions to visualize (and chart types), correlations to explore, group-by analysis, time-series patterns (if applicable), outlier investigation, missing data analysis, and 5 key questions the data should answer.</code></div>
+<div class="prompt-box"><h3>Dashboard Design Blueprint</h3><code>Design a [BUSINESS INTELLIGENCE / ANALYTICS] dashboard for [AUDIENCE] tracking [METRICS/KPIs]. Specify: layout grid, widget placement (top KPIs at top-left, trend charts below, detail tables at bottom), chart types for each metric, color scheme (max 5 colors), filter/slicer design, drill-down paths, refresh frequency, and annotation/note features.</code></div>
+<div class="prompt-box"><h3>A/B Test Designer</h3><code>Design an A/B test for [WHAT YOU&#x27;RE TESTING] on [PLATFORM]. Define: hypothesis (null and alternative), primary metric, secondary metrics, minimum detectable effect, sample size calculation, test duration, traffic split, randomization method, success criteria, guardrail metrics, and analysis plan (statistical test, significance level, power).</code></div>
+<div class="prompt-box"><h3>Statistical Analysis Guide</h3><code>I need to analyze data to answer: [RESEARCH QUESTION]. Data: [DESCRIBE]. Recommend: the appropriate statistical test (t-test, ANOVA, chi-square, regression, etc.) with justification, assumptions to verify, how to handle violations, effect size measure, software/code to use, interpretation guidelines, and how to report results to non-technical stakeholders.</code></div>
+<div class="prompt-box"><h3>Data Storytelling Framework</h3><code>Transform these analysis findings into a compelling data story for [AUDIENCE]: [PASTE FINDINGS]. Structure: start with the hook (why should they care?), context (what we analyzed), key insight (the &#x27;aha&#x27; moment), supporting evidence (2-3 visuals described), implications (what it means for them), recommended actions, and potential objections. Use the Minto Pyramid principle.</code></div>
+<div class="prompt-box"><h3>Machine Learning Model Selector</h3><code>I want to predict [TARGET] from [DESCRIBE FEATURES]. Data size: [ROWS x COLUMNS]. Task type: [CLASSIFICATION/REGRESSION/CLUSTERING]. Recommend 3 suitable algorithms ranked by suitability. For each: why it fits, pros and cons, data preprocessing requirements, hyperparameters to tune, expected performance, and Python code to implement.</code></div>
+<div class="prompt-box"><h3>Customer Churn Analysis Plan</h3><code>Create a churn analysis plan for [BUSINESS TYPE - SaaS/E-commerce/App]. Identify: definition of churn, data needed (usage, transactions, demographics, support tickets), features to engineer (recency, frequency, monetary, tenure, engagement trends), analysis approach (descriptive → predictive), retention strategy framework, and reporting cadence for stakeholders.</code></div>
+<div class="prompt-box"><h3>Revenue Forecasting Model</h3><code>Build a revenue forecasting model for [BUSINESS TYPE]. Inputs available: [DESCRIBE DATA]. Recommend: forecasting method (time series, regression, ML), decomposition (trend, seasonality, cyclical, irregular), driver identification, scenario planning (base/upside/downside), confidence intervals, refresh frequency, and presentation format for executives.</code></div>
+<div class="prompt-box"><h3>Cohort Analysis Template</h3><code>Design a cohort analysis for [BUSINESS TYPE - SaaS, e-commerce, mobile app]. Define: cohort grouping (sign-up date, first purchase, acquisition channel), metric to track (retention, revenue, engagement), time granularity (weekly/monthly), visualization format (heatmap/triangle table), insights to extract, and retention benchmarks. Provide SQL or Python template.</code></div>
+<div class="prompt-box"><h3>Funnel Analysis Builder</h3><code>Create a conversion funnel analysis for [PRODUCT/SERVICE]. Steps: [DEFINE FUNNEL STAGES]. For each stage: define the event/condition, identify drop-off causes, benchmark conversion rate, suggest 3 optimization experiments, and estimate revenue impact of improving each stage by 10%. Include attribution model considerations and time-delay analysis.</code></div>
+<div class="prompt-box"><h3>Data Dictionary Creator</h3><code>Create a comprehensive data dictionary for my dataset. Columns: [LIST]. For each column: provide field name, data type, description, allowed values/range, source, example value, null handling, transformation rules, dependencies, and PII/sensitivity classification. Format as a table. Add a section for data quality rules and validation checks.</code></div>
+
+<div class="cta">
+<p>If these speed up your reporting, the full Prompt Vault delivers 503 prompts for analysts and every role for $19 — one purchase, yours to keep.</p>
+<a href="https://chiefgngs-prog.github.io/promptvault/">Get the Full Vault — $19</a>
+</div>
+
+<div class="related"><strong>More free prompt collections:</strong><br><a href="free-chatgpt-prompts-for-business.html">Business</a> · <a href="free-chatgpt-prompts-for-coding.html">Coding</a> · <a href="free-chatgpt-prompts-for-copywriting.html">Copywriting</a> · <a href="free-chatgpt-prompts-for-marketing.html">Marketing</a> · <a href="free-chatgpt-prompts-for-sales.html">Sales</a> · <a href="free-chatgpt-prompts-for-seo.html">Seo</a> · <a href="free-chatgpt-prompts-for-teachers.html">Teachers</a> · <a href="free-chatgpt-prompts-for-students.html">Students</a> · <a href="free-chatgpt-prompts-for-finance-professionals.html">Finance Professionals</a> · <a href="free-chatgpt-prompts-for-job-seekers.html">Job Seekers</a> · <a href="free-chatgpt-prompts-for-hr-recruiters.html">Hr Recruiters</a> · <a href="free-chatgpt-prompts-for-real-estate-agents.html">Real Estate Agents</a> · <a href="free-chatgpt-prompts-for-consultants.html">Consultants</a> · <a href="free-chatgpt-prompts-for-customer-support.html">Customer Support</a> · <a href="free-chatgpt-prompts-for-fiction-writers.html">Fiction Writers</a> · <a href="free-chatgpt-prompts-for-personal-development.html">Personal Development</a> · <a href="free-chatgpt-prompts-for-fitness-coaches.html">Fitness Coaches</a> · <a href="free-chatgpt-prompts-for-travel-planners.html">Travel Planners</a> · <a href="free-chatgpt-prompts-for-researchers.html">Researchers</a> · <a href="free-chatgpt-prompts-for-freelancers.html">Freelancers</a> · <a href="free-chatgpt-prompts-for-small-business-owners.html">Small Business Owners</a></div>
+</div>
+<footer><p><a href="https://ko-fi.com/promptvault22630/shop">Ko-fi Shop</a> | <a href="https://chiefgngs-prog.github.io/freetools/">Free Tools</a> | <a href="https://chiefgngs-prog.github.io/promptvault/">Prompt Vault</a></p></footer>
+</body>
+</html>
