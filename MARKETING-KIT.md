@@ -14,7 +14,7 @@ Replace `YOUR_PAYPAL_EMAIL` with your PayPal email in sales-page.html.
 **Body:**
 I was tired of getting garbage output from ChatGPT so I went deep on prompt engineering and tested hundreds of prompts for real business tasks.
 
-I ended up with 207 prompts that consistently produce professional-level output across:
+I ended up with 503 prompts that consistently produce professional-level output across:
 - Business strategy (SWOT, competitor analysis, pricing models)
 - Marketing (ad copy, campaign builders, funnels)
 - SEO (keyword research, content clusters, technical audits)
@@ -33,7 +33,7 @@ Happy to share a few of the best ones in the comments if anyone's interested.
 ---
 
 ### Post 2 — r/Entrepreneur
-**Title:** I built a searchable database of 207 AI prompts for business tasks. It replaced 3 contractors.
+**Title:** I built a searchable database of 503 AI prompts for business tasks. It replaced 3 contractors.
 
 **Body:**
 Not even exaggerating. I was paying:
@@ -45,21 +45,21 @@ After building this prompt library, I can do 80% of that work myself with ChatGP
 
 Each prompt is structured properly — role assignment, context, output format, quality constraints. Not "write me a blog post" garbage.
 
-11 categories: Business Strategy, Marketing, Content, Copywriting, Coding, Productivity, E-commerce, Social Media, SEO, Email Marketing, Sales.
+24 categories: Business Strategy, Marketing, Content, Copywriting, Coding, Productivity, E-commerce, Social Media, SEO, Email Marketing, Sales, Education, Finance, Career, HR, Real Estate, Consulting, Data Analysis, Customer Support, Creative Writing, Personal Development, Health & Fitness, Travel, Research.
 
 If you run a business or freelance, this will save you serious time: https://chiefgngs-prog.github.io/promptvault
 
 ---
 
 ### Post 3 — r/smallbusiness
-**Title:** 207 ChatGPT prompts that actually work for small business owners
+**Title:** 503 ChatGPT prompts that actually work for small business owners
 
 **Body:**
 I own a small e-commerce store and I've been using ChatGPT to handle a lot of tasks I used to outsource. 
 
 The problem? Most prompts you find online are useless "write me a product description" type stuff.
 
-So I built a library of 207 professional-grade prompts that actually produce business-ready output. Things like:
+So I built a library of 503 professional-grade prompts that actually produce business-ready output. Things like:
 
 - Complete competitor analysis frameworks
 - Full marketing campaign builders  
@@ -85,7 +85,7 @@ I do freelance web design and content writing. These prompts have been a game ch
 - The case study prompt turns my project notes into polished case studies
 - The cold email sequence writes 5 personalized outreach emails
 
-I organized 207 prompts into 11 categories and made them searchable.
+I organized 503 prompts into 24 categories and made them searchable.
 
 https://chiefgngs-prog.github.io/promptvault
 
@@ -96,7 +96,7 @@ https://chiefgngs-prog.github.io/promptvault
 ### Thread 1
 1/ I spent 3 weeks testing hundreds of ChatGPT prompts for real business tasks.
 
-Found 207 that consistently produce professional-level output.
+Found 503 that consistently produce professional-level output.
 
 Here's what I learned about writing prompts that actually work 🧵
 
@@ -118,7 +118,7 @@ Professional prompts include 5 elements:
 
 Night and day difference.
 
-4/ I cataloged 207 of these professional-grade prompts across 11 categories:
+4/ I cataloged 503 of these professional-grade prompts across 24 categories:
 💼 Business Strategy
 📣 Marketing & Ads
 ✍️ Content Creation
@@ -154,7 +154,7 @@ RT the first tweet if this was helpful! 🙏
 
 It's not perfect out of the box — you edit and refine. But it gets you 80% there in 30 seconds.
 
-I have 207 prompts like this: https://chiefgngs-prog.github.io/promptvault
+I have 503 prompts like this: https://chiefgngs-prog.github.io/promptvault
 
 ---
 
@@ -166,7 +166,7 @@ Hi [FIRST NAME],
 
 I noticed [SPECIFIC THING ABOUT THEIR BUSINESS — e.g., "your blog hasn't been updated in 2 months" or "you're running Facebook ads but the copy could be stronger"].
 
-I put together a collection of 207 AI prompts that help business owners handle marketing, copywriting, SEO, and content creation in a fraction of the time. 
+I put together a collection of 503 AI prompts that help business owners handle marketing, copywriting, SEO, and content creation in a fraction of the time. 
 
 Most of my users report saving 10+ hours per week.
 
@@ -182,7 +182,7 @@ Best,
 ## 📘 FACEBOOK GROUP POSTS
 
 ### Digital Marketing Groups:
-Just built a searchable database of 207 AI prompts for marketing, SEO, copywriting, and content creation. 
+Just built a searchable database of 503 AI prompts for marketing, SEO, copywriting, and content creation. 
 
 Each prompt is professionally structured — role assignment, output format, quality constraints. Not the generic stuff you find in free lists.
 
@@ -199,7 +199,7 @@ I've been quietly using ChatGPT to run 80% of my business tasks for the past few
 
 The secret isn't the AI — it's the PROMPTS. 
 
-I tested hundreds of prompts and kept the 207 that consistently produce professional-level output. Business strategy, marketing, sales copy, SEO, coding — 11 categories total.
+I tested hundreds of prompts and kept the 503 that consistently produce professional-level output. Business strategy, marketing, sales copy, SEO, coding — 24 categories total.
 
 Put them in a searchable web app so I can find any prompt instantly.
 
@@ -209,7 +209,7 @@ Sharing it here in case it helps: https://chiefgngs-prog.github.io/promptvault
 
 ## 💬 DISCORD / SLACK / FORUM SIGS
 
-- "207 proven AI prompts for business → https://chiefgngs-prog.github.io/promptvault"
+- "503 proven AI prompts for business → https://chiefgngs-prog.github.io/promptvault"
 - "Stop wasting time with bad prompts → https://chiefgngs-prog.github.io/promptvault"  
 - "The AI prompt vault that saves 10+ hrs/week → https://chiefgngs-prog.github.io/promptvault"
 
@@ -218,7 +218,7 @@ Sharing it here in case it helps: https://chiefgngs-prog.github.io/promptvault
 ## 📌 PINNED TWEET / BIO
 
 Helping entrepreneurs save 10+ hours/week with AI.
-207 proven ChatGPT prompts → https://chiefgngs-prog.github.io/promptvault ⬇️
+503 proven ChatGPT prompts → https://chiefgngs-prog.github.io/promptvault ⬇️
 
 ---
 
